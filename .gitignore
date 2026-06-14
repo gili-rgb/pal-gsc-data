@@ -1,0 +1,7 @@
+gsc_secure/
+pal-gsc-*.json
+*-service-account*.json
+*_gsc.json
+__pycache__/
+*.pyc
+.DS_Store
