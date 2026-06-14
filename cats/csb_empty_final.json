@@ -1,0 +1,2063 @@
+[
+  {
+    "id": 179,
+    "name": "אביזרים וחלקי חילוף למגהצים בוש",
+    "slug": "%d7%9e%d7%92%d7%94%d7%a6%d7%99%d7%9d-bosch",
+    "depth": 1,
+    "brand": "Bosch",
+    "parent_name": "Bosch",
+    "count_field": 1
+  },
+  {
+    "id": 1108,
+    "name": "BFL9221B1",
+    "slug": "bfl9221b1",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למיקרוגלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1109,
+    "name": "BFR9221B1",
+    "slug": "bfr9221b1",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למיקרוגלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1314,
+    "name": "BHN20110",
+    "slug": "bhn20110",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1310,
+    "name": "BKS4003",
+    "slug": "bks4003",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1309,
+    "name": "BKS4043",
+    "slug": "bks4043",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1304,
+    "name": "BKS4053",
+    "slug": "bks4053",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2009,
+    "name": "CMA583MS0",
+    "slug": "cma583ms0",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2122,
+    "name": "CMA585GB1",
+    "slug": "cma585gb1",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2007,
+    "name": "CMA585GS0",
+    "slug": "cma585gs0",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2121,
+    "name": "CMA585MS0",
+    "slug": "cma585ms0",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1115,
+    "name": "DDW88MM65",
+    "slug": "ddw88mm65",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1116,
+    "name": "DDW88MM66",
+    "slug": "ddw88mm66",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1447,
+    "name": "DKE605A",
+    "slug": "dke605a",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1446,
+    "name": "DKE635B",
+    "slug": "dke635b",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1445,
+    "name": "DKE905A",
+    "slug": "dke905a",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1444,
+    "name": "DKE935B",
+    "slug": "dke935b",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1443,
+    "name": "DKE936BGB",
+    "slug": "dke936bgb",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1442,
+    "name": "DKE945M",
+    "slug": "dke945m",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1441,
+    "name": "DWA061450",
+    "slug": "dwa061450",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1439,
+    "name": "DWA06D650",
+    "slug": "dwa06d650",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1438,
+    "name": "DWA091450",
+    "slug": "dwa091450",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1437,
+    "name": "DWA095551",
+    "slug": "dwa095551",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1436,
+    "name": "DWA098E50",
+    "slug": "dwa098e50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1435,
+    "name": "DWA09E850",
+    "slug": "dwa09e850",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1434,
+    "name": "DWB065450",
+    "slug": "dwb065450",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1433,
+    "name": "DWB067A50",
+    "slug": "dwb067a50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1430,
+    "name": "DWB095450",
+    "slug": "dwb095450",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1429,
+    "name": "DWB097A50",
+    "slug": "dwb097a50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1428,
+    "name": "DWB098J50B",
+    "slug": "dwb098j50b",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1426,
+    "name": "DWB09W651",
+    "slug": "dwb09w651",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1425,
+    "name": "DWB66BC50",
+    "slug": "dwb66bc50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1423,
+    "name": "DWB96BC50",
+    "slug": "dwb96bc50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1422,
+    "name": "DWB96FM50",
+    "slug": "dwb96fm50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1463,
+    "name": "DWF97RV20",
+    "slug": "dwf97rv20",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1462,
+    "name": "DWF97RV60",
+    "slug": "dwf97rv60",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1421,
+    "name": "DWI37JM60",
+    "slug": "dwi37jm60",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1420,
+    "name": "DWK09G620",
+    "slug": "dwk09g620",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1419,
+    "name": "DWK09G660",
+    "slug": "dwk09g660",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1418,
+    "name": "DWK65DK60",
+    "slug": "dwk65dk60",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1416,
+    "name": "DWK67CM60",
+    "slug": "dwk67cm60",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1415,
+    "name": "DWK67EM60",
+    "slug": "dwk67em60",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1414,
+    "name": "DWK67EM60B",
+    "slug": "dwk67em60b",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1413,
+    "name": "DWK67HM20",
+    "slug": "dwk67hm20",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1117,
+    "name": "DWK81AN65",
+    "slug": "dwk81an65",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2379,
+    "name": "DWK85DK60",
+    "slug": "dwk85dk60",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1118,
+    "name": "DWK91LT65",
+    "slug": "dwk91lt65",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1410,
+    "name": "DWK97JM20",
+    "slug": "dwk97jm20",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1408,
+    "name": "DWP66BC50",
+    "slug": "dwp66bc50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1407,
+    "name": "DWP96BC50",
+    "slug": "dwp96bc50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1405,
+    "name": "DWW061451",
+    "slug": "dww061451",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1404,
+    "name": "DWW062450",
+    "slug": "dww062450",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1403,
+    "name": "DWW067A50",
+    "slug": "dww067a50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1402,
+    "name": "DWW06D650",
+    "slug": "dww06d650",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1401,
+    "name": "DWW06W650",
+    "slug": "dww06w650",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1400,
+    "name": "DWW091451",
+    "slug": "dww091451",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1399,
+    "name": "DWW092450",
+    "slug": "dww092450",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1398,
+    "name": "DWW092460B",
+    "slug": "dww092460b",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1397,
+    "name": "DWW097A20",
+    "slug": "dww097a20",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1396,
+    "name": "DWW097A50",
+    "slug": "dww097a50",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1395,
+    "name": "DWW09D650",
+    "slug": "dww09d650",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1394,
+    "name": "DWW09W650",
+    "slug": "dww09w650",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1140,
+    "name": "GIN81HNE0",
+    "slug": "gin81hne0",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2014,
+    "name": "HBA573BS0",
+    "slug": "hba573bs0",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2013,
+    "name": "HBC84K553",
+    "slug": "hbc84k553",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2012,
+    "name": "HBG7341W1",
+    "slug": "hbg7341w1",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2230,
+    "name": "KAD62S21",
+    "slug": "kad62s21",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2320,
+    "name": "KAD62S51",
+    "slug": "kad62s51",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2315,
+    "name": "KAD92AI30",
+    "slug": "kad92ai30",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2314,
+    "name": "KAD92SB30",
+    "slug": "kad92sb30",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2327,
+    "name": "KAN58A50NE",
+    "slug": "kan58a50ne",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1141,
+    "name": "KBN96SDD0",
+    "slug": "kbn96sdd0",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 211,
+    "name": "KDN57V00IL",
+    "slug": "kdn57v00il",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 1
+  },
+  {
+    "id": 2311,
+    "name": "KDN65VW2PL",
+    "slug": "kdn65vw2pl",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2231,
+    "name": "KDN75VI3PL",
+    "slug": "kdn75vi3pl",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2318,
+    "name": "KDN75VW3PL",
+    "slug": "kdn75vw3pl",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2227,
+    "name": "KFF96PIEP",
+    "slug": "kff96piep",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2306,
+    "name": "KFN96APEAL",
+    "slug": "kfn96apeal",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2313,
+    "name": "KFN96AXEA",
+    "slug": "kfn96axea",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2228,
+    "name": "KFN96VPEAL",
+    "slug": "kfn96vpeal",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2310,
+    "name": "KGN36IZEA",
+    "slug": "kgn36izea",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2325,
+    "name": "KGN49LBCF",
+    "slug": "kgn49lbcf",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2324,
+    "name": "KGN49VXCT",
+    "slug": "kgn49vxct",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 218,
+    "name": "KGN57X40NE",
+    "slug": "kgn57x40ne",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 1
+  },
+  {
+    "id": 219,
+    "name": "KGN57XL40L",
+    "slug": "kgn57xl40l",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 1
+  },
+  {
+    "id": 1716,
+    "name": "KGU40621",
+    "slug": "kgu40621",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2326,
+    "name": "KGU40621NE",
+    "slug": "kgu40621ne",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 227,
+    "name": "KGU40623NE",
+    "slug": "kgu40623ne",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 1
+  },
+  {
+    "id": 228,
+    "name": "KGU6695",
+    "slug": "kgu6695",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 1
+  },
+  {
+    "id": 1142,
+    "name": "KIF81HOD0",
+    "slug": "kif81hod0",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1143,
+    "name": "KIF86HDD0",
+    "slug": "kif86hdd0",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 229,
+    "name": "KIR81VS30",
+    "slug": "kir81vs30",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למקררים בוש",
+    "count_field": 1
+  },
+  {
+    "id": 1828,
+    "name": "MFW66020",
+    "slug": "mfw66020",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למטחנות בשר בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1847,
+    "name": "MS6CM61",
+    "slug": "ms6cm61",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף לבלנדרים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2410,
+    "name": "SGI3005",
+    "slug": "sgi3005",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2417,
+    "name": "SGI45M38EU",
+    "slug": "sgi45m38eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2411,
+    "name": "SGS3312",
+    "slug": "sgs3312",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2420,
+    "name": "SGS43E35EU",
+    "slug": "sgs43e35eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2400,
+    "name": "SGS45M35EU",
+    "slug": "sgs45m35eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2415,
+    "name": "SGS46M38EU",
+    "slug": "sgs46m38eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2399,
+    "name": "SGS5302",
+    "slug": "sgs5302",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2404,
+    "name": "SGS53E35EU",
+    "slug": "sgs53e35eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2413,
+    "name": "SGS55A02",
+    "slug": "sgs55a02",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2396,
+    "name": "SGS55M12EU",
+    "slug": "sgs55m12eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2406,
+    "name": "SGV43E23EU",
+    "slug": "sgv43e23eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2419,
+    "name": "SM69T02EU",
+    "slug": "sm69t02eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2403,
+    "name": "SMI50E05EU",
+    "slug": "smi50e05eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2402,
+    "name": "SMI53M95IL",
+    "slug": "smi53m95il",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2360,
+    "name": "SMS2012",
+    "slug": "sms2012",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2408,
+    "name": "SMS50E02EU",
+    "slug": "sms50e02eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2353,
+    "name": "SMS53M08EU",
+    "slug": "sms53m08eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2412,
+    "name": "SMS58N12EU",
+    "slug": "sms58n12eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2421,
+    "name": "SMS69M68EU",
+    "slug": "sms69m68eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2409,
+    "name": "SMV2HTX06E",
+    "slug": "smv2htx06e",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2418,
+    "name": "SMV4HAX09E",
+    "slug": "smv4hax09e",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2407,
+    "name": "SMV4HVX31E",
+    "slug": "smv4hvx31e",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2416,
+    "name": "SPI53M25EU",
+    "slug": "spi53m25eu",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2394,
+    "name": "SRI3015",
+    "slug": "sri3015",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2405,
+    "name": "SRV33A13",
+    "slug": "srv33a13",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2425,
+    "name": "TKA3A013",
+    "slug": "tka3a013",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2144,
+    "name": "WOT20424IL",
+    "slug": "wot20424il",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2140,
+    "name": "WOT20426IL",
+    "slug": "wot20426il",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2096,
+    "name": "WTA3200",
+    "slug": "wta3200-2",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למייבשי כביסה בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2082,
+    "name": "WTG2411IL",
+    "slug": "wtg2411il",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למייבשי כביסה בוש",
+    "count_field": 0
+  },
+  {
+    "id": 2094,
+    "name": "WTN83203IL",
+    "slug": "wtn83203il",
+    "depth": 2,
+    "brand": "Bosch",
+    "parent_name": "אביזרים וחלקי חילוף למייבשי כביסה בוש",
+    "count_field": 0
+  },
+  {
+    "id": 1297,
+    "name": "אביזרים וחלקי חילוף לשואבי אבק קונסטרוקטה",
+    "slug": "%d7%90%d7%91%d7%99%d7%96%d7%a8%d7%99%d7%9d-%d7%95%d7%97%d7%9c%d7%a7%d7%99-%d7%97%d7%99%d7%9c%d7%95%d7%a3-%d7%9c%d7%a9%d7%95%d7%90%d7%91%d7%99-%d7%90%d7%91%d7%a7-%d7%a7%d7%95%d7%a0%d7%a1%d7%98%d7%a8",
+    "depth": 1,
+    "brand": "Constructa",
+    "parent_name": "Constructa",
+    "count_field": 0
+  },
+  {
+    "id": 1458,
+    "name": "CD616150",
+    "slug": "cd616150",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1457,
+    "name": "CD616251",
+    "slug": "cd616251",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1456,
+    "name": "CD619150",
+    "slug": "cd619150",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1454,
+    "name": "CD636350",
+    "slug": "cd636350",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1451,
+    "name": "CD639350",
+    "slug": "cd639350",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1449,
+    "name": "CD66150",
+    "slug": "cd66150",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1448,
+    "name": "CD69150",
+    "slug": "cd69150",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1300,
+    "name": "CVC228ST",
+    "slug": "cvc228st",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1299,
+    "name": "CVC722ST",
+    "slug": "cvc722st",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 1298,
+    "name": "CVC762ST",
+    "slug": "cvc762st",
+    "depth": 2,
+    "brand": "Constructa",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק קונסטרוקטה",
+    "count_field": 0
+  },
+  {
+    "id": 667,
+    "name": "אביזרים וחלקי חילוף למיקרוגל גגנאו",
+    "slug": "%d7%90%d7%91%d7%99%d7%96%d7%a8%d7%99%d7%9d-%d7%95%d7%97%d7%9c%d7%a7%d7%99-%d7%97%d7%99%d7%9c%d7%95%d7%a3-%d7%9c%d7%9e%d7%99%d7%a7%d7%a8%d7%95%d7%92%d7%9c-%d7%92%d7%92%d7%a0%d7%90%d7%95",
+    "depth": 1,
+    "brand": "Gaggenau",
+    "parent_name": "Gaggenau",
+    "count_field": 0
+  },
+  {
+    "id": 668,
+    "name": "אביזרים וחלקי חילוף למכונת כביסה גגנאו",
+    "slug": "%d7%90%d7%91%d7%99%d7%96%d7%a8%d7%99%d7%9d-%d7%95%d7%97%d7%9c%d7%a7%d7%99-%d7%97%d7%99%d7%9c%d7%95%d7%a3-%d7%9c%d7%9e%d7%9b%d7%95%d7%a0%d7%aa-%d7%9b%d7%91%d7%99%d7%a1%d7%94-%d7%92%d7%92%d7%a0%d7%90",
+    "depth": 1,
+    "brand": "Gaggenau",
+    "parent_name": "Gaggenau",
+    "count_field": 0
+  },
+  {
+    "id": 2350,
+    "name": "RB472301",
+    "slug": "rb472301",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2347,
+    "name": "RB492304",
+    "slug": "rb492304",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2342,
+    "name": "RB492305",
+    "slug": "rb492305",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2344,
+    "name": "RC462301",
+    "slug": "rc462301",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2345,
+    "name": "RC462305",
+    "slug": "rc462305",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2339,
+    "name": "RC472301",
+    "slug": "rc472301",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2341,
+    "name": "RC472305",
+    "slug": "rc472305",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2343,
+    "name": "RC492304",
+    "slug": "rc492304",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2340,
+    "name": "RC492305",
+    "slug": "rc492305",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2346,
+    "name": "RW414361",
+    "slug": "rw414361",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2351,
+    "name": "RW414364",
+    "slug": "rw414364",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2348,
+    "name": "RW466364",
+    "slug": "rw466364",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 2349,
+    "name": "RY492301",
+    "slug": "ry492301",
+    "depth": 2,
+    "brand": "Gaggenau",
+    "parent_name": "אביזרים וחלקי חילוף למקררי גגנאו",
+    "count_field": 0
+  },
+  {
+    "id": 1294,
+    "name": "אביזרים וחלקי חילוף לשואבי אבק סימנס",
+    "slug": "%d7%90%d7%91%d7%99%d7%96%d7%a8%d7%99%d7%9d-%d7%95%d7%97%d7%9c%d7%a7%d7%99-%d7%97%d7%99%d7%9c%d7%95%d7%a3-%d7%9c%d7%a9%d7%95%d7%90%d7%91%d7%99-%d7%90%d7%91%d7%a7-%d7%a1%d7%99%d7%9e%d7%a0%d7%a1",
+    "depth": 1,
+    "brand": "Siemens",
+    "parent_name": "Siemens",
+    "count_field": 0
+  },
+  {
+    "id": 2333,
+    "name": "CI24RP02",
+    "slug": "ci24rp02",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2237,
+    "name": "CI30RP01",
+    "slug": "ci30rp01",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2242,
+    "name": "CI30RP02",
+    "slug": "ci30rp02",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2244,
+    "name": "CI36BP01",
+    "slug": "ci36bp01",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1957,
+    "name": "CM585AGS0",
+    "slug": "cm585ags0",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1975,
+    "name": "HM676GOS6",
+    "slug": "hm676gos6",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2335,
+    "name": "KA56NV40NE",
+    "slug": "ka56nv40ne",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2336,
+    "name": "KA62NA75",
+    "slug": "ka62na75",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2338,
+    "name": "KA92DAI30",
+    "slug": "ka92dai30",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2332,
+    "name": "KD75NVI3PL",
+    "slug": "kd75nvi3pl",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2235,
+    "name": "KF96NAXEA",
+    "slug": "kf96naxea",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2241,
+    "name": "KF96NAXEAL",
+    "slug": "kf96naxeal",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2331,
+    "name": "KF96NVPEAL",
+    "slug": "kf96nvpeal",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2251,
+    "name": "KG49NA94",
+    "slug": "kg49na94",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2253,
+    "name": "KI20R00",
+    "slug": "ki20r",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2250,
+    "name": "KI81FHOD0",
+    "slug": "ki81fhod0",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2240,
+    "name": "KI81RAF31",
+    "slug": "ki81raf31",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2252,
+    "name": "KI82LAD30",
+    "slug": "ki82lad30",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 237,
+    "name": "KU56N03ME",
+    "slug": "ku56n03me",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למקררים ומקפיאים סימנס",
+    "count_field": 1
+  },
+  {
+    "id": 1393,
+    "name": "LC37IVP60",
+    "slug": "lc37ivp60",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1392,
+    "name": "LC656KA30",
+    "slug": "lc656ka30",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1391,
+    "name": "LC656WB30",
+    "slug": "lc656wb30",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1390,
+    "name": "LC66WA530",
+    "slug": "lc66wa530",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1389,
+    "name": "LC67BA520",
+    "slug": "lc67ba520",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1387,
+    "name": "LC67BE532",
+    "slug": "lc67be532",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1386,
+    "name": "LC67BHM50",
+    "slug": "lc67bhm50",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1385,
+    "name": "LC67WA532",
+    "slug": "lc67wa532",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1384,
+    "name": "LC87JHM60",
+    "slug": "lc87jhm60",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1383,
+    "name": "LC87KHM20",
+    "slug": "lc87khm20",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1382,
+    "name": "LC91BB550",
+    "slug": "lc91bb550",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1381,
+    "name": "LC91BE542",
+    "slug": "lc91be542",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1380,
+    "name": "LC91BUV50",
+    "slug": "lc91buv50",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1461,
+    "name": "LC91KWW60",
+    "slug": "lc91kww60",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1379,
+    "name": "LC928BA90",
+    "slug": "lc928ba90",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1378,
+    "name": "LC956KA30",
+    "slug": "lc956ka30",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1377,
+    "name": "LC956WB30",
+    "slug": "lc956wb30",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1376,
+    "name": "LC957KA70",
+    "slug": "lc957ka70",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1375,
+    "name": "LC958BA90",
+    "slug": "lc958ba90",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1374,
+    "name": "LC968BA90",
+    "slug": "lc968ba90",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1372,
+    "name": "LC96WA530",
+    "slug": "lc96wa530",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1371,
+    "name": "LC97BA520",
+    "slug": "lc97ba520",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1370,
+    "name": "LC97BC532",
+    "slug": "lc97bc532",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1369,
+    "name": "LC97BE532",
+    "slug": "lc97be532",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1460,
+    "name": "LC97FVW20",
+    "slug": "lc97fvw20",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1366,
+    "name": "LC97WA532",
+    "slug": "lc97wa532",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1365,
+    "name": "LC98BA572",
+    "slug": "lc98ba572",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1364,
+    "name": "LC98GA540",
+    "slug": "lc98ga540",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1363,
+    "name": "LC98GE540",
+    "slug": "lc98ge540",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1362,
+    "name": "LC98KC560",
+    "slug": "lc98kc560",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1361,
+    "name": "LC98KPP60",
+    "slug": "lc98kpp60",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1360,
+    "name": "LD97AA670",
+    "slug": "ld97aa670",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1359,
+    "name": "LD97DBM60",
+    "slug": "ld97dbm60",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1459,
+    "name": "LF31IVV60",
+    "slug": "lf31ivv60",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1358,
+    "name": "LF91BA550",
+    "slug": "lf91ba550",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1357,
+    "name": "LF91BA582",
+    "slug": "lf91ba582",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1356,
+    "name": "LF91BB552",
+    "slug": "lf91bb552",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1355,
+    "name": "LF91BUV50",
+    "slug": "lf91buv50",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1354,
+    "name": "LF957GA70",
+    "slug": "lf957ga70",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1353,
+    "name": "LF98BB542",
+    "slug": "lf98bb542",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לקולטי אדים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1700,
+    "name": "SN23300",
+    "slug": "sn23300",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2269,
+    "name": "SN65E008IL",
+    "slug": "sn65e008il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2270,
+    "name": "SR24E202EU",
+    "slug": "sr24e202eu",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למדיחי כלים סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2426,
+    "name": "TK65001",
+    "slug": "tk65001",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1296,
+    "name": "VS01G400",
+    "slug": "vs01g400",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1295,
+    "name": "VS08G1623",
+    "slug": "vs08g1623",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף לשואבי אבק סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2215,
+    "name": "WG44G20IL",
+    "slug": "wg44g20il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2214,
+    "name": "WG44G2ZIL",
+    "slug": "wg44g2zil",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2213,
+    "name": "WG46G2Z9IL",
+    "slug": "wg46g2z9il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2216,
+    "name": "WG56B2A2IL",
+    "slug": "wg56b2a2il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2217,
+    "name": "WG66B2A3IL",
+    "slug": "wg66b2a3il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2203,
+    "name": "WP12T424IL",
+    "slug": "wp12t424il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2197,
+    "name": "WP12T427IL",
+    "slug": "wp12t427il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2113,
+    "name": "WT41G209IL",
+    "slug": "wt41g209il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למייבשי כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 1233,
+    "name": "WT7100",
+    "slug": "wt7100",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למייבשי כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 2114,
+    "name": "WTB46B200IL",
+    "slug": "wtb46b200il",
+    "depth": 2,
+    "brand": "Siemens",
+    "parent_name": "אביזרים וחלקי חילוף למייבשי כביסה סימנס",
+    "count_field": 0
+  },
+  {
+    "id": 201,
+    "name": "בדיקה",
+    "slug": "%d7%91%d7%93%d7%99%d7%a7%d7%94",
+    "depth": 0,
+    "brand": "בדיקה",
+    "parent_name": "ROOT",
+    "count_field": 0
+  },
+  {
+    "id": 200,
+    "name": "הטבות ראש השנה",
+    "slug": "%d7%94%d7%98%d7%91%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94",
+    "depth": 0,
+    "brand": "הטבות ראש השנה",
+    "parent_name": "ROOT",
+    "count_field": 0
+  }
+]

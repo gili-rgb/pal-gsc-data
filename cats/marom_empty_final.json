@@ -1,0 +1,848 @@
+[
+  {
+    "id": 286,
+    "name": "אביזרים וחלקי חילוף לכיריים באוקנכט",
+    "slug": "%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d-bauknecht",
+    "depth": 1,
+    "brand": "Bauknecht",
+    "parent_name": "Bauknecht",
+    "count_field": 1
+  },
+  {
+    "id": 288,
+    "name": "אביזרים וחלקי חילוף למייבש באוקנכט",
+    "slug": "%d7%9e%d7%99%d7%99%d7%91%d7%a9-bauknecht",
+    "depth": 1,
+    "brand": "Bauknecht",
+    "parent_name": "Bauknecht",
+    "count_field": 1
+  },
+  {
+    "id": 289,
+    "name": "אביזרים וחלקי חילוף למקפיא באוקנכט",
+    "slug": "%d7%9e%d7%a7%d7%a4%d7%99%d7%90-bauknecht",
+    "depth": 1,
+    "brand": "Bauknecht",
+    "parent_name": "Bauknecht",
+    "count_field": 1
+  },
+  {
+    "id": 287,
+    "name": "אביזרים וחלקי חילוף למקרר באוקנכט",
+    "slug": "%d7%9e%d7%a7%d7%a8%d7%a8-bauknecht",
+    "depth": 1,
+    "brand": "Bauknecht",
+    "parent_name": "Bauknecht",
+    "count_field": 1
+  },
+  {
+    "id": 285,
+    "name": "אביזרים וחלקי חילוף לתנור באוקנכט",
+    "slug": "%d7%aa%d7%a0%d7%95%d7%a8-bauknecht",
+    "depth": 1,
+    "brand": "Bauknecht",
+    "parent_name": "Bauknecht",
+    "count_field": 1
+  },
+  {
+    "id": 441,
+    "name": "BCIO3T121PE",
+    "slug": "bcio3t121pe",
+    "depth": 2,
+    "brand": "Bauknecht",
+    "parent_name": "אביזרים וחלקי חילוף למדיח באוקנכט",
+    "count_field": 0
+  },
+  {
+    "id": 495,
+    "name": "CTAC8780AFSNE",
+    "slug": "ctac8780afsne",
+    "depth": 2,
+    "brand": "Bauknecht",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים באוקנכט",
+    "count_field": 0
+  },
+  {
+    "id": 324,
+    "name": "אביזרים וחלקי חילוף לכיריים בלומברג",
+    "slug": "%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d-blomberg",
+    "depth": 1,
+    "brand": "BLOMBERG",
+    "parent_name": "BLOMBERG",
+    "count_field": 1
+  },
+  {
+    "id": 432,
+    "name": "KQD1370",
+    "slug": "kqd1370",
+    "depth": 2,
+    "brand": "BLOMBERG",
+    "parent_name": "אביזרים וחלקי חילוף למקרר בלומברג",
+    "count_field": 0
+  },
+  {
+    "id": 498,
+    "name": "TAF7239",
+    "slug": "taf7239",
+    "depth": 2,
+    "brand": "BLOMBERG",
+    "parent_name": "אביזרים וחלקי חילוף למייבש בלומברג",
+    "count_field": 0
+  },
+  {
+    "id": 497,
+    "name": "TKF9431A",
+    "slug": "tkf9431a",
+    "depth": 2,
+    "brand": "BLOMBERG",
+    "parent_name": "אביזרים וחלקי חילוף למייבש בלומברג",
+    "count_field": 0
+  },
+  {
+    "id": 922,
+    "name": "SOUNDBARR500",
+    "slug": "soundbarr500",
+    "depth": 2,
+    "brand": "BOSE",
+    "parent_name": "אביזרים וחלקי חילוף לרמקולים בוס",
+    "count_field": 0
+  },
+  {
+    "id": 479,
+    "name": "SoundTouch 300",
+    "slug": "soundtouch-300",
+    "depth": 2,
+    "brand": "BOSE",
+    "parent_name": "אביזרים וחלקי חילוף לרמקולים בוס",
+    "count_field": 0
+  },
+  {
+    "id": 281,
+    "name": "אביזרים וחלקי חילוף למקפיא דלונגי",
+    "slug": "%d7%9e%d7%a7%d7%a4%d7%99%d7%90-de-longi",
+    "depth": 1,
+    "brand": "De'Longhi",
+    "parent_name": "De'Longhi",
+    "count_field": 1
+  },
+  {
+    "id": 492,
+    "name": "CHS311",
+    "slug": "chs311",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לקולט אדים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 624,
+    "name": "DEMA965IL",
+    "slug": "dema965il",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 448,
+    "name": "NDB430",
+    "slug": "ndb430",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 450,
+    "name": "NDB432",
+    "slug": "ndb432",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 449,
+    "name": "NDB590",
+    "slug": "ndb590",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 472,
+    "name": "NDB6767",
+    "slug": "ndb6767",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 888,
+    "name": "NDB901AN",
+    "slug": "ndb901an",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 486,
+    "name": "NDC22",
+    "slug": "ndc22",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 431,
+    "name": "NDG79AN",
+    "slug": "ndg79an",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 458,
+    "name": "NDG80X",
+    "slug": "ndg80x",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 491,
+    "name": "NDS 378",
+    "slug": "nds-378",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 413,
+    "name": "NDS-6600N",
+    "slug": "nds-6600n",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 400,
+    "name": "NDS1330VN",
+    "slug": "nds1330vn",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 889,
+    "name": "NDS32AN",
+    "slug": "nds32an",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 445,
+    "name": "NDS375",
+    "slug": "nds375",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 444,
+    "name": "NDS377N",
+    "slug": "nds377n",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 419,
+    "name": "NDS929X",
+    "slug": "nds929x",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 625,
+    "name": "NDS939",
+    "slug": "nds939",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 401,
+    "name": "NDS971X",
+    "slug": "nds971x",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 890,
+    "name": "NDS979X",
+    "slug": "nds979x",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 387,
+    "name": "NS2000X",
+    "slug": "ns2000x",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 418,
+    "name": "WMD6",
+    "slug": "wmd6",
+    "depth": 2,
+    "brand": "De'Longhi",
+    "parent_name": "אביזרים וחלקי חילוף למדיח דלונגי",
+    "count_field": 0
+  },
+  {
+    "id": 338,
+    "name": "אביזרים וחלקי חילוף לכיריים דה דיטריש",
+    "slug": "%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d-de-ditrich",
+    "depth": 1,
+    "brand": "DE-DIETRICH",
+    "parent_name": "DE-DIETRICH",
+    "count_field": 1
+  },
+  {
+    "id": 341,
+    "name": "אביזרים וחלקי חילוף למייבש דה דיטריש",
+    "slug": "%d7%9e%d7%99%d7%99%d7%91%d7%a9-de-ditrich",
+    "depth": 1,
+    "brand": "DE-DIETRICH",
+    "parent_name": "DE-DIETRICH",
+    "count_field": 1
+  },
+  {
+    "id": 339,
+    "name": "אביזרים וחלקי חילוף למקפיא דה דיטריש",
+    "slug": "%d7%9e%d7%a7%d7%a4%d7%99%d7%90-de-ditrich",
+    "depth": 1,
+    "brand": "DE-DIETRICH",
+    "parent_name": "DE-DIETRICH",
+    "count_field": 1
+  },
+  {
+    "id": 340,
+    "name": "אביזרים וחלקי חילוף למקרר דה דיטריש",
+    "slug": "%d7%9e%d7%a7%d7%a8%d7%a8-de-ditrich",
+    "depth": 1,
+    "brand": "DE-DIETRICH",
+    "parent_name": "DE-DIETRICH",
+    "count_field": 1
+  },
+  {
+    "id": 511,
+    "name": "DOP730XJ",
+    "slug": "dop730xj",
+    "depth": 2,
+    "brand": "DE-DIETRICH",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דה דיטריש",
+    "count_field": 0
+  },
+  {
+    "id": 456,
+    "name": "DOS7585X",
+    "slug": "dos7585x",
+    "depth": 2,
+    "brand": "DE-DIETRICH",
+    "parent_name": "אביזרים וחלקי חילוף לתנור דה דיטריש",
+    "count_field": 0
+  },
+  {
+    "id": 342,
+    "name": "FHIABA",
+    "slug": "fhiaba",
+    "depth": 0,
+    "brand": "FHIABA",
+    "parent_name": "ROOT",
+    "count_field": 1
+  },
+  {
+    "id": 344,
+    "name": "אביזרים וחלקי חילוף למקפיא פיאבה",
+    "slug": "%d7%9e%d7%a7%d7%a4%d7%99%d7%90-fhiaba",
+    "depth": 1,
+    "brand": "FHIABA",
+    "parent_name": "FHIABA",
+    "count_field": 1
+  },
+  {
+    "id": 343,
+    "name": "אביזרים וחלקי חילוף למקרר פיאבה",
+    "slug": "%d7%9e%d7%a7%d7%a8%d7%a8-fhiaba",
+    "depth": 1,
+    "brand": "FHIABA",
+    "parent_name": "FHIABA",
+    "count_field": 1
+  },
+  {
+    "id": 332,
+    "name": "אביזרים וחלקי חילוף לכיריים גרונדיג",
+    "slug": "%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d-grundig",
+    "depth": 1,
+    "brand": "GRUNDIG",
+    "parent_name": "GRUNDIG",
+    "count_field": 1
+  },
+  {
+    "id": 1147,
+    "name": "GNVP4551",
+    "slug": "gnvp4551",
+    "depth": 2,
+    "brand": "GRUNDIG",
+    "parent_name": "אביזרים וחלקי חילוף למדיח גרונדיג",
+    "count_field": 0
+  },
+  {
+    "id": 270,
+    "name": "אביזרים וחלקי חילוף לכיריים האייר",
+    "slug": "%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d",
+    "depth": 1,
+    "brand": "HAIER",
+    "parent_name": "HAIER",
+    "count_field": 1
+  },
+  {
+    "id": 272,
+    "name": "אביזרים וחלקי חילוף למייבש האייר",
+    "slug": "%d7%9e%d7%99%d7%99%d7%91%d7%a9",
+    "depth": 1,
+    "brand": "HAIER",
+    "parent_name": "HAIER",
+    "count_field": 1
+  },
+  {
+    "id": 273,
+    "name": "אביזרים וחלקי חילוף למקפיא האייר",
+    "slug": "%d7%9e%d7%a7%d7%a4%d7%99%d7%90",
+    "depth": 1,
+    "brand": "HAIER",
+    "parent_name": "HAIER",
+    "count_field": 3
+  },
+  {
+    "id": 269,
+    "name": "אביזרים וחלקי חילוף לתנור האייר",
+    "slug": "%d7%aa%d7%a0%d7%95%d7%a8",
+    "depth": 1,
+    "brand": "HAIER",
+    "parent_name": "HAIER",
+    "count_field": 1
+  },
+  {
+    "id": 434,
+    "name": "21TNNB",
+    "slug": "21tnnb",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למקרר האייר",
+    "count_field": 0
+  },
+  {
+    "id": 435,
+    "name": "HB22TSAA",
+    "slug": "hb22tsaa",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למקרר האייר",
+    "count_field": 0
+  },
+  {
+    "id": 433,
+    "name": "HRF-220",
+    "slug": "hrf-220",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למקרר האייר",
+    "count_field": 0
+  },
+  {
+    "id": 438,
+    "name": "HRF-369",
+    "slug": "hrf-369",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למקרר האייר",
+    "count_field": 0
+  },
+  {
+    "id": 437,
+    "name": "HRF-849W",
+    "slug": "hrf-849w",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למקרר האייר",
+    "count_field": 0
+  },
+  {
+    "id": 507,
+    "name": "HRF-939W",
+    "slug": "hrf-939w",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למקרר האייר",
+    "count_field": 0
+  },
+  {
+    "id": 506,
+    "name": "HRF4560FB",
+    "slug": "hrf4560fb",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למקרר האייר",
+    "count_field": 0
+  },
+  {
+    "id": 490,
+    "name": "HW100-1479N",
+    "slug": "hw100-1479n",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למכונת כביסה האייר",
+    "count_field": 0
+  },
+  {
+    "id": 488,
+    "name": "HW601211N",
+    "slug": "hw601211n",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למכונת כביסה האייר",
+    "count_field": 0
+  },
+  {
+    "id": 487,
+    "name": "HW8012829",
+    "slug": "hw8012829",
+    "depth": 2,
+    "brand": "HAIER",
+    "parent_name": "אביזרים וחלקי חילוף למכונת כביסה האייר",
+    "count_field": 0
+  },
+  {
+    "id": 465,
+    "name": "אביזרים וחלקי חילוף למקפיא אינדסיט",
+    "slug": "%d7%9e%d7%a7%d7%a4%d7%99%d7%90-indesit",
+    "depth": 1,
+    "brand": "INDESIT",
+    "parent_name": "INDESIT",
+    "count_field": 0
+  },
+  {
+    "id": 439,
+    "name": "IDCA735",
+    "slug": "idca735",
+    "depth": 2,
+    "brand": "INDESIT",
+    "parent_name": "אביזרים וחלקי חילוף למייבש אינדסיט",
+    "count_field": 0
+  },
+  {
+    "id": 468,
+    "name": "IWDE7125",
+    "slug": "iwde7125",
+    "depth": 2,
+    "brand": "INDESIT",
+    "parent_name": "אביזרים וחלקי חילוף למכונת כביסה אינדסיט",
+    "count_field": 0
+  },
+  {
+    "id": 466,
+    "name": "UI6F1TS",
+    "slug": "ui6f1ts",
+    "depth": 2,
+    "brand": "INDESIT",
+    "parent_name": "אביזרים וחלקי חילוף למקפיא אינדסיט",
+    "count_field": 0
+  },
+  {
+    "id": 306,
+    "name": "JBL",
+    "slug": "jbl",
+    "depth": 0,
+    "brand": "JBL",
+    "parent_name": "ROOT",
+    "count_field": 1
+  },
+  {
+    "id": 308,
+    "name": "אביזרים וחלקי חילוף לאוזניות JBL",
+    "slug": "%d7%90%d7%95%d7%96%d7%a0%d7%99%d7%95%d7%aa-jbl",
+    "depth": 1,
+    "brand": "JBL",
+    "parent_name": "JBL",
+    "count_field": 1
+  },
+  {
+    "id": 307,
+    "name": "אביזרים וחלקי חילוף לרמקולים JBL",
+    "slug": "%d7%a8%d7%9e%d7%a7%d7%95%d7%9c%d7%99%d7%9d-jbl",
+    "depth": 1,
+    "brand": "JBL",
+    "parent_name": "JBL",
+    "count_field": 1
+  },
+  {
+    "id": 928,
+    "name": "אביזרים וחלקי חילוף למעבד מזון קיצ'נאייד",
+    "slug": "%d7%90%d7%91%d7%99%d7%96%d7%a8%d7%99%d7%9d-%d7%95%d7%97%d7%9c%d7%a7%d7%99-%d7%97%d7%99%d7%9c%d7%95%d7%a3-%d7%9c%d7%9e%d7%a2%d7%91%d7%93-%d7%9e%d7%96%d7%95%d7%9f-%d7%a7%d7%99%d7%a6%d7%a0%d7%90%d7%99",
+    "depth": 1,
+    "brand": "KitchenAid",
+    "parent_name": "KitchenAid",
+    "count_field": 0
+  },
+  {
+    "id": 300,
+    "name": "אביזרים וחלקי חילוף לבלנדר מולינקס",
+    "slug": "%d7%91%d7%9c%d7%a0%d7%93%d7%a8",
+    "depth": 1,
+    "brand": "Moulinex",
+    "parent_name": "Moulinex",
+    "count_field": 1
+  },
+  {
+    "id": 499,
+    "name": "EP4327/90",
+    "slug": "ep4327-90",
+    "depth": 2,
+    "brand": "Philips",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה פיליפס",
+    "count_field": 0
+  },
+  {
+    "id": 309,
+    "name": "Samurai",
+    "slug": "samurai",
+    "depth": 0,
+    "brand": "Samurai",
+    "parent_name": "ROOT",
+    "count_field": 1
+  },
+  {
+    "id": 310,
+    "name": "בלנדר",
+    "slug": "%d7%91%d7%9c%d7%a0%d7%93%d7%a8-samurai",
+    "depth": 1,
+    "brand": "Samurai",
+    "parent_name": "Samurai",
+    "count_field": 1
+  },
+  {
+    "id": 311,
+    "name": "מיקסר",
+    "slug": "%d7%9e%d7%99%d7%a7%d7%a1%d7%a8-samurai",
+    "depth": 1,
+    "brand": "Samurai",
+    "parent_name": "Samurai",
+    "count_field": 1
+  },
+  {
+    "id": 312,
+    "name": "מעבד",
+    "slug": "%d7%9e%d7%a2%d7%91%d7%93-samurai",
+    "depth": 1,
+    "brand": "Samurai",
+    "parent_name": "Samurai",
+    "count_field": 1
+  },
+  {
+    "id": 510,
+    "name": "SUFP100",
+    "slug": "sufp100",
+    "depth": 2,
+    "brand": "Samurai",
+    "parent_name": "מעבד",
+    "count_field": 0
+  },
+  {
+    "id": 513,
+    "name": "SJ-S3835-IN",
+    "slug": "sj-s3835-in",
+    "depth": 1,
+    "brand": "SHARP",
+    "parent_name": "SHARP",
+    "count_field": 0
+  },
+  {
+    "id": 961,
+    "name": "ES-F014LW",
+    "slug": "es-f014lw",
+    "depth": 2,
+    "brand": "SHARP",
+    "parent_name": "אביזרים וחלקי חילוף למייבש כביסה שארפ",
+    "count_field": 0
+  },
+  {
+    "id": 962,
+    "name": "ES-F812LW",
+    "slug": "es-f812lw",
+    "depth": 2,
+    "brand": "SHARP",
+    "parent_name": "אביזרים וחלקי חילוף למייבש כביסה שארפ",
+    "count_field": 0
+  },
+  {
+    "id": 246,
+    "name": "SJ5502",
+    "slug": "sj5502",
+    "depth": 2,
+    "brand": "SHARP",
+    "parent_name": "אביזרים וחלקי חילוף למקרר שארפ 4 דלתות",
+    "count_field": 1
+  },
+  {
+    "id": 245,
+    "name": "SJ5504",
+    "slug": "sj5504",
+    "depth": 2,
+    "brand": "SHARP",
+    "parent_name": "אביזרים וחלקי חילוף למקרר שארפ 4 דלתות",
+    "count_field": 1
+  },
+  {
+    "id": 481,
+    "name": "שואב אבק",
+    "slug": "%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7",
+    "depth": 1,
+    "brand": "TEFAL",
+    "parent_name": "TEFAL",
+    "count_field": 0
+  },
+  {
+    "id": 471,
+    "name": "GV-5150",
+    "slug": "gv-5150",
+    "depth": 2,
+    "brand": "TEFAL",
+    "parent_name": "אביזרים וחלקי חילוף מגהץ טפל",
+    "count_field": 0
+  },
+  {
+    "id": 485,
+    "name": "GV-8360",
+    "slug": "gv-8360",
+    "depth": 2,
+    "brand": "TEFAL",
+    "parent_name": "אביזרים וחלקי חילוף מגהץ טפל",
+    "count_field": 0
+  },
+  {
+    "id": 483,
+    "name": "GV-9061",
+    "slug": "gv-9061",
+    "depth": 2,
+    "brand": "TEFAL",
+    "parent_name": "אביזרים וחלקי חילוף מגהץ טפל",
+    "count_field": 0
+  },
+  {
+    "id": 364,
+    "name": "GV9581",
+    "slug": "gv9581",
+    "depth": 2,
+    "brand": "TEFAL",
+    "parent_name": "אביזרים וחלקי חילוף מגהץ טפל",
+    "count_field": 1
+  },
+  {
+    "id": 509,
+    "name": "GV9720E0",
+    "slug": "gv9720e0",
+    "depth": 2,
+    "brand": "TEFAL",
+    "parent_name": "אביזרים וחלקי חילוף מגהץ טפל",
+    "count_field": 0
+  },
+  {
+    "id": 480,
+    "name": "SV-6130",
+    "slug": "sv-6130",
+    "depth": 2,
+    "brand": "TEFAL",
+    "parent_name": "אביזרים וחלקי חילוף מגהץ טפל",
+    "count_field": 0
+  },
+  {
+    "id": 484,
+    "name": "SV-7112",
+    "slug": "sv-7112",
+    "depth": 2,
+    "brand": "TEFAL",
+    "parent_name": "אביזרים וחלקי חילוף מגהץ טפל",
+    "count_field": 0
+  },
+  {
+    "id": 482,
+    "name": "TY9679WO",
+    "slug": "ty9679wo",
+    "depth": 2,
+    "brand": "TEFAL",
+    "parent_name": "שואב אבק",
+    "count_field": 0
+  },
+  {
+    "id": 317,
+    "name": "כיריים",
+    "slug": "%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d-zanussi",
+    "depth": 1,
+    "brand": "ZANUSSI",
+    "parent_name": "ZANUSSI",
+    "count_field": 1
+  },
+  {
+    "id": 886,
+    "name": "ZDP7202PZ",
+    "slug": "zdp7202pz",
+    "depth": 2,
+    "brand": "ZANUSSI",
+    "parent_name": "אביזרים וחלקי חילוף למייבש זנוסי",
+    "count_field": 0
+  },
+  {
+    "id": 887,
+    "name": "ZDP7206P",
+    "slug": "zdp7206p",
+    "depth": 2,
+    "brand": "ZANUSSI",
+    "parent_name": "אביזרים וחלקי חילוף למייבש זנוסי",
+    "count_field": 0
+  },
+  {
+    "id": 473,
+    "name": "ZOHNA7X1A",
+    "slug": "zohna7x1a",
+    "depth": 2,
+    "brand": "ZANUSSI",
+    "parent_name": "אביזרים וחלקי חילוף לתנור זנוסי",
+    "count_field": 0
+  }
+]

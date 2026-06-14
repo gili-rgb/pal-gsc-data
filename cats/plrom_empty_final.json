@@ -1,0 +1,614 @@
+[
+  {
+    "id": 1156,
+    "name": "CN3915",
+    "slug": "cn3915",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1157,
+    "name": "CN4315",
+    "slug": "cn4315",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1158,
+    "name": "CN4815",
+    "slug": "cn4815",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1159,
+    "name": "CN5715",
+    "slug": "cn5715",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1160,
+    "name": "CNef4313",
+    "slug": "cnef4313",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1161,
+    "name": "CNef4713",
+    "slug": "cnef4713",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1162,
+    "name": "CNef4813",
+    "slug": "cnef4813",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1163,
+    "name": "CNP4313",
+    "slug": "cnp4313",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1164,
+    "name": "CNP4813",
+    "slug": "cnp4813",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1165,
+    "name": "GN5215",
+    "slug": "gn5215",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1166,
+    "name": "GNP4355",
+    "slug": "gnp4355",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1912,
+    "name": "GSDES2713",
+    "slug": "gsdes2713",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1859,
+    "name": "ICU",
+    "slug": "icu",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1861,
+    "name": "IGS",
+    "slug": "igs",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1175,
+    "name": "IK2320",
+    "slug": "ik2320",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1176,
+    "name": "IK2720",
+    "slug": "ik2720",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1178,
+    "name": "IKB2320",
+    "slug": "ikb2320",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1179,
+    "name": "IKB2720",
+    "slug": "ikb2720",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1180,
+    "name": "IKB3520",
+    "slug": "ikb3520",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1167,
+    "name": "SBS7212",
+    "slug": "sbs7212",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1169,
+    "name": "SBS7253",
+    "slug": "sbs7253",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1170,
+    "name": "SBS7263",
+    "slug": "sbs7263",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1171,
+    "name": "SBS7353",
+    "slug": "sbs7353",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1172,
+    "name": "SBSes7165",
+    "slug": "sbses7165",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1173,
+    "name": "SBSes7212",
+    "slug": "sbses7212",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1174,
+    "name": "SBSes8486",
+    "slug": "sbses8486",
+    "depth": 2,
+    "brand": "Liebherr",
+    "parent_name": "אביזרים וחלקי חילוף למקררי ליבהר",
+    "count_field": 0
+  },
+  {
+    "id": 1329,
+    "name": "CVA2652",
+    "slug": "cva2652",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 1330,
+    "name": "CVA2662",
+    "slug": "cva2662",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 346,
+    "name": "CVA620",
+    "slug": "cva620",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 351,
+    "name": "CVA645",
+    "slug": "cva645",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 408,
+    "name": "H2457BP",
+    "slug": "h2457bp",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים מילה",
+    "count_field": 0
+  },
+  {
+    "id": 360,
+    "name": "K14827",
+    "slug": "k14827",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למקררי מילה",
+    "count_field": 0
+  },
+  {
+    "id": 361,
+    "name": "K1801",
+    "slug": "k1801",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למקררי מילה",
+    "count_field": 0
+  },
+  {
+    "id": 362,
+    "name": "K1901",
+    "slug": "k1901",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למקררי מילה",
+    "count_field": 0
+  },
+  {
+    "id": 1331,
+    "name": "K5464",
+    "slug": "k5464",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 1332,
+    "name": "K5654",
+    "slug": "k5654",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 1333,
+    "name": "K5664",
+    "slug": "k5664",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 1334,
+    "name": "K5764",
+    "slug": "k5764",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 1335,
+    "name": "K8564",
+    "slug": "k8564",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות קפה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 363,
+    "name": "KF1811",
+    "slug": "kf1811",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למקררי מילה",
+    "count_field": 0
+  },
+  {
+    "id": 2439,
+    "name": "WKM",
+    "slug": "wkm",
+    "depth": 2,
+    "brand": "Miele",
+    "parent_name": "אביזרים וחלקי חילוף למכונות כביסה מילה",
+    "count_field": 0
+  },
+  {
+    "id": 2219,
+    "name": "All-in-One Trimmer",
+    "slug": "all-in-one-trimmer",
+    "depth": 2,
+    "brand": "Philips",
+    "parent_name": "אביזרים וחלקי חילוף למכונות גילוח ותספורת פיליפס",
+    "count_field": 0
+  },
+  {
+    "id": 1621,
+    "name": "HC7450",
+    "slug": "hc7450",
+    "depth": 2,
+    "brand": "Philips",
+    "parent_name": "אביזרים וחלקי חילוף למכונות גילוח ותספורת פיליפס",
+    "count_field": 0
+  },
+  {
+    "id": 1518,
+    "name": "S13",
+    "slug": "s13",
+    "depth": 2,
+    "brand": "Philips",
+    "parent_name": "אביזרים וחלקי חילוף למכונות גילוח ותספורת פיליפס",
+    "count_field": 0
+  },
+  {
+    "id": 1523,
+    "name": "S1301",
+    "slug": "s1301",
+    "depth": 2,
+    "brand": "Philips",
+    "parent_name": "אביזרים וחלקי חילוף למכונות גילוח ותספורת פיליפס",
+    "count_field": 0
+  },
+  {
+    "id": 2217,
+    "name": "Shaver",
+    "slug": "shaver",
+    "depth": 2,
+    "brand": "Philips",
+    "parent_name": "אביזרים וחלקי חילוף למכונות גילוח ותספורת פיליפס",
+    "count_field": 0
+  },
+  {
+    "id": 1743,
+    "name": "אביזרים וחלקי חילוף למסחטת מיץ סייג'",
+    "slug": "%d7%90%d7%91%d7%99%d7%96%d7%a8%d7%99%d7%9d-%d7%95%d7%97%d7%9c%d7%a7%d7%99-%d7%97%d7%99%d7%9c%d7%95%d7%a3-%d7%9c%d7%9e%d7%a1%d7%97%d7%98%d7%aa-%d7%9e%d7%99%d7%a5-%d7%a1%d7%99%d7%99%d7%92",
+    "depth": 1,
+    "brand": "Sage",
+    "parent_name": "Sage",
+    "count_field": 0
+  },
+  {
+    "id": 1325,
+    "name": "AFC55",
+    "slug": "afc55",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1321,
+    "name": "AFC5550WH",
+    "slug": "afc5550wh",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1326,
+    "name": "AFC65",
+    "slug": "afc65",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1322,
+    "name": "AFC6550WH",
+    "slug": "afc6550wh",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1327,
+    "name": "AFG55",
+    "slug": "afg55",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1323,
+    "name": "AFG5500WH",
+    "slug": "afg5500wh",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1324,
+    "name": "AFG6550WH",
+    "slug": "afg6550wh",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 2323,
+    "name": "Backofen",
+    "slug": "backofen",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1042,
+    "name": "ED37214B",
+    "slug": "ed37214b",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1043,
+    "name": "ED37216B",
+    "slug": "ed37216b",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1051,
+    "name": "ED37615V",
+    "slug": "ed37615v",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 2321,
+    "name": "GPT500",
+    "slug": "gpt500",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1320,
+    "name": "H1666BP",
+    "slug": "h1666bp",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1317,
+    "name": "H6160BP",
+    "slug": "h6160bp",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1318,
+    "name": "H6360BP",
+    "slug": "h6360bp",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1319,
+    "name": "H6460BP",
+    "slug": "h6460bp",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 2322,
+    "name": "Herd",
+    "slug": "herd",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1082,
+    "name": "HKG86525",
+    "slug": "hkg86525",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 1092,
+    "name": "HKY86525",
+    "slug": "hky86525",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 2325,
+    "name": "PIH6542PHTSUN",
+    "slug": "pih6542phtsun",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לכיריים סאוטר",
+    "count_field": 0
+  },
+  {
+    "id": 2324,
+    "name": "Sonstiges",
+    "slug": "sonstiges",
+    "depth": 2,
+    "brand": "Sauter",
+    "parent_name": "אביזרים וחלקי חילוף לתנורים סאוטר",
+    "count_field": 0
+  }
+]
