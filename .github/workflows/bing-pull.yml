@@ -1,0 +1,54 @@
+name: Bing Webmaster Pull
+
+# משיכת נתוני Bing Webmaster תקופתית ודחיפת bing_customer_language.md ל-repo.
+# הסקריפט bing_pull.py רץ as-is — קורא BING_API_KEY מ-env, אין תלות בתיקוני sandbox.
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'      # כל יום שני 05:00 UTC (~07:00–08:00 ישראל). ליומי: '0 5 * * *'
+  workflow_dispatch:          # הרצה ידנית מלשונית Actions (לבדיקה ראשונית)
+
+permissions:
+  contents: write             # דרוש כדי לדחוף את הפלט חזרה ל-repo
+
+concurrency:
+  group: bing-pull
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run Bing pull
+        env:
+          BING_API_KEY: ${{ secrets.BING_API_KEY }}
+          BING_OUT_DIR: cats          # כותב ל-repo/cats — איפה ש-content-machine שלב 0 קורא
+        run: python bing_pull.py
+
+      - name: Sanity check (פלט תקין לפני commit)
+        run: |
+          test -s cats/bing_customer_language.md
+          grep -q "CSB"   cats/bing_customer_language.md
+          grep -q "Marom" cats/bing_customer_language.md
+          grep -q "Plrom" cats/bing_customer_language.md
+          # הגנת רגרסיה: מיקום מותג חייב להיות שפוי (לא 0.x מחלוקת-10 שגויה)
+          ! grep -E "^\| (csb|מרום|פלרום) \| .* \| 0\." cats/bing_customer_language.md
+
+      - name: Commit & push (רק md, רק אם השתנה)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cats/bing_customer_language.md
+          git diff --staged --quiet || git commit -m "Bing pull (automated) $(date -u +%Y-%m-%d)"
+          git push
