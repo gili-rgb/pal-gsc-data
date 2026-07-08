@@ -1,0 +1,51 @@
+name: Autocomplete Pull
+
+# קציר Google Autocomplete שבועי — ביקוש בלתי נראה (שאילתות שאינן ב-GSC).
+# אין צורך במפתח API.
+
+on:
+  schedule:
+    - cron: '30 5 * * 1'      # שני 05:30 UTC — אחרי ה-Bing pull
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autocomplete-pull
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run autocomplete pull
+        env:
+          AC_OUT_DIR: cats
+        run: python autocomplete_pull.py
+
+      - name: Sanity check
+        run: |
+          test -s cats/autocomplete_customer_language.md
+          grep -q "CSB"   cats/autocomplete_customer_language.md
+          grep -q "Marom" cats/autocomplete_customer_language.md
+          grep -q "Plrom" cats/autocomplete_customer_language.md
+
+      - name: Commit & push (רק אם השתנה)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cats/autocomplete_customer_language.md
+          git diff --staged --quiet || git commit -m "Autocomplete pull (automated) $(date -u +%Y-%m-%d)"
+          git push
