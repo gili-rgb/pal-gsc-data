@@ -58,8 +58,15 @@ jobs:
           # הריצה נמשכת דקות ובינתיים יכול להיכנס commit אחר ל-main.
           # בלי rebase ה-push נדחה וכל התוצאה נזרקת (נצפה 2026-08-06).
           for i in 1 2 3 4 5; do
-            if git push; then echo "נדחף בניסיון $i"; exit 0; fi
-            echo "push נדחה, מבצע rebase (ניסיון $i)"
+            if git push 2>/tmp/pusherr; then echo "נדחף בניסיון $i"; exit 0; fi
+            cat /tmp/pusherr
+            # rebase פותר רק התנגשות ("fetch first"). כלל ענף, הגנת סודות
+            # או הרשאה חסרה אינם ברי-תיקון בלולאה — ניסיון חוזר רק מבלבל.
+            if grep -qi "rule violation\|protected branch\|push protection\|permission to" /tmp/pusherr; then
+              echo "::error::ה-push נדחה מסיבה שאינה התנגשות. בדוק Settings → Rules"
+              exit 1
+            fi
+            echo "push נדחה על התנגשות, מבצע rebase (ניסיון $i)"
             git pull --rebase --autostash origin main || exit 1
             sleep $((i * 5))
           done
