@@ -1,0 +1,61 @@
+name: AI Visibility
+
+# מדידת ציטוטים במנועי AI. Gemini + google_search grounding.
+# דורש secret GEMINI_API_KEY (נפרד מ-GSC_SA_JSON).
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 1 * *'       # ה-1 בכל חודש, 05:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-visibility
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0        # נדרש ל-rebase מול main
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install --upgrade pip
+
+      - name: Run AI visibility
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LP_OUT_DIR: cats
+        run: python ai_visibility_pull.py
+
+      - name: Sanity check
+        run: test -s cats/ai_visibility.md
+
+      - name: Commit & push (עם rebase ו-retry)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git add cats/ai_visibility.json cats/ai_visibility.md
+          git diff --staged --quiet && echo "אין שינוי" && exit 0
+          git commit -m "AI visibility (automated) $(date -u +%Y-%m-%d)"
+          # הריצה נמשכת דקות, ובינתיים יכול להיכנס commit אחר ל-main.
+          # בלי rebase ה-push נדחה וכל התוצאה נזרקת (נצפה 2026-08-06).
+          for i in 1 2 3 4 5; do
+            if git push; then echo "נדחף בניסיון $i"; exit 0; fi
+            echo "push נדחה, מבצע rebase (ניסיון $i)"
+            git pull --rebase --autostash origin main || exit 1
+            sleep $((i * 5))
+          done
+          echo "::error::push נכשל אחרי 5 ניסיונות"
+          exit 1
