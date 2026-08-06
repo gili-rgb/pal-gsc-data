@@ -82,13 +82,28 @@ def ask(prompt, key):
         return json.loads(r.read())
 
 
+REDIRECT_MARKERS = ("vertexaisearch", "grounding-api-redirect")
+
+
+def clean_url(u):
+    """
+    URL של vertexaisearch לעולם לא נשמר. הטוקן שבו מזוהה כ-
+    "GCP API Key Bound to a Service Account" ו-GitHub חוסם את ה-push.
+    זה לא רק שדה `redirect`: כש-HEAD אינו עוקב, `r.url` מחזיר את אותה
+    כתובת עצמה, והיא נכנסת דרך שדה `url` (נצפה 2026-08-06).
+    """
+    if not u or any(m in u for m in REDIRECT_MARKERS):
+        return None
+    return u
+
+
 def resolve(uri, timeout=10):
-    """פתיחת redirect של vertexaisearch. כשל אינו מפיל את המדידה."""
+    """פתיחת redirect. כשל אינו מפיל את המדידה — הדומיין מספיק למדידה."""
     try:
-        req = urllib.request.Request(uri, method="HEAD",
+        req = urllib.request.Request(uri, method="GET",
                                      headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.url
+            return clean_url(r.url)
     except Exception:
         return None
 
@@ -102,7 +117,11 @@ def sources(resp):
             w = ch.get("web") or ch.get("retrievedContext") or {}
             dom = (w.get("domain") or w.get("title") or "").strip().lower()
             uri = w.get("uri", "")
-            out.append({"domain": dom, "redirect": uri, "url": resolve(uri)})
+            # ה-redirect של vertexaisearch אינו נשמר. הטוקן שבו נראה כמו
+            # "GCP API Key Bound to a Service Account", ו-GitHub Push Protection
+            # חוסם את ה-push (נצפה 2026-08-06). אין בו סוד, אבל גם אין בו ערך:
+            # הדומיין מודד את הציטוט, וה-URL הסופי מציין איזה עמוד.
+            out.append({"domain": dom, "url": resolve(uri)})
     return out
 
 
@@ -136,13 +155,15 @@ def main() -> int:
             doms = [s["domain"] for s in srcs]
             hit = [s for s in srcs if dom in (s["domain"] or "")
                    or (s["url"] and dom in s["url"])]
+            for h in hit:
+                h.setdefault("url", None)
             comp = sorted({d for d in doms for c in COMPETITORS if c in d})
             if hit:
                 cited += 1
             rows.append({
                 "prompt": q,
                 "cited": bool(hit),
-                "our_urls": [h["url"] or h["redirect"] for h in hit],
+                "our_urls": [h["url"] for h in hit if h["url"]],
                 "competitors": comp,
                 "total_sources": len(srcs),
                 "all_domains": sorted(set(d for d in doms if d)),
@@ -152,6 +173,12 @@ def main() -> int:
         run["sites"][site] = {"domain": dom, "cited": cited,
                               "of": len(prompts), "prompts": rows}
         print(f"{site}: {cited}/{len(prompts)} מצוטטים")
+
+    # שער סופי: שום מחרוזת redirect לא יוצאת לקובץ, מאיזה שדה שלא תגיע.
+    blob = json.dumps(run, ensure_ascii=False)
+    for m in REDIRECT_MARKERS:
+        if m in blob:
+            die(f'מחרוזת "{m}" נמצאה בפלט. באג — לא נכתב דבר.')
 
     hist_p = OUT_DIR / "ai_visibility.json"
     hist = json.loads(hist_p.read_text(encoding="utf-8")) if hist_p.exists() else []
@@ -182,10 +209,16 @@ def main() -> int:
             lines.append(f"- {mark} **{r['prompt']}** — {r['total_sources']} מקורות")
             if r["our_urls"]:
                 lines.append(f"  - שלנו: {r['our_urls'][0][:90]}")
+            elif r["cited"]:
+                lines.append("  - שלנו: צוטט (ה-URL המדויק לא נפתר)")
             if r["competitors"]:
                 lines.append(f"  - מתחרים שצוטטו: {', '.join(r['competitors'])}")
         lines.append("")
-    (OUT_DIR / "ai_visibility.md").write_text("\n".join(lines), encoding="utf-8")
+    md = "\n".join(lines)
+    for m in REDIRECT_MARKERS:
+        if m in md:
+            die(f'מחרוזת "{m}" נמצאה ב-md. באג — לא נכתב דבר.')
+    (OUT_DIR / "ai_visibility.md").write_text(md, encoding="utf-8")
     print(f"נכתב: {OUT_DIR}/ai_visibility.json + ai_visibility.md")
     return 0
 
