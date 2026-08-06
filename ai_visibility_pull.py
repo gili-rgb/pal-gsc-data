@@ -84,6 +84,28 @@ def ask(prompt, key):
 
 REDIRECT_MARKERS = ("vertexaisearch", "grounding-api-redirect")
 
+# GitHub Push Protection חוסם כל מחרוזת שנראית כמו מפתח. מדידת ציטוטים
+# לא זקוקה לאף טוקן, ולכן הכלל הוא: שום רצף ארוך וחסר-רווחים לא נכתב.
+# AIza... = מפתח GCP קלאסי. הדפוס השני תופס טוקנים גנריים ב-URL.
+SECRET_PAT = re.compile(r"AIza[0-9A-Za-z_\-]{20,}|[A-Za-z0-9_\-]{32,}")
+
+
+def scrub(text):
+    """מחליף כל רצף שנראה כמו טוקן ב-[token]. שומר על קריאות הטקסט."""
+    return SECRET_PAT.sub("[token]", text) if text else text
+
+
+def safe_path(url):
+    """
+    שומר דומיין + נתיב בלבד, בלי query ובלי fragment, ורק אם אין בו טוקן.
+    למדידת ציטוט די בעמוד. פרמטרים הם המקור לכל התראות ה-push protection.
+    """
+    u = clean_url(url)
+    if not u:
+        return None
+    u = u.split("?")[0].split("#")[0]
+    return None if SECRET_PAT.search(u) else u
+
 
 def clean_url(u):
     """
@@ -121,7 +143,7 @@ def sources(resp):
             # "GCP API Key Bound to a Service Account", ו-GitHub Push Protection
             # חוסם את ה-push (נצפה 2026-08-06). אין בו סוד, אבל גם אין בו ערך:
             # הדומיין מודד את הציטוט, וה-URL הסופי מציין איזה עמוד.
-            out.append({"domain": dom, "url": resolve(uri)})
+            out.append({"domain": scrub(dom), "url": safe_path(resolve(uri))})
     return out
 
 
@@ -167,7 +189,7 @@ def main() -> int:
                 "competitors": comp,
                 "total_sources": len(srcs),
                 "all_domains": sorted(set(d for d in doms if d)),
-                "answer_excerpt": answer_text(resp)[:280],
+                "answer_excerpt": scrub(answer_text(resp))[:280],
             })
             time.sleep(2)
         run["sites"][site] = {"domain": dom, "cited": cited,
@@ -175,10 +197,19 @@ def main() -> int:
         print(f"{site}: {cited}/{len(prompts)} מצוטטים")
 
     # שער סופי: שום מחרוזת redirect לא יוצאת לקובץ, מאיזה שדה שלא תגיע.
-    blob = json.dumps(run, ensure_ascii=False)
-    for m in REDIRECT_MARKERS:
-        if m in blob:
-            die(f'מחרוזת "{m}" נמצאה בפלט. באג — לא נכתב דבר.')
+    # שער סופי על הפלט עצמו, לא על שדה בודד. מדווח מה נתפס, מצונזר.
+    def gate(text, label):
+        for m in REDIRECT_MARKERS:
+            if m in text:
+                die(f'"{m}" ב-{label}. באג — לא נכתב דבר.')
+        bad = SECRET_PAT.findall(text)
+        if bad:
+            for b in bad[:5]:
+                print(f"   נתפס ב-{label}: {b[:6]}…{b[-4:]} (אורך {len(b)})",
+                      file=sys.stderr)
+            die(f"{len(bad)} מחרוזות דמויות-טוקן ב-{label}. באג — לא נכתב דבר.")
+
+    gate(json.dumps(run, ensure_ascii=False), "json")
 
     hist_p = OUT_DIR / "ai_visibility.json"
     hist = json.loads(hist_p.read_text(encoding="utf-8")) if hist_p.exists() else []
@@ -215,9 +246,7 @@ def main() -> int:
                 lines.append(f"  - מתחרים שצוטטו: {', '.join(r['competitors'])}")
         lines.append("")
     md = "\n".join(lines)
-    for m in REDIRECT_MARKERS:
-        if m in md:
-            die(f'מחרוזת "{m}" נמצאה ב-md. באג — לא נכתב דבר.')
+    gate(md, "md")
     (OUT_DIR / "ai_visibility.md").write_text(md, encoding="utf-8")
     print(f"נכתב: {OUT_DIR}/ai_visibility.json + ai_visibility.md")
     return 0
