@@ -82,15 +82,25 @@ def main() -> int:
     svc = build("webmasters", "v3", credentials=creds, cache_discovery=False)
 
     props = svc.sites().list().execute().get("siteEntry", [])
+    # v1.1: הדפסת כל ה-properties. הגרסה הקודמת סיננה בשקט לפי alias, ולכן
+    # property של ערוץ יוטיוב (youtube.com/channel/UC...) נזרק בלי הודעה.
+    print(f"properties שה-service account רואה ({len(props)}):")
+    for e in props:
+        print(f"   {e.get('permissionLevel','?'):22s} {e['siteUrl']}")
     targets = {}
-    for s in props:
-        u = s["siteUrl"]
-        for alias in ("csb", "marom", "plrom"):
-            if alias in u:
-                targets[alias] = u
+    for e in props:
+        u = e["siteUrl"]
+        low = u.lower()
+        if "youtube.com" in low:
+            targets["yt_" + (u.rstrip("/").split("/")[-1] or "channel")] = u
+            continue
+        for a in ("csb", "marom", "plrom"):
+            if a in low:
+                targets[a] = u
     if not targets:
         print("שגיאה: לא נמצא אף property מתאים", file=sys.stderr)
         return 1
+    print("נמשכים: " + ", ".join(sorted(targets)) + "\n")
 
     end = dt.date.today()
     start = end - dt.timedelta(days=MONTHS * 30)
