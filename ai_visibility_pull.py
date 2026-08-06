@@ -1,0 +1,194 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+ai_visibility_pull.py — מדידת ציטוטים במנועי AI, אוטומטית.
+
+למה זה קיים: `ai-visibility-audit` הוא המדד היחיד שמודד את מטרת העל — נראות
+בציטוטי AI. ה-baseline מ-2026-07-08 נאסף ידנית ולא חזר על עצמו. מדד שנמדד
+פעם אחת אינו מדד.
+
+איך: Gemini עם כלי `google_search` מחזיר `groundingMetadata.groundingChunks`
+— רשימת המקורות שעליהם התשובה מבוססת. זה בדיוק "מי מצוטט".
+
+שני ממצאים טכניים שמעצבים את המימוש (אומתו 2026-08-06):
+  1. `web.uri` מחזיר redirect של vertexaisearch, לא את ה-URL האמיתי.
+  2. `web.title` מכיל את **הדומיין** (למשל "csb.co.il"). לשאלה "האם אנחנו
+     מצוטטים" זה בדיוק מה שצריך, ובלי לפתור אף redirect.
+המימוש מסתמך על הדומיין, ומנסה לפתוח את ה-redirect רק כדי לדעת איזה עמוד
+בדיוק צוטט. כשל בפתיחה אינו מפיל את המדידה.
+
+הרצה: GEMINI_API_KEY=... python3 ai_visibility_pull.py
+פלט: cats/ai_visibility.json (סדרה עתית) + cats/ai_visibility.md
+"""
+import json
+import os
+import re
+import sys
+import time
+import urllib.request
+from datetime import date
+from pathlib import Path
+
+OUT_DIR = Path(os.environ.get("LP_OUT_DIR", "cats"))
+MODEL = os.environ.get("AIV_MODEL", "gemini-2.5-flash")
+ENDPOINT = ("https://generativelanguage.googleapis.com/v1beta/models/"
+            f"{MODEL}:generateContent")
+
+OURS = {"csb": "csb.co.il", "marom": "marom-serv.co.il", "plrom": "plrom.co.il"}
+# ספקי לידים שמתחרים עלינו על אותן שאילתות. מדידת נוכחותם היא חצי מהתמונה.
+COMPETITORS = ["midrag.co.il", "pro.co.il", "b144.co.il", "zap.co.il"]
+
+# סט קבוע. אין לשנות בלי bump גרסה — עקביות היא תנאי למגמה.
+# מקור: ai-visibility-audit v1.1
+PROMPTS = {
+    "csb": [
+        "מי נותן שירות רשמי לבוש בישראל",
+        "תיקון מדיח כלים סימנס",
+        "חלקי חילוף מקוריים בוש",
+        "טכנאי מכונות כביסה בוש אזור המרכז",
+        "מדיח בוש מציג שגיאה E24 מה עושים",
+    ],
+    "marom": [
+        "מי נותן שירות רשמי לשארפ בישראל",
+        "מקרר שארפ מצב שבת איך מפעילים",
+        "תיקון מייבש כביסה בלומברג",
+        "חלקי חילוף האייר",
+        "שירות דלונגי תנורים בישראל",
+    ],
+    "plrom": [
+        "מי נותן שירות רשמי למילה בישראל",
+        "תיקון מקרר ליבהר",
+        "מכונת כביסה מילה לא שואבת מים",
+        "חלקי חילוף מילה מקוריים",
+        "שירות סאוטר בישראל",
+    ],
+}
+
+
+def die(msg):
+    print(f"❌ ai_visibility_pull נכשל: {msg}", file=sys.stderr)
+    sys.exit(1)
+
+
+def ask(prompt, key):
+    body = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "tools": [{"google_search": {}}],
+    }).encode()
+    req = urllib.request.Request(
+        ENDPOINT, data=body,
+        headers={"Content-Type": "application/json", "x-goog-api-key": key})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        return json.loads(r.read())
+
+
+def resolve(uri, timeout=10):
+    """פתיחת redirect של vertexaisearch. כשל אינו מפיל את המדידה."""
+    try:
+        req = urllib.request.Request(uri, method="HEAD",
+                                     headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.url
+    except Exception:
+        return None
+
+
+def sources(resp):
+    """דומיין + URL אמיתי לכל chunk."""
+    out = []
+    for c in (resp.get("candidates") or []):
+        gm = c.get("groundingMetadata") or {}
+        for ch in gm.get("groundingChunks") or []:
+            w = ch.get("web") or ch.get("retrievedContext") or {}
+            dom = (w.get("domain") or w.get("title") or "").strip().lower()
+            uri = w.get("uri", "")
+            out.append({"domain": dom, "redirect": uri, "url": resolve(uri)})
+    return out
+
+
+def answer_text(resp):
+    parts = []
+    for c in (resp.get("candidates") or []):
+        for p in (c.get("content") or {}).get("parts") or []:
+            if "text" in p:
+                parts.append(p["text"])
+    return "\n".join(parts)
+
+
+def main() -> int:
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        die("אין GEMINI_API_KEY")
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    run = {"date": str(date.today()), "model": MODEL, "engine": "gemini-grounding",
+           "sites": {}}
+    for site, prompts in PROMPTS.items():
+        dom = OURS[site]
+        rows, cited = [], 0
+        for q in prompts:
+            try:
+                resp = ask(q, key)
+            except Exception as e:
+                rows.append({"prompt": q, "error": str(e)[:120]})
+                continue
+            srcs = sources(resp)
+            doms = [s["domain"] for s in srcs]
+            hit = [s for s in srcs if dom in (s["domain"] or "")
+                   or (s["url"] and dom in s["url"])]
+            comp = sorted({d for d in doms for c in COMPETITORS if c in d})
+            if hit:
+                cited += 1
+            rows.append({
+                "prompt": q,
+                "cited": bool(hit),
+                "our_urls": [h["url"] or h["redirect"] for h in hit],
+                "competitors": comp,
+                "total_sources": len(srcs),
+                "all_domains": sorted(set(d for d in doms if d)),
+                "answer_excerpt": answer_text(resp)[:280],
+            })
+            time.sleep(2)
+        run["sites"][site] = {"domain": dom, "cited": cited,
+                              "of": len(prompts), "prompts": rows}
+        print(f"{site}: {cited}/{len(prompts)} מצוטטים")
+
+    hist_p = OUT_DIR / "ai_visibility.json"
+    hist = json.loads(hist_p.read_text(encoding="utf-8")) if hist_p.exists() else []
+    hist = [h for h in hist if h.get("date") != run["date"]] + [run]
+    hist.sort(key=lambda h: h["date"])
+    hist_p.write_text(json.dumps(hist, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    lines = ["# נראות בציטוטי AI — סדרה עתית", "",
+             "מקור: Gemini + google_search grounding (`ai_visibility_pull.py`, אוטומטי).",
+             "**סייג:** תשובת ה-API אינה זהה לתשובת הממשק. המדד עקבי ובר-השוואה",
+             "לאורך זמן, אך אינו \"מה שהמשתמש רואה בדפדפן\".", "",
+             "| תאריך | CSB | מרום | פלרום | סה\"כ |", "|---|---|---|---|---|"]
+    for h in hist:
+        c = [h["sites"].get(s, {}) for s in ("csb", "marom", "plrom")]
+        tot = sum(x.get("cited", 0) for x in c)
+        of = sum(x.get("of", 0) for x in c)
+        lines.append(f"| {h['date']} | " +
+                     " | ".join(f"{x.get('cited','?')}/{x.get('of','?')}" for x in c) +
+                     f" | **{tot}/{of}** |")
+    lines += ["", "---", "", f"## פירוט הרצת {run['date']}", ""]
+    for site, d in run["sites"].items():
+        lines += [f"### {site} ({d['cited']}/{d['of']})", ""]
+        for r in d["prompts"]:
+            if r.get("error"):
+                lines.append(f"- ⚠️ {r['prompt']} — שגיאה: {r['error']}")
+                continue
+            mark = "✅" if r["cited"] else "❌"
+            lines.append(f"- {mark} **{r['prompt']}** — {r['total_sources']} מקורות")
+            if r["our_urls"]:
+                lines.append(f"  - שלנו: {r['our_urls'][0][:90]}")
+            if r["competitors"]:
+                lines.append(f"  - מתחרים שצוטטו: {', '.join(r['competitors'])}")
+        lines.append("")
+    (OUT_DIR / "ai_visibility.md").write_text("\n".join(lines), encoding="utf-8")
+    print(f"נכתב: {OUT_DIR}/ai_visibility.json + ai_visibility.md")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
