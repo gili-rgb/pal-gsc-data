@@ -175,9 +175,13 @@ def answer_text(resp):
 
 
 def main() -> int:
-    key = os.environ.get("GEMINI_API_KEY")
+    # .strip() חובה: הדבקה לשדה secret ב-GitHub גוררת לעיתים \n בסוף,
+    # ואז urllib פוסל את ה-header וכל 15 הקריאות נכשלות (נצפה 2026-08-09).
+    key = (os.environ.get("GEMINI_API_KEY") or "").strip()
     if not key:
         die("אין GEMINI_API_KEY")
+    if len(key) < 20:
+        die(f"GEMINI_API_KEY קצר מדי ({len(key)} תווים) — כנראה הודבק חלקית")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     run = {"date": str(date.today()), "model": MODEL, "engine": "gemini-grounding",
@@ -189,7 +193,10 @@ def main() -> int:
             try:
                 resp = ask(q, key)
             except Exception as e:
-                rows.append({"prompt": q, "error": str(e)[:120]})
+                # הודעת שגיאה של urllib מכילה את ערך ה-header, כלומר את המפתח.
+                # זה מה שהפעיל את GitHub Push Protection שוב ושוב — בצדק.
+                msg = str(e).replace(key, "[API_KEY]")
+                rows.append({"prompt": q, "error": scrub(msg)[:120]})
                 continue
             srcs = sources(resp)
             doms = [s["domain"] for s in srcs]
