@@ -95,6 +95,24 @@ def scrub(text):
     return SECRET_PAT.sub("[token]", text) if text else text
 
 
+def scrub_deep(obj, path="$"):
+    """
+    ניקוי רקורסיבי על כל המבנה, בנקודה אחת לפני הכתיבה.
+    שלושה סבבים של ניקוי שדה-שדה נכשלו כי תמיד נשאר נתיב שלא חשבתי עליו.
+    מדווח את המיקום המדויק כדי שנדע מאיפה זה הגיע.
+    """
+    if isinstance(obj, str):
+        out = scrub(obj)
+        if out != obj:
+            print(f"   נוקה: {path}", file=sys.stderr)
+        return out
+    if isinstance(obj, list):
+        return [scrub_deep(v, f"{path}[{i}]") for i, v in enumerate(obj)]
+    if isinstance(obj, dict):
+        return {k: scrub_deep(v, f"{path}.{k}") for k, v in obj.items()}
+    return obj
+
+
 def safe_path(url):
     """
     שומר דומיין + נתיב בלבד, בלי query ובלי fragment, ורק אם אין בו טוקן.
@@ -204,11 +222,13 @@ def main() -> int:
                 die(f'"{m}" ב-{label}. באג — לא נכתב דבר.')
         bad = SECRET_PAT.findall(text)
         if bad:
-            for b in bad[:5]:
+            for b in sorted(set(bad))[:5]:
                 print(f"   נתפס ב-{label}: {b[:6]}…{b[-4:]} (אורך {len(b)})",
                       file=sys.stderr)
-            die(f"{len(bad)} מחרוזות דמויות-טוקן ב-{label}. באג — לא נכתב דבר.")
+            die(f"{len(bad)} מחרוזות דמויות-טוקן ב-{label} אחרי ניקוי מלא. "
+                f"זה באג אמיתי — לא נכתב דבר.")
 
+    run = scrub_deep(run)
     gate(json.dumps(run, ensure_ascii=False), "json")
 
     hist_p = OUT_DIR / "ai_visibility.json"
