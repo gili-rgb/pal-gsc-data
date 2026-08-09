@@ -74,6 +74,58 @@ def die(msg):
     sys.exit(1)
 
 
+def usable_models(key):
+    """
+    בוחר מודל מהרשימה החיה במקום לקדד שם קשיח.
+    לקח 2026-08-09: `gemini-2.5-flash` הוצא משימוש למשתמשים חדשים והחזיר
+    404, למרות שהוא עדיין מופיע ברשימת המודלים. שם מקודד מתיישן; רשימה לא.
+    """
+    req = urllib.request.Request(
+        "https://generativelanguage.googleapis.com/v1beta/models",
+        headers={"x-goog-api-key": key})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = json.loads(r.read())
+    names = [m["name"].split("/")[-1] for m in data.get("models", [])
+             if "generateContent" in (m.get("supportedGenerationMethods") or [])]
+
+    def bad(n):
+        return any(x in n for x in ("tts", "image", "embedding", "vision",
+                                    "preview", "exp", "thinking", "live"))
+
+    def rank(n):
+        ver = 2.5 if "2.5" in n else (2.0 if "2.0" in n else 1.0)
+        return (ver, "flash" in n, "lite" not in n, n.count("-") * -1)
+
+    cands = sorted((n for n in names if "flash" in n and not bad(n)),
+                   key=rank, reverse=True)
+    return cands or [n for n in names if not bad(n)]
+
+
+def probe(candidates, key):
+    """
+    בדיקת נסיון אחת בהתחלה. הרשימה החיה מכילה גם מודלים שהוצאו משימוש
+    (`gemini-2.5-flash` מופיע ומחזיר 404 "no longer available to new users").
+    עדיף לשלם קריאה אחת מראש מאשר 15 קריאות מבוזבזות אחת לכל פרומפט.
+    """
+    for m in candidates[:6]:
+        try:
+            body = json.dumps({"contents": [{"parts": [{"text": "היי"}]}]}).encode()
+            req = urllib.request.Request(
+                "https://generativelanguage.googleapis.com/v1beta/models/"
+                f"{m}:generateContent",
+                data=body, headers={"Content-Type": "application/json",
+                                    "x-goog-api-key": key})
+            urllib.request.urlopen(req, timeout=60).read()
+            return m
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                return m          # זמין, רק עמוס — לא פוסלים אותו
+            continue
+        except Exception:
+            continue
+    return None
+
+
 def _post(model, prompt, key):
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
@@ -250,15 +302,24 @@ def diagnose(key):
     def plain():
         body = json.dumps({"contents": [{"parts": [{"text": "היי"}]}]}).encode()
         req = urllib.request.Request(
-            f"https://generativelanguage.googleapis.com/v1beta/models/{MODELS[0]}:generateContent",
+            f"https://generativelanguage.googleapis.com/v1beta/models/{pick[0]}:generateContent",
             data=body, headers={"Content-Type": "application/json",
                                 "x-goog-api-key": key})
         urllib.request.urlopen(req, timeout=60).read()
 
     def grounded():
-        _post(MODELS[0], "מי נותן שירות רשמי לבוש בישראל", key)
+        _post(pick[0], "מי נותן שירות רשמי לבוש בישראל", key)
 
     print("=== אבחון Gemini API ===")
+    try:
+        cands = usable_models(key)
+        ok = probe(cands, key)
+        pick = ([ok] + [c for c in cands if c != ok]) if ok else cands
+        print(f"   מועמדים: {cands[:4]}")
+        print(f"   עבר בדיקת נסיון: {ok or 'אף אחד'}")
+    except Exception as e:
+        pick = MODELS
+        print(f"   בחירה אוטומטית נכשלה: {str(e)[:100]}")
     show("1. רשימת מודלים (תקפות המפתח)", list_models)
     show("2. קריאה רגילה, בלי grounding", plain)
     show("3. קריאה עם google_search grounding", grounded)
@@ -275,6 +336,22 @@ def main() -> int:
         die("אין GEMINI_API_KEY")
     if "--diagnose" in sys.argv or os.environ.get("AIV_DIAGNOSE"):
         return diagnose(key)
+
+    global MODELS
+    if not os.environ.get("AIV_MODELS"):
+        try:
+            live = usable_models(key)
+            chosen = probe(live, key) if live else None
+            if chosen:
+                MODELS = [chosen] + [m for m in live[:3] if m != chosen]
+                print(f"מודל שנבחר ואומת: {chosen}")
+            elif live:
+                MODELS = live[:3]
+                print(f"⚠️  אף מודל לא עבר בדיקת נסיון. מנסה: {MODELS}",
+                      file=sys.stderr)
+        except Exception as e:
+            print(f"⚠️  בחירת מודל אוטומטית נכשלה ({str(e)[:80]}), "
+                  f"נופל לברירת מחדל {MODELS}", file=sys.stderr)
     if len(key) < 20:
         die(f"GEMINI_API_KEY קצר מדי ({len(key)} תווים) — כנראה הודבק חלקית")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
