@@ -25,14 +25,17 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 from datetime import date
 from pathlib import Path
 
 OUT_DIR = Path(os.environ.get("LP_OUT_DIR", "cats"))
-MODEL = os.environ.get("AIV_MODEL", "gemini-2.5-flash")
-ENDPOINT = ("https://generativelanguage.googleapis.com/v1beta/models/"
-            f"{MODEL}:generateContent")
+# סדר ניסיון. 404 על מודל אחד עובר לבא בתור במקום להכשיל את המדידה.
+MODELS = [m.strip() for m in os.environ.get(
+    "AIV_MODELS", "gemini-2.5-flash,gemini-flash-latest,gemini-2.0-flash"
+).split(",") if m.strip()]
+MODEL = MODELS[0]
 
 OURS = {"csb": "csb.co.il", "marom": "marom-serv.co.il", "plrom": "plrom.co.il"}
 # ספקי לידים שמתחרים עלינו על אותן שאילתות. מדידת נוכחותם היא חצי מהתמונה.
@@ -70,16 +73,46 @@ def die(msg):
     sys.exit(1)
 
 
-def ask(prompt, key):
+def _post(model, prompt, key):
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "tools": [{"google_search": {}}],
     }).encode()
+    url = ("https://generativelanguage.googleapis.com/v1beta/models/"
+           f"{model}:generateContent")
     req = urllib.request.Request(
-        ENDPOINT, data=body,
+        url, data=body,
         headers={"Content-Type": "application/json", "x-goog-api-key": key})
     with urllib.request.urlopen(req, timeout=120) as r:
         return json.loads(r.read())
+
+
+def ask(prompt, key):
+    """
+    שני לקחים מ-2026-08-09:
+    1. גוף התשובה של גוגל מכיל את הסיבה האמיתית. שמירת קוד ה-HTTP בלבד
+       הסתירה אותה, בדיוק כמו שהטיפול בשגיאה הסתיר את כשל המפתח.
+    2. 429 במסלול החינמי הוא צפוי — נסיגה מדורגת, לא כשל.
+    """
+    last = None
+    for model in MODELS:
+        for attempt in range(4):
+            try:
+                return _post(model, prompt, key)
+            except urllib.error.HTTPError as e:
+                try:
+                    detail = json.loads(e.read()).get("error", {}).get("message", "")
+                except Exception:
+                    detail = ""
+                last = f"HTTP {e.code}: {detail[:150]}" if detail else f"HTTP {e.code}"
+                if e.code == 429:
+                    time.sleep(15 * (attempt + 1))
+                    continue
+                break          # 404 וכל השאר: מודל אחר, לא ניסיון חוזר
+            except Exception as e:
+                last = str(e)[:150]
+                break
+    raise RuntimeError(last or "כשל לא ידוע")
 
 
 REDIRECT_MARKERS = ("vertexaisearch", "grounding-api-redirect")
@@ -216,7 +249,7 @@ def main() -> int:
                 "all_domains": sorted(set(d for d in doms if d)),
                 "answer_excerpt": scrub(answer_text(resp))[:280],
             })
-            time.sleep(2)
+            time.sleep(8)   # מסלול חינמי — קצב נמוך מונע 429
         run["sites"][site] = {"domain": dom, "cited": cited,
                               "of": len(prompts), "prompts": rows}
         print(f"{site}: {cited}/{len(prompts)} מצוטטים")
