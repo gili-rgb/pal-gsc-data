@@ -11,23 +11,23 @@
     "prompts": [
      {
       "prompt": "מי נותן שירות רשמי לבוש בישראל",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 404: Not Found"
      },
      {
       "prompt": "תיקון מדיח כלים סימנס",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 404: Not Found"
      },
      {
       "prompt": "חלקי חילוף מקוריים בוש",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 404: Not Found"
      },
      {
       "prompt": "טכנאי מכונות כביסה בוש אזור המרכז",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 404: Not Found"
      },
      {
       "prompt": "מדיח בוש מציג שגיאה E24 מה עושים",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 404: Not Found"
      }
     ]
    },
@@ -38,23 +38,23 @@
     "prompts": [
      {
       "prompt": "מי נותן שירות רשמי לשארפ בישראל",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 404: Not Found"
      },
      {
       "prompt": "מקרר שארפ מצב שבת איך מפעילים",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 429: Too Many Requests"
      },
      {
       "prompt": "תיקון מייבש כביסה בלומברג",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 429: Too Many Requests"
      },
      {
       "prompt": "חלקי חילוף האייר",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 404: Not Found"
      },
      {
       "prompt": "שירות דלונגי תנורים בישראל",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 429: Too Many Requests"
      }
     ]
    },
@@ -65,23 +65,23 @@
     "prompts": [
      {
       "prompt": "מי נותן שירות רשמי למילה בישראל",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 429: Too Many Requests"
      },
      {
       "prompt": "תיקון מקרר ליבהר",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 429: Too Many Requests"
      },
      {
       "prompt": "מכונת כביסה מילה לא שואבת מים",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 404: Not Found"
      },
      {
       "prompt": "חלקי חילוף מילה מקוריים",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 429: Too Many Requests"
      },
      {
       "prompt": "שירות סאוטר בישראל",
-      "error": "Invalid header value b'AQ.[token]\\n'"
+      "error": "HTTP Error 429: Too Many Requests"
      }
     ]
    }

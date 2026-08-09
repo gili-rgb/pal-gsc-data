@@ -14,24 +14,24 @@
 
 ### csb (0/5)
 
-- ⚠️ מי נותן שירות רשמי לבוש בישראל — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ תיקון מדיח כלים סימנס — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ חלקי חילוף מקוריים בוש — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ טכנאי מכונות כביסה בוש אזור המרכז — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ מדיח בוש מציג שגיאה E24 מה עושים — שגיאה: Invalid header value b'AQ.[token]\n'
+- ⚠️ מי נותן שירות רשמי לבוש בישראל — שגיאה: HTTP Error 404: Not Found
+- ⚠️ תיקון מדיח כלים סימנס — שגיאה: HTTP Error 404: Not Found
+- ⚠️ חלקי חילוף מקוריים בוש — שגיאה: HTTP Error 404: Not Found
+- ⚠️ טכנאי מכונות כביסה בוש אזור המרכז — שגיאה: HTTP Error 404: Not Found
+- ⚠️ מדיח בוש מציג שגיאה E24 מה עושים — שגיאה: HTTP Error 404: Not Found
 
 ### marom (0/5)
 
-- ⚠️ מי נותן שירות רשמי לשארפ בישראל — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ מקרר שארפ מצב שבת איך מפעילים — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ תיקון מייבש כביסה בלומברג — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ חלקי חילוף האייר — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ שירות דלונגי תנורים בישראל — שגיאה: Invalid header value b'AQ.[token]\n'
+- ⚠️ מי נותן שירות רשמי לשארפ בישראל — שגיאה: HTTP Error 404: Not Found
+- ⚠️ מקרר שארפ מצב שבת איך מפעילים — שגיאה: HTTP Error 429: Too Many Requests
+- ⚠️ תיקון מייבש כביסה בלומברג — שגיאה: HTTP Error 429: Too Many Requests
+- ⚠️ חלקי חילוף האייר — שגיאה: HTTP Error 404: Not Found
+- ⚠️ שירות דלונגי תנורים בישראל — שגיאה: HTTP Error 429: Too Many Requests
 
 ### plrom (0/5)
 
-- ⚠️ מי נותן שירות רשמי למילה בישראל — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ תיקון מקרר ליבהר — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ מכונת כביסה מילה לא שואבת מים — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ חלקי חילוף מילה מקוריים — שגיאה: Invalid header value b'AQ.[token]\n'
-- ⚠️ שירות סאוטר בישראל — שגיאה: Invalid header value b'AQ.[token]\n'
+- ⚠️ מי נותן שירות רשמי למילה בישראל — שגיאה: HTTP Error 429: Too Many Requests
+- ⚠️ תיקון מקרר ליבהר — שגיאה: HTTP Error 429: Too Many Requests
+- ⚠️ מכונת כביסה מילה לא שואבת מים — שגיאה: HTTP Error 404: Not Found
+- ⚠️ חלקי חילוף מילה מקוריים — שגיאה: HTTP Error 429: Too Many Requests
+- ⚠️ שירות סאוטר בישראל — שגיאה: HTTP Error 429: Too Many Requests
