@@ -5,6 +5,12 @@ name: AI Visibility
 
 on:
   workflow_dispatch:
+    inputs:
+      diagnose:
+        description: "הרץ אבחון בלבד (ללא מדידה)"
+        type: choice
+        options: ["false", "true"]
+        default: "false"
   schedule:
     - cron: '0 5 1 * *'       # ה-1 בכל חודש, 05:00 UTC
 
@@ -32,16 +38,25 @@ jobs:
       - name: Install deps
         run: pip install --upgrade pip
 
+      - name: Diagnose (רק בהרצה ידנית עם diagnose=true)
+        if: inputs.diagnose == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python ai_visibility_pull.py --diagnose
+
       - name: Run AI visibility
+        if: inputs.diagnose != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LP_OUT_DIR: cats
         run: python ai_visibility_pull.py
 
       - name: Sanity check
+        if: inputs.diagnose != 'true'
         run: test -s cats/ai_visibility.md
 
       - name: Commit & push (עם rebase ו-retry)
+        if: inputs.diagnose != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
