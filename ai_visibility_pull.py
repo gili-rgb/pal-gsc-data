@@ -107,8 +107,8 @@ def probe(candidates, key):
     (`gemini-2.5-flash` מופיע ומחזיר 404 "no longer available to new users").
     עדיף לשלם קריאה אחת מראש מאשר 15 קריאות מבוזבזות אחת לכל פרומפט.
     """
-    busy = None
-    for m in candidates[:6]:
+    busy, report = None, []
+    for m in candidates[:8]:
         try:
             body = json.dumps({"contents": [{"parts": [{"text": "היי"}]}]}).encode()
             req = urllib.request.Request(
@@ -117,15 +117,21 @@ def probe(candidates, key):
                 data=body, headers={"Content-Type": "application/json",
                                     "x-goog-api-key": key})
             urllib.request.urlopen(req, timeout=60).read()
-            return m                      # 200 — הבחירה הוודאית
+            print(f"   ✅ {m}")
+            return m
         except urllib.error.HTTPError as e:
+            try:
+                msg = json.loads(e.read()).get("error", {}).get("message", "")
+            except Exception:
+                msg = ""
+            report.append(f"   ❌ {m} — HTTP {e.code}: {msg[:110]}")
             if e.code == 429 and busy is None:
-                # "זמין אבל עמוס" הוא ניחוש. 429 יכול להגיע גם ממודל מת.
-                # שומרים כמועמד אחרון בלבד וממשיכים לחפש מודל שבאמת עונה.
                 busy = m
-            continue
-        except Exception:
-            continue
+        except Exception as e:
+            report.append(f"   ❌ {m} — {str(e)[:110]}")
+    # דיווח מלא רק כשאין מנצח. בליעת הסיבה היא מה שהאריך כל סבב כאן.
+    for line in report:
+        print(line, file=sys.stderr)
     return busy
 
 
