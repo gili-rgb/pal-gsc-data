@@ -207,12 +207,74 @@ def answer_text(resp):
     return "\n".join(parts)
 
 
+def diagnose(key):
+    """
+    שלוש בדיקות שמפרידות בין הסיבות ל-429:
+      1. רשימת מודלים — האם המפתח בכלל תקף
+      2. קריאה רגילה בלי grounding — האם המכסה הכללית פתוחה
+      3. קריאה עם grounding — האם דווקא google_search חסום
+    מדפיס את גוף השגיאה המלא, כי שם יושבת הסיבה האמיתית.
+    """
+    def show(label, fn):
+        try:
+            fn()
+            print(f"✅ {label}")
+            return True
+        except urllib.error.HTTPError as e:
+            try:
+                body = json.loads(e.read())
+                msg = body.get("error", {}).get("message", "")
+                status = body.get("error", {}).get("status", "")
+                details = json.dumps(body.get("error", {}).get("details", []),
+                                     ensure_ascii=False)[:400]
+            except Exception:
+                msg = status = details = ""
+            print(f"❌ {label} — HTTP {e.code} {status}")
+            print(f"   {msg[:300]}")
+            if details and details != "[]":
+                print(f"   details: {details}")
+        except Exception as e:
+            print(f"❌ {label} — {str(e)[:200]}")
+        return False
+
+    def list_models():
+        req = urllib.request.Request(
+            "https://generativelanguage.googleapis.com/v1beta/models",
+            headers={"x-goog-api-key": key})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            d = json.loads(r.read())
+        names = [m["name"].split("/")[-1] for m in d.get("models", [])]
+        print(f"   מודלים זמינים: {len(names)}")
+        print(f"   רלוונטיים: {[n for n in names if 'flash' in n][:6]}")
+
+    def plain():
+        body = json.dumps({"contents": [{"parts": [{"text": "היי"}]}]}).encode()
+        req = urllib.request.Request(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{MODELS[0]}:generateContent",
+            data=body, headers={"Content-Type": "application/json",
+                                "x-goog-api-key": key})
+        urllib.request.urlopen(req, timeout=60).read()
+
+    def grounded():
+        _post(MODELS[0], "מי נותן שירות רשמי לבוש בישראל", key)
+
+    print("=== אבחון Gemini API ===")
+    show("1. רשימת מודלים (תקפות המפתח)", list_models)
+    show("2. קריאה רגילה, בלי grounding", plain)
+    show("3. קריאה עם google_search grounding", grounded)
+    print("\nפירוש: 1 נכשל = מפתח לא תקף. 2 עובד ו-3 נכשל = grounding חסום")
+    print("        בפרויקט הזה. שניהם נכשלים = המכסה של הפרויקט אפס.")
+    return 0
+
+
 def main() -> int:
     # .strip() חובה: הדבקה לשדה secret ב-GitHub גוררת לעיתים \n בסוף,
     # ואז urllib פוסל את ה-header וכל 15 הקריאות נכשלות (נצפה 2026-08-09).
     key = (os.environ.get("GEMINI_API_KEY") or "").strip()
     if not key:
         die("אין GEMINI_API_KEY")
+    if "--diagnose" in sys.argv or os.environ.get("AIV_DIAGNOSE"):
+        return diagnose(key)
     if len(key) < 20:
         die(f"GEMINI_API_KEY קצר מדי ({len(key)} תווים) — כנראה הודבק חלקית")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -239,7 +301,7 @@ def main() -> int:
                 # הודעת שגיאה של urllib מכילה את ערך ה-header, כלומר את המפתח.
                 # זה מה שהפעיל את GitHub Push Protection שוב ושוב — בצדק.
                 msg = str(e).replace(key, "[API_KEY]")
-                rows.append({"prompt": q, "error": scrub(msg)[:120]})
+                rows.append({"prompt": q, "error": scrub(msg)[:400]})
                 continue
             srcs = sources(resp)
             doms = [s["domain"] for s in srcs]
