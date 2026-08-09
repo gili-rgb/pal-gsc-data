@@ -11,23 +11,23 @@
     "prompts": [
      {
       "prompt": "מי נותן שירות רשמי לבוש בישראל",
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google."
      },
      {
       "prompt": "תיקון מדיח כלים סימנס",
-      "error": "HTTP Error 404: Not Found"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "חלקי חילוף מקוריים בוש",
-      "error": "HTTP Error 404: Not Found"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "טכנאי מכונות כביסה בוש אזור המרכז",
-      "error": "HTTP Error 404: Not Found"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "מדיח בוש מציג שגיאה E24 מה עושים",
-      "error": "HTTP Error 404: Not Found"
+      "error": "דולג — מכסה נגמרה"
      }
     ]
    },
@@ -38,23 +38,23 @@
     "prompts": [
      {
       "prompt": "מי נותן שירות רשמי לשארפ בישראל",
-      "error": "HTTP Error 404: Not Found"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "מקרר שארפ מצב שבת איך מפעילים",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "תיקון מייבש כביסה בלומברג",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "חלקי חילוף האייר",
-      "error": "HTTP Error 404: Not Found"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "שירות דלונגי תנורים בישראל",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "דולג — מכסה נגמרה"
      }
     ]
    },
@@ -65,23 +65,23 @@
     "prompts": [
      {
       "prompt": "מי נותן שירות רשמי למילה בישראל",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "תיקון מקרר ליבהר",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "מכונת כביסה מילה לא שואבת מים",
-      "error": "HTTP Error 404: Not Found"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "חלקי חילוף מילה מקוריים",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "דולג — מכסה נגמרה"
      },
      {
       "prompt": "שירות סאוטר בישראל",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "דולג — מכסה נגמרה"
      }
     ]
    }
