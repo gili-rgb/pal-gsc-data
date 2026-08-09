@@ -107,6 +107,7 @@ def probe(candidates, key):
     (`gemini-2.5-flash` מופיע ומחזיר 404 "no longer available to new users").
     עדיף לשלם קריאה אחת מראש מאשר 15 קריאות מבוזבזות אחת לכל פרומפט.
     """
+    busy = None
     for m in candidates[:6]:
         try:
             body = json.dumps({"contents": [{"parts": [{"text": "היי"}]}]}).encode()
@@ -116,14 +117,16 @@ def probe(candidates, key):
                 data=body, headers={"Content-Type": "application/json",
                                     "x-goog-api-key": key})
             urllib.request.urlopen(req, timeout=60).read()
-            return m
+            return m                      # 200 — הבחירה הוודאית
         except urllib.error.HTTPError as e:
-            if e.code == 429:
-                return m          # זמין, רק עמוס — לא פוסלים אותו
+            if e.code == 429 and busy is None:
+                # "זמין אבל עמוס" הוא ניחוש. 429 יכול להגיע גם ממודל מת.
+                # שומרים כמועמד אחרון בלבד וממשיכים לחפש מודל שבאמת עונה.
+                busy = m
             continue
         except Exception:
             continue
-    return None
+    return busy
 
 
 def _post(model, prompt, key):
