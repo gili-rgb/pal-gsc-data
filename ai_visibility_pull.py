@@ -225,7 +225,7 @@ def ask(prompt, key):
     raise RuntimeError(last or "כשל לא ידוע")
 
 
-def resolve(uri, timeout=10):
+def resolve(uri, timeout=5):
     """פתיחת redirect. כשל אינו מפיל את המדידה — הדומיין מספיק למדידה."""
     try:
         req = urllib.request.Request(uri, method="GET",
@@ -236,8 +236,13 @@ def resolve(uri, timeout=10):
         return None
 
 
-def sources(resp):
-    """דומיין + URL אמיתי לכל chunk."""
+def sources(resp, our_domain=None):
+    """
+    דומיין לכל chunk. פתיחת redirect רק לדומיין שלנו.
+    לקח 2026-08-09: פתיחת redirect לכל מקור הפכה 15 פרומפטים ל-8+ דקות —
+    תשובה עם grounding מחזירה 10-30 מקורות, וכל אחד היה בקשת רשת נפרדת.
+    ה-URL של מתחרה אינו נחוץ; הדומיין שלו מספיק למדידה.
+    """
     out = []
     for c in (resp.get("candidates") or []):
         gm = c.get("groundingMetadata") or {}
@@ -249,7 +254,10 @@ def sources(resp):
             # "GCP API Key Bound to a Service Account", ו-GitHub Push Protection
             # חוסם את ה-push (נצפה 2026-08-06). אין בו סוד, אבל גם אין בו ערך:
             # הדומיין מודד את הציטוט, וה-URL הסופי מציין איזה עמוד.
-            out.append({"domain": scrub(dom), "url": safe_path(resolve(uri))})
+            d = scrub(dom)
+            mine = our_domain and our_domain in (d or "")
+            out.append({"domain": d,
+                        "url": safe_path(resolve(uri)) if mine else None})
     return out
 
 
@@ -370,6 +378,11 @@ def main() -> int:
             if quota_hit:
                 rows.append({"prompt": q, "error": "דולג — מכסה נגמרה"})
                 continue
+            if time.time() - t0 > MAX_SECONDS:
+                quota_hit = True
+                print(f"⏱️  תקציב זמן ({MAX_SECONDS}s) נגמר — עוצר", file=sys.stderr)
+                rows.append({"prompt": q, "error": "דולג — תקציב זמן"})
+                continue
             try:
                 resp = ask(q, key)
             except QuotaExceeded as e:
@@ -383,7 +396,7 @@ def main() -> int:
                 msg = str(e).replace(key, "[API_KEY]")
                 rows.append({"prompt": q, "error": scrub(msg)[:400]})
                 continue
-            srcs = sources(resp)
+            srcs = sources(resp, dom)
             doms = [s["domain"] for s in srcs]
             hit = [s for s in srcs if dom in (s["domain"] or "")
                    or (s["url"] and dom in s["url"])]
@@ -401,11 +414,7 @@ def main() -> int:
                 "all_domains": sorted(set(d for d in doms if d)),
                 "answer_excerpt": scrub(answer_text(resp))[:280],
             })
-            if time.time() - t0 > MAX_SECONDS:
-                quota_hit = True
-                print(f"⏱️  תקציב זמן ({MAX_SECONDS}s) נגמר — עוצר", file=sys.stderr)
-                continue
-            time.sleep(6)
+            time.sleep(4)
         run["sites"][site] = {"domain": dom, "cited": cited,
                               "of": len(prompts), "prompts": rows}
         print(f"{site}: {cited}/{len(prompts)} מצוטטים")
