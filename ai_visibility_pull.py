@@ -36,6 +36,7 @@ MODELS = [m.strip() for m in os.environ.get(
     "AIV_MODELS", "gemini-2.5-flash,gemini-flash-latest,gemini-2.0-flash"
 ).split(",") if m.strip()]
 MODEL = MODELS[0]
+MAX_SECONDS = int(os.environ.get("AIV_MAX_SECONDS", "420"))  # תקציב זמן גלובלי
 
 OURS = {"csb": "csb.co.il", "marom": "marom-serv.co.il", "plrom": "plrom.co.il"}
 # ספקי לידים שמתחרים עלינו על אותן שאילתות. מדידת נוכחותם היא חצי מהתמונה.
@@ -87,39 +88,10 @@ def _post(model, prompt, key):
         return json.loads(r.read())
 
 
-def ask(prompt, key):
-    """
-    שני לקחים מ-2026-08-09:
-    1. גוף התשובה של גוגל מכיל את הסיבה האמיתית. שמירת קוד ה-HTTP בלבד
-       הסתירה אותה, בדיוק כמו שהטיפול בשגיאה הסתיר את כשל המפתח.
-    2. 429 במסלול החינמי הוא צפוי — נסיגה מדורגת, לא כשל.
-    """
-    last = None
-    for model in MODELS:
-        for attempt in range(4):
-            try:
-                return _post(model, prompt, key)
-            except urllib.error.HTTPError as e:
-                try:
-                    detail = json.loads(e.read()).get("error", {}).get("message", "")
-                except Exception:
-                    detail = ""
-                last = f"HTTP {e.code}: {detail[:150]}" if detail else f"HTTP {e.code}"
-                if e.code == 429:
-                    time.sleep(15 * (attempt + 1))
-                    continue
-                break          # 404 וכל השאר: מודל אחר, לא ניסיון חוזר
-            except Exception as e:
-                last = str(e)[:150]
-                break
-    raise RuntimeError(last or "כשל לא ידוע")
-
-
 REDIRECT_MARKERS = ("vertexaisearch", "grounding-api-redirect")
 
 # GitHub Push Protection חוסם כל מחרוזת שנראית כמו מפתח. מדידת ציטוטים
-# לא זקוקה לאף טוקן, ולכן הכלל הוא: שום רצף ארוך וחסר-רווחים לא נכתב.
-# AIza... = מפתח GCP קלאסי. הדפוס השני תופס טוקנים גנריים ב-URL.
+# לא זקוקה לאף טוקן, ולכן הכלל: שום רצף ארוך וחסר-רווחים לא נכתב.
 SECRET_PAT = re.compile(r"AIza[0-9A-Za-z_\-]{20,}|[A-Za-z0-9_\-]{32,}")
 
 
@@ -131,8 +103,7 @@ def scrub(text):
 def scrub_deep(obj, path="$"):
     """
     ניקוי רקורסיבי על כל המבנה, בנקודה אחת לפני הכתיבה.
-    שלושה סבבים של ניקוי שדה-שדה נכשלו כי תמיד נשאר נתיב שלא חשבתי עליו.
-    מדווח את המיקום המדויק כדי שנדע מאיפה זה הגיע.
+    ניקוי שדה-שדה נכשל שלוש פעמים כי תמיד נשאר נתיב שלא חשבתי עליו.
     """
     if isinstance(obj, str):
         out = scrub(obj)
@@ -146,11 +117,15 @@ def scrub_deep(obj, path="$"):
     return obj
 
 
+def clean_url(u):
+    """URL של vertexaisearch לעולם לא נשמר — הטוקן שבו מזוהה כמפתח GCP."""
+    if not u or any(m in u for m in REDIRECT_MARKERS):
+        return None
+    return u
+
+
 def safe_path(url):
-    """
-    שומר דומיין + נתיב בלבד, בלי query ובלי fragment, ורק אם אין בו טוקן.
-    למדידת ציטוט די בעמוד. פרמטרים הם המקור לכל התראות ה-push protection.
-    """
+    """דומיין + נתיב בלבד, בלי query, ורק אם לא נשאר בו טוקן."""
     u = clean_url(url)
     if not u:
         return None
@@ -158,16 +133,41 @@ def safe_path(url):
     return None if SECRET_PAT.search(u) else u
 
 
-def clean_url(u):
+class QuotaExceeded(Exception):
+    """מכסה היא מצב פרויקט, לא מצב פרומפט. אין טעם להמשיך."""
+
+
+def ask(prompt, key):
     """
-    URL של vertexaisearch לעולם לא נשמר. הטוקן שבו מזוהה כ-
-    "GCP API Key Bound to a Service Account" ו-GitHub חוסם את ה-push.
-    זה לא רק שדה `redirect`: כש-HEAD אינו עוקב, `r.url` מחזיר את אותה
-    כתובת עצמה, והיא נכנסת דרך שדה `url` (נצפה 2026-08-06).
+    לקח 2026-08-09: הכפלתי נסיגה (4 ניסיונות) במודלים (3) בלי לחשב את
+    המכפלה — עד 67 דקות ל-15 פרומפטים. הריצה בוטלה אחרי 15 דקות.
+
+    התיקון הוא ארכיטקטוני ולא פרמטרי:
+      • 429 הוא מכסה ברמת הפרויקט. מעבר למודל אחר לא עוזר — עוצרים מיד.
+      • ניסיון חוזר יחיד על 429, ורק אחרי המתנה קצרה.
+      • 404 עובר למודל הבא, בלי נסיגה. זה מצב "מודל לא קיים", לא עומס.
     """
-    if not u or any(m in u for m in REDIRECT_MARKERS):
-        return None
-    return u
+    last = None
+    for model in MODELS:
+        for attempt in range(2):
+            try:
+                return _post(model, prompt, key)
+            except urllib.error.HTTPError as e:
+                try:
+                    detail = json.loads(e.read()).get("error", {}).get("message", "")
+                except Exception:
+                    detail = ""
+                last = f"HTTP {e.code}: {detail[:150]}" if detail else f"HTTP {e.code}"
+                if e.code == 429:
+                    if attempt == 0:
+                        time.sleep(20)
+                        continue
+                    raise QuotaExceeded(last)
+                break          # 404 וכל השאר: למודל הבא
+            except Exception as e:
+                last = str(e)[:150]
+                break
+    raise RuntimeError(last or "כשל לא ידוע")
 
 
 def resolve(uri, timeout=10):
@@ -219,12 +219,22 @@ def main() -> int:
 
     run = {"date": str(date.today()), "model": MODEL, "engine": "gemini-grounding",
            "sites": {}}
+    quota_hit = False
+    t0 = time.time()
     for site, prompts in PROMPTS.items():
         dom = OURS[site]
         rows, cited = [], 0
         for q in prompts:
+            if quota_hit:
+                rows.append({"prompt": q, "error": "דולג — מכסה נגמרה"})
+                continue
             try:
                 resp = ask(q, key)
+            except QuotaExceeded as e:
+                quota_hit = True
+                print(f"⛔ מכסה נגמרה: {e}", file=sys.stderr)
+                rows.append({"prompt": q, "error": str(e)[:150]})
+                continue
             except Exception as e:
                 # הודעת שגיאה של urllib מכילה את ערך ה-header, כלומר את המפתח.
                 # זה מה שהפעיל את GitHub Push Protection שוב ושוב — בצדק.
@@ -249,7 +259,11 @@ def main() -> int:
                 "all_domains": sorted(set(d for d in doms if d)),
                 "answer_excerpt": scrub(answer_text(resp))[:280],
             })
-            time.sleep(8)   # מסלול חינמי — קצב נמוך מונע 429
+            if time.time() - t0 > MAX_SECONDS:
+                quota_hit = True
+                print(f"⏱️  תקציב זמן ({MAX_SECONDS}s) נגמר — עוצר", file=sys.stderr)
+                continue
+            time.sleep(6)
         run["sites"][site] = {"domain": dom, "cited": cited,
                               "of": len(prompts), "prompts": rows}
         print(f"{site}: {cited}/{len(prompts)} מצוטטים")
