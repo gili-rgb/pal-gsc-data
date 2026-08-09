@@ -1,0 +1,90 @@
+[
+ {
+  "date": "2026-08-09",
+  "model": "gemini-2.5-flash",
+  "engine": "gemini-grounding",
+  "sites": {
+   "csb": {
+    "domain": "csb.co.il",
+    "cited": 0,
+    "of": 5,
+    "prompts": [
+     {
+      "prompt": "מי נותן שירות רשמי לבוש בישראל",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "תיקון מדיח כלים סימנס",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "חלקי חילוף מקוריים בוש",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "טכנאי מכונות כביסה בוש אזור המרכז",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "מדיח בוש מציג שגיאה E24 מה עושים",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     }
+    ]
+   },
+   "marom": {
+    "domain": "marom-serv.co.il",
+    "cited": 0,
+    "of": 5,
+    "prompts": [
+     {
+      "prompt": "מי נותן שירות רשמי לשארפ בישראל",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "מקרר שארפ מצב שבת איך מפעילים",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "תיקון מייבש כביסה בלומברג",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "חלקי חילוף האייר",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "שירות דלונגי תנורים בישראל",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     }
+    ]
+   },
+   "plrom": {
+    "domain": "plrom.co.il",
+    "cited": 0,
+    "of": 5,
+    "prompts": [
+     {
+      "prompt": "מי נותן שירות רשמי למילה בישראל",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "תיקון מקרר ליבהר",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "מכונת כביסה מילה לא שואבת מים",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "חלקי חילוף מילה מקוריים",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     },
+     {
+      "prompt": "שירות סאוטר בישראל",
+      "error": "Invalid header value b'AQ.[token]\\n'"
+     }
+    ]
+   }
+  }
+ }
+]
