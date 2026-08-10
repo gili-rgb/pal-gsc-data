@@ -112,19 +112,27 @@ def main() -> int:
             print(f"⚠️  {alias}: {str(e)[:160]}", file=sys.stderr)
             continue
 
-        # מסלולי כניסה → יעד, כדי לדעת לאן מגיעים מהמאמר
-        try:
-            paths = run_report(
-                svc, prop, ["landingPage", "pagePath"], ["sessions"],
-                start, end, limit=50000)
-        except Exception:
-            paths = []
-
+        # v1.1: הצלבת landingPage מול pagePath ספרה נחיתות ולא מסלולים —
+        # דף הבית הוא עמוד הנחיתה הנפוץ, ולכן הוא קיבל את כל ה"המרות"
+        # ושאר 1,786 העמודים קיבלו אפס (נצפה 2026-08-10).
+        #
+        # המדד הנכון לעמוד תוכן הוא **יציאה החוצה**: כמה מהמבקרים לא
+        # עזבו מיד. GA4 נותן את זה ישירות דרך bounceRate — עמוד עם
+        # מעורבות גבוהה ונטישה נמוכה מזין את שאר האתר.
+        # מסלול מדויק דורש exploration או event ייעודי, ואינו זמין
+        # ב-runReport בלי הגדרת conversion event בממשק.
         onward = {}
-        for r in paths:
-            lp, pp = r.get("landingPage", ""), r.get("pagePath", "")
-            if lp and pp and lp != pp and is_conversion(pp):
-                onward[lp] = onward.get(lp, 0) + r.get("sessions", 0)
+        try:
+            evs = run_report(svc, prop, ["pagePath", "eventName"],
+                             ["eventCount"], start, end, limit=50000)
+            for r in evs:
+                ev = r.get("eventName", "")
+                if ev in ("generate_lead", "contact", "click_to_call",
+                          "form_submit", "purchase", "add_to_cart"):
+                    pth = r.get("pagePath", "")
+                    onward[pth] = onward.get(pth, 0) + r.get("eventCount", 0)
+        except Exception as e:
+            print(f"   (אירועי המרה לא זמינים: {str(e)[:70]})", file=sys.stderr)
 
         rows = []
         for p in pages:
@@ -142,27 +150,36 @@ def main() -> int:
                 "engagement_rate": eng,
                 "avg_seconds": round(secs / users, 1),
                 "bounce_rate": round(p.get("bounceRate", 0) * 100, 1),
-                "onward_to_conversion": onward.get(path, 0),
+                "conversion_events": onward.get(path, 0),
+                # פרוקסי להזנת האתר: מעורבות גבוהה ונטישה נמוכה.
+                # אינו המרה, אבל הוא המדד הטוב ביותר שזמין בלי הגדרת
+                # conversion events ב-GA4.
+                "feeds_site": round(eng * (1 - p.get("bounceRate", 0)), 1),
             })
         rows.sort(key=lambda r: -r["views"])
         all_data[alias] = {"property": prop, "days": DAYS, "pages": rows}
 
-        weak = [r for r in rows if r["views"] >= 50 and r["onward_to_conversion"] == 0]
-        print(f"{alias}: {len(rows)} עמודים | "
-              f"{len(weak)} עם תנועה ואפס המשך להמרה")
+        # עמוד שמביא תנועה ולא מזין את האתר: הרבה צפיות, מדד הזנה נמוך.
+        weak = [r for r in rows if r["views"] >= 100 and r["feeds_site"] < 25]
+        weak.sort(key=lambda r: -r["views"])
+        ev_total = sum(r["conversion_events"] for r in rows)
+        print(f"{alias}: {len(rows)} עמודים | {len(weak)} עם תנועה שלא מזינים "
+              f"את האתר | אירועי המרה: {ev_total}")
 
         lines += [f"## {alias} ({len(rows)} עמודים)", "",
-                  "| עמוד | צפיות | מעורבות | זמן ממוצע | המשך להמרה |",
-                  "|---|---|---|---|---|"]
+                  "| עמוד | צפיות | מעורבות | זמן | נטישה | מזין אתר | אירועים |",
+                  "|---|---|---|---|---|---|---|"]
         for r in rows[:40]:
-            lines.append(f"| {r['path'][:52]} | {r['views']} | {r['engagement_rate']}% | "
-                         f"{r['avg_seconds']}ש | {r['onward_to_conversion']} |")
+            lines.append(f"| {r['path'][:46]} | {r['views']} | {r['engagement_rate']}% | "
+                         f"{r['avg_seconds']}ש | {r['bounce_rate']}% | "
+                         f"{r['feeds_site']} | {r['conversion_events']} |")
         lines.append("")
         if weak:
-            lines += [f"**{len(weak)} עמודים עם 50+ צפיות ואפס המשך לעמוד המרה:**", ""]
-            for r in weak[:15]:
-                lines.append(f"- `{r['path'][:60]}` — {r['views']} צפיות, "
-                             f"מעורבות {r['engagement_rate']}%")
+            lines += [f"**{len(weak)} עמודים עם 100+ צפיות שלא מזינים את האתר** "
+                      "(מדד הזנה מתחת ל-25). אלה מועמדי Refresh לפי המרה:", ""]
+            for r in weak[:20]:
+                lines.append(f"- `{r['path'][:58]}` — {r['views']} צפיות, "
+                             f"מעורבות {r['engagement_rate']}%, נטישה {r['bounce_rate']}%")
             lines.append("")
 
     if not all_data:
