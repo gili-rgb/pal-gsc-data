@@ -1,0 +1,68 @@
+name: GA4 Performance
+
+# נתוני התנהגות והמרה לכל עמוד מ-GA4. משלים את GSC: היא עוצרת בלחיצה,
+# זה מראה מה קרה אחריה. דורש הרשאת Viewer ל-service account ב-GA4.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 7 * * 1'       # ה-1 בכל חודש, 05:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ga-pull
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0        # נדרש ל-rebase מול main
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install google-api-python-client google-auth httplib2
+
+      - name: Run GA pull
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+          LP_OUT_DIR: cats
+        run: python ga_pull.py
+
+      - name: Sanity check
+        run: test -s cats/ga_performance.md
+
+      - name: Commit & push (עם rebase ו-retry)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git add cats/ga_performance.md cats/*_ga.json
+          git diff --staged --quiet && echo "אין שינוי" && exit 0
+          git commit -m "GA4 performance (automated) $(date -u +%Y-%m-%d)"
+          # הריצה נמשכת דקות, ובינתיים יכול להיכנס commit אחר ל-main.
+          # בלי rebase ה-push נדחה וכל התוצאה נזרקת (נצפה 2026-08-06).
+          for i in 1 2 3 4 5; do
+            if git push 2>/tmp/pusherr; then echo "נדחף בניסיון $i"; exit 0; fi
+            cat /tmp/pusherr
+            # rebase פותר רק התנגשות ("fetch first"). כלל ענף, הגנת סודות
+            # או הרשאה חסרה אינם ברי-תיקון בלולאה — ניסיון חוזר רק מבלבל.
+            if grep -qi "rule violation\|protected branch\|push protection\|permission to" /tmp/pusherr; then
+              echo "::error::ה-push נדחה מסיבה שאינה התנגשות. בדוק Settings → Rules"
+              exit 1
+            fi
+            echo "push נדחה על התנגשות, מבצע rebase (ניסיון $i)"
+            git pull --rebase --autostash origin main || exit 1
+            sleep $((i * 5))
+          done
+          echo "::error::push נכשל אחרי 5 ניסיונות"
+          exit 1
