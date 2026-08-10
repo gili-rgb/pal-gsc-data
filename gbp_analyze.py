@@ -21,7 +21,6 @@ GBP API דורש אישור ידני מגוגל שלוקח ימים עד שבו�
 הסקריפט מזהה את מבנה הקובץ לבד, כי גוגל משנה כותרות בין גרסאות ובין שפות.
 """
 import argparse
-import csv
 import json
 import re
 import sys
@@ -44,76 +43,68 @@ FIELD_MAP = {
 }
 
 
-def detect(header):
-    """זיהוי אילו עמודות קיימות ומה כל אחת מייצגת."""
-    found = {}
-    for i, col in enumerate(header):
-        low = (col or "").strip().lower()
-        if not low:
-            continue
-        for key, words in FIELD_MAP.items():
-            if any(w in low for w in words) and key not in found:
-                found[key] = i
-                break
-    date_idx = next((i for i, c in enumerate(header)
-                     if any(w in (c or "").lower() for w in ("date", "תאריך", "יום"))), 0)
-    return found, date_idx
+# פורמט הייצוא בפועל (אומת 2026-08-10): שורה אחת לפרופיל, 16 עמודות,
+# שתי שורות כותרת. גוגל הסירה את כפתור ה-CSV מהממשק החדש; הייצוא
+# הזמין הוא xlsx מ-Business Profile Manager.
+COLS = {
+    "store_code": "Store code",
+    "name": "Business name",
+    "address": "Address",
+    "search_mobile": "Google Search - Mobile",
+    "search_desktop": "Google Search - Desktop",
+    "maps_mobile": "Google Maps - Mobile",
+    "maps_desktop": "Google Maps - Desktop",
+    "calls": "Calls",
+    "messages": "Messages",
+    "bookings": "Bookings",
+    "directions": "Directions",
+    "website": "Website clicks",
+}
 
 
 def num(v):
-    if v is None:
-        return 0
-    s = re.sub(r"[^\d.]", "", str(v))
     try:
-        return float(s) if "." in s else int(s or 0)
-    except ValueError:
+        return int(float(v))
+    except (TypeError, ValueError):
         return 0
 
 
 def parse_file(path):
-    """מחזיר (meta, סכומים, סדרה יומית)."""
-    # gbp_csb_lod → site=csb, branch=lod. הרגקס הקודם היה חמדן
-    # ובלע את הסניף לתוך שם האתר (csb_lod כאתר).
-    name = path.stem.lower()
-    parts = [p for p in re.split(r"[_\-\s]+", name) if p and p != "gbp"]
-    known = {"csb", "marom", "plrom"}
-    site = next((p for p in parts if p in known), parts[0] if parts else "unknown")
-    rest = [p for p in parts if p != site]
-    branch = " ".join(rest) if rest else "main"
+    """מחזיר רשומה לכל שורת פרופיל בקובץ."""
+    import openpyxl
+    wb = openpyxl.load_workbook(path, data_only=True)
+    ws = wb[wb.sheetnames[0]]
+    rows = list(ws.iter_rows(values_only=True))
+    if len(rows) < 3:
+        return []
+    header = [str(c).strip() if c else "" for c in rows[0]]
+    idx = {k: header.index(v) for k, v in COLS.items() if v in header}
+    if "calls" not in idx:
+        return []
 
-    rows = []
-    with open(path, encoding="utf-8-sig", newline="") as f:
-        sample = f.read(4096)
-        f.seek(0)
-        delim = ";" if sample.count(";") > sample.count(",") else ","
-        rows = list(csv.reader(f, delimiter=delim))
-    rows = [r for r in rows if any((c or "").strip() for c in r)]
-    if len(rows) < 2:
-        return None
-
-    # שורת הכותרת אינה תמיד הראשונה — גוגל מוסיפה שורות מטא למעלה
-    hdr_i, fields, date_idx = 0, {}, 0
-    for i, r in enumerate(rows[:8]):
-        f_, d_ = detect(r)
-        if len(f_) > len(fields):
-            hdr_i, fields, date_idx = i, f_, d_
-    if not fields:
-        return None
-
-    totals = defaultdict(int)
-    daily = []
-    for r in rows[hdr_i + 1:]:
-        if len(r) <= max(fields.values()):
+    out = []
+    for r in rows[1:]:
+        if not r or not any(r):
             continue
-        day = {"date": (r[date_idx] or "").strip()}
-        for k, idx in fields.items():
-            v = num(r[idx])
-            totals[k] += v
-            day[k] = v
-        daily.append(day)
-    return {"site": site, "branch": branch, "file": path.name,
-            "fields": list(fields), "totals": dict(totals),
-            "days": len(daily), "daily": daily}
+        name = str(r[idx["name"]] or "").strip() if "name" in idx else ""
+        if not name or name.startswith("Number of people"):
+            continue
+        rec = {k: (num(r[i]) if k not in ("store_code", "name", "address")
+                   else str(r[i] or "").strip())
+               for k, i in idx.items() if i < len(r)}
+        rec["views"] = (rec.get("search_mobile", 0) + rec.get("search_desktop", 0)
+                        + rec.get("maps_mobile", 0) + rec.get("maps_desktop", 0))
+        rec["actions"] = (rec.get("calls", 0) + rec.get("directions", 0)
+                          + rec.get("website", 0) + rec.get("messages", 0)
+                          + rec.get("bookings", 0))
+        rec["file"] = Path(path).name
+        # אחוז המובייל — משפיע ישירות על מבנה התוכן
+        mob = rec.get("search_mobile", 0) + rec.get("maps_mobile", 0)
+        rec["mobile_share"] = round(100 * mob / rec["views"], 1) if rec["views"] else 0
+        rec["action_rate"] = round(100 * rec["actions"] / rec["views"], 2) if rec["views"] else 0
+        rec["call_rate"] = round(100 * rec.get("calls", 0) / rec["views"], 2) if rec["views"] else 0
+        out.append(rec)
+    return out
 
 
 def main() -> int:
@@ -121,88 +112,75 @@ def main() -> int:
     ap.add_argument("--dir", required=True)
     a = ap.parse_args()
     d = Path(a.dir)
-    files = sorted(list(d.glob("*.csv")) + list(d.glob("*.CSV")))
+    files = sorted(list(d.glob("*.xlsx")) + list(d.glob("*.xls")))
     if not files:
-        print(f"❌ אין קבצי CSV ב-{d}", file=sys.stderr)
+        print(f"❌ אין קבצי xlsx ב-{d}", file=sys.stderr)
         return 1
 
-    parsed, failed = [], []
+    profiles, failed = [], []
     for f in files:
         try:
-            r = parse_file(f)
+            recs = parse_file(f)
         except Exception as e:
-            r, err = None, str(e)[:80]
-            failed.append((f.name, err))
+            failed.append((f.name, str(e)[:80]))
             continue
-        if r:
-            parsed.append(r)
+        if recs:
+            profiles.extend(recs)
         else:
             failed.append((f.name, "לא זוהו עמודות מוכרות"))
 
-    if not parsed:
-        print("❌ אף קובץ לא נותח. שלח לי דוגמה ואתאים את הזיהוי", file=sys.stderr)
+    if not profiles:
+        print("❌ אף פרופיל לא נותח", file=sys.stderr)
         for n, e in failed:
             print(f"   {n}: {e}", file=sys.stderr)
         return 1
 
-    by_site = defaultdict(list)
-    for r in parsed:
-        by_site[r["site"]].append(r)
+    profiles.sort(key=lambda r: -r["views"])
+    tot = {k: sum(r.get(k, 0) for r in profiles)
+           for k in ("views", "calls", "directions", "website", "actions")}
 
     L = ["# Google Business Profile — ביצועים", "",
-         f"נוצר: {date.today()} | {len(parsed)} פרופילים", "",
+         f"נוצר: {date.today()} | {len(profiles)} פרופילים", "",
          "**מה זה מוסיף:** GSC מודדת מי הגיע לאתר. כאן רואים מי **התקשר**, ",
-         "ביקש ניווט או חיפש את הסניף — לידים שלא עוברים דרך האתר כלל.", ""]
+         "ביקש ניווט או חיפש את הסניף — לידים שאינם עוברים דרך האתר כלל.", "",
+         "| פרופיל | צפיות | שיחות | ניווט | לאתר | % פעולה | % שיחה | % מובייל |",
+         "|---|---|---|---|---|---|---|---|"]
+    for r in profiles:
+        L.append(f"| {r.get('name','')[:30]} | {r['views']:,} | {r.get('calls',0):,} | "
+                 f"{r.get('directions',0):,} | {r.get('website',0):,} | "
+                 f"{r['action_rate']}% | {r['call_rate']}% | {r['mobile_share']}% |")
+    L += ["", "---", "", "## סיכום", "",
+          f"- **צפיות:** {tot['views']:,}",
+          f"- **שיחות טלפון:** {tot['calls']:,}",
+          f"- **בקשות ניווט:** {tot['directions']:,}",
+          f"- **קליקים לאתר:** {tot['website']:,}",
+          f"- **סה\"כ פעולות:** {tot['actions']:,} "
+          f"({round(100*tot['actions']/tot['views'],2) if tot['views'] else 0}% מהצפיות)",
+          ""]
 
-    grand = defaultdict(int)
-    for site, items in sorted(by_site.items()):
-        L += [f"## {site}", "",
-              "| סניף | שיחות | ניווט | קליקים לאתר | צפיות בחיפוש | צפיות במפות |",
-              "|---|---|---|---|---|---|"]
-        for r in sorted(items, key=lambda x: -x["totals"].get("calls", 0)):
-            t = r["totals"]
-            for k, v in t.items():
-                grand[k] += v
-            L.append(f"| {r['branch']} | {t.get('calls', 0)} | {t.get('directions', 0)} | "
-                     f"{t.get('website', 0)} | {t.get('views_search', 0)} | "
-                     f"{t.get('views_maps', 0)} |")
+    weak = [r for r in profiles if r["views"] >= 500 and r["call_rate"] < 2]
+    if weak:
+        L += ["## פרופילים עם חשיפה ויחס שיחה נמוך", "",
+              "יחס מתחת ל-2% אומר שהכרטיס נראה ולא ממיר. בדוק תמונות, ",
+              "שעות פעילות, ביקורות ותיאור.", ""]
+        for r in weak:
+            L.append(f"- **{r.get('name','')[:40]}** — {r['views']:,} צפיות, "
+                     f"{r.get('calls',0)} שיחות ({r['call_rate']}%)")
         L.append("")
 
-        # יחס שיחה לצפייה — המדד שאומר אם הכרטיס עובד
-        for r in items:
-            t = r["totals"]
-            views = t.get("views_search", 0) + t.get("views_maps", 0)
-            calls = t.get("calls", 0)
-            if views >= 100:
-                rate = round(100 * calls / views, 2)
-                flag = " ⚠️ נמוך" if rate < 2 else ""
-                L.append(f"- **{r['branch']}**: {rate}% מהצופים התקשרו "
-                         f"({calls} מתוך {views}){flag}")
-        L.append("")
-
-    L += ["---", "", "## סיכום", ""]
-    for k, label in [("calls", "שיחות טלפון"), ("directions", "בקשות ניווט"),
-                     ("website", "קליקים לאתר"),
-                     ("views_search", "צפיות בחיפוש"), ("views_maps", "צפיות במפות")]:
-        if grand.get(k):
-            L.append(f"- **{label}:** {grand[k]:,}")
-    L += ["", "**שיחה מהכרטיס היא ליד ישיר.** אם היחס מתחת ל-2%, הכרטיס ",
-          "מקבל חשיפה ולא ממיר — בדוק תמונות, שעות פעילות, ביקורות ותיאור."]
-
+    L += ["## הערה על מובייל", "",
+          "אחוז המובייל קובע מבנה תוכן: פסקאות קצרות, טבלאות שנגללות, ",
+          "וכפתור חיוג נגיש. הנתון לכל פרופיל בטבלה למעלה.", ""]
     if failed:
-        L += ["", "## קבצים שלא נותחו", ""]
-        for n, e in failed:
-            L.append(f"- `{n}` — {e}")
+        L += ["## קבצים שלא נותחו", ""] + [f"- `{n}` — {e}" for n, e in failed]
 
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "gbp_performance.md").write_text("\n".join(L), encoding="utf-8")
     (OUT / "gbp_data.json").write_text(
-        json.dumps({"date": str(date.today()), "profiles": parsed},
+        json.dumps({"date": str(date.today()), "profiles": profiles},
                    ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"נותחו {len(parsed)} פרופילים | שיחות: {grand.get('calls', 0):,} | "
-          f"ניווט: {grand.get('directions', 0):,}")
-    if failed:
-        print(f"⚠️  {len(failed)} קבצים לא נותחו", file=sys.stderr)
+    print(f"נותחו {len(profiles)} פרופילים | צפיות {tot['views']:,} | "
+          f"שיחות {tot['calls']:,} | ניווט {tot['directions']:,}")
     print(f"נכתב: {OUT}/gbp_performance.md")
     return 0
 
