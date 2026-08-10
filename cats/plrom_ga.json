@@ -9,16 +9,18 @@
    "engagement_rate": 67.5,
    "avg_seconds": 32.6,
    "bounce_rate": 32.5,
-   "onward_to_conversion": 2042
+   "conversion_events": 71,
+   "feeds_site": 45.6
   },
   {
    "path": "/service-locator/",
-   "views": 7408,
-   "users": 4019,
+   "views": 7410,
+   "users": 4021,
    "engagement_rate": 59.7,
    "avg_seconds": 36.8,
    "bounce_rate": 40.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 35.6
   },
   {
    "path": "/צור-קשר/",
@@ -27,16 +29,18 @@
    "engagement_rate": 69.8,
    "avg_seconds": 54.0,
    "bounce_rate": 30.2,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 48.8
   },
   {
    "path": "/שירות-לקוחות-אלקטרה-כך-מזמינים-טכנאי-ו/",
-   "views": 4551,
-   "users": 3001,
+   "views": 4554,
+   "users": 3002,
    "engagement_rate": 72.7,
    "avg_seconds": 46.5,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.9
   },
   {
    "path": "/miele/",
@@ -45,7 +49,8 @@
    "engagement_rate": 95.2,
    "avg_seconds": 30.0,
    "bounce_rate": 4.8,
-   "onward_to_conversion": 0
+   "conversion_events": 12,
+   "feeds_site": 90.6
   },
   {
    "path": "/miele-services-ppc-day/",
@@ -54,7 +59,8 @@
    "engagement_rate": 52.4,
    "avg_seconds": 31.9,
    "bounce_rate": 47.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 27.4
   },
   {
    "path": "/sauter-service-2/",
@@ -63,7 +69,8 @@
    "engagement_rate": 58.2,
    "avg_seconds": 37.4,
    "bounce_rate": 41.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 33.9
   },
   {
    "path": "/cart/",
@@ -72,7 +79,8 @@
    "engagement_rate": 83.0,
    "avg_seconds": 120.6,
    "bounce_rate": 17.0,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 68.9
   },
   {
    "path": "/product-category/breville/אביזרים-וחלקי-חילוף-למכונות-קפה-ברווי/",
@@ -81,7 +89,8 @@
    "engagement_rate": 79.5,
    "avg_seconds": 64.7,
    "bounce_rate": 20.5,
-   "onward_to_conversion": 0
+   "conversion_events": 56,
+   "feeds_site": 63.2
   },
   {
    "path": "/שירות-פלרום-הרחבת-אחריות-יבואן-אלקטרה/",
@@ -90,7 +99,8 @@
    "engagement_rate": 63.4,
    "avg_seconds": 37.4,
    "bounce_rate": 36.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 40.2
   },
   {
    "path": "/services/",
@@ -99,7 +109,8 @@
    "engagement_rate": 87.2,
    "avg_seconds": 22.4,
    "bounce_rate": 12.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.0
   },
   {
    "path": "/product-category/sauter/אביזרים-וחלקי-חילוף-לתנורים-סאוטר/",
@@ -108,7 +119,8 @@
    "engagement_rate": 81.2,
    "avg_seconds": 96.9,
    "bounce_rate": 18.8,
-   "onward_to_conversion": 0
+   "conversion_events": 29,
+   "feeds_site": 65.9
   },
   {
    "path": "/sauter-service/",
@@ -117,7 +129,8 @@
    "engagement_rate": 70.7,
    "avg_seconds": 46.7,
    "bounce_rate": 29.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 50.0
   },
   {
    "path": "/breville/",
@@ -126,7 +139,8 @@
    "engagement_rate": 87.6,
    "avg_seconds": 16.3,
    "bounce_rate": 12.4,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 76.8
   },
   {
    "path": "/sauter/",
@@ -135,7 +149,8 @@
    "engagement_rate": 95.4,
    "avg_seconds": 26.6,
    "bounce_rate": 4.6,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 91.0
   },
   {
    "path": "/miele-service/",
@@ -144,7 +159,8 @@
    "engagement_rate": 65.5,
    "avg_seconds": 55.2,
    "bounce_rate": 34.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 42.9
   },
   {
    "path": "/branch/פלרום-סניף-חיפה/",
@@ -153,7 +169,8 @@
    "engagement_rate": 73.5,
    "avg_seconds": 29.9,
    "bounce_rate": 26.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 54.0
   },
   {
    "path": "/product-category/liebherr/אביזרים-וחלקי-חילוף-למקררי-ליבהר/",
@@ -162,7 +179,8 @@
    "engagement_rate": 77.0,
    "avg_seconds": 135.1,
    "bounce_rate": 23.0,
-   "onward_to_conversion": 0
+   "conversion_events": 22,
+   "feeds_site": 59.3
   },
   {
    "path": "/technical-service-tcl/",
@@ -171,7 +189,8 @@
    "engagement_rate": 60.6,
    "avg_seconds": 35.3,
    "bounce_rate": 39.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.7
   },
   {
    "path": "/terms-of-use/",
@@ -180,7 +199,8 @@
    "engagement_rate": 70.8,
    "avg_seconds": 24.8,
    "bounce_rate": 29.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 50.1
   },
   {
    "path": "/liebherr-service/",
@@ -189,7 +209,8 @@
    "engagement_rate": 57.3,
    "avg_seconds": 53.2,
    "bounce_rate": 42.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.8
   },
   {
    "path": "/branch/פלרום-סניף-באר-שבע/",
@@ -198,7 +219,8 @@
    "engagement_rate": 69.0,
    "avg_seconds": 20.5,
    "bounce_rate": 31.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 47.6
   },
   {
    "path": "/sauter-services-ppc-night/",
@@ -207,7 +229,8 @@
    "engagement_rate": 77.4,
    "avg_seconds": 46.9,
    "bounce_rate": 22.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 59.9
   },
   {
    "path": "/product-category/sauter/אביזרים-וחלקי-חילוף-לכיריים-סאוטר/",
@@ -216,7 +239,8 @@
    "engagement_rate": 89.3,
    "avg_seconds": 66.3,
    "bounce_rate": 10.7,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 79.8
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למדיחי-כלים-מילה/",
@@ -225,7 +249,8 @@
    "engagement_rate": 81.7,
    "avg_seconds": 93.0,
    "bounce_rate": 18.3,
-   "onward_to_conversion": 0
+   "conversion_events": 14,
+   "feeds_site": 66.8
   },
   {
    "path": "/branch/פלרום-סניף-לוד/",
@@ -234,7 +259,8 @@
    "engagement_rate": 66.1,
    "avg_seconds": 22.6,
    "bounce_rate": 33.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 43.7
   },
   {
    "path": "/חלקי-חילוף-לתנור-סאוטר-מדריך-מקיף-לת/",
@@ -243,7 +269,8 @@
    "engagement_rate": 80.5,
    "avg_seconds": 50.3,
    "bounce_rate": 19.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.8
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למכונות-כביסה-מיל/",
@@ -252,7 +279,8 @@
    "engagement_rate": 85.8,
    "avg_seconds": 106.5,
    "bounce_rate": 14.2,
-   "onward_to_conversion": 0
+   "conversion_events": 48,
+   "feeds_site": 73.6
   },
   {
    "path": "/whirlpool/",
@@ -261,7 +289,8 @@
    "engagement_rate": 85.4,
    "avg_seconds": 27.5,
    "bounce_rate": 14.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.0
   },
   {
    "path": "/branch/חשמל-רומנו/",
@@ -270,7 +299,8 @@
    "engagement_rate": 68.3,
    "avg_seconds": 17.6,
    "bounce_rate": 31.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 46.6
   },
   {
    "path": "/liebherr-service-ppc-night/",
@@ -279,7 +309,8 @@
    "engagement_rate": 70.0,
    "avg_seconds": 50.1,
    "bounce_rate": 30.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 49.0
   },
   {
    "path": "/branch/פלרום_ירושלים/",
@@ -288,7 +319,8 @@
    "engagement_rate": 71.5,
    "avg_seconds": 29.9,
    "bounce_rate": 28.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.1
   },
   {
    "path": "/branch/רובין-תא/",
@@ -297,7 +329,8 @@
    "engagement_rate": 62.8,
    "avg_seconds": 14.6,
    "bounce_rate": 37.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.5
   },
   {
    "path": "/branch/א-ש-מעבדות-אשקלון/",
@@ -306,7 +339,8 @@
    "engagement_rate": 67.0,
    "avg_seconds": 21.8,
    "bounce_rate": 33.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.9
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-לתנורים-מילה/",
@@ -315,7 +349,8 @@
    "engagement_rate": 79.6,
    "avg_seconds": 69.5,
    "bounce_rate": 20.4,
-   "onward_to_conversion": 0
+   "conversion_events": 8,
+   "feeds_site": 63.4
   },
   {
    "path": "/tips-information/",
@@ -324,7 +359,8 @@
    "engagement_rate": 90.9,
    "avg_seconds": 37.4,
    "bounce_rate": 9.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 82.6
   },
   {
    "path": "/מקרר-אלקטרה-לא-מקרר-6-תקלות-נפוצות-ואיך/",
@@ -333,7 +369,8 @@
    "engagement_rate": 63.9,
    "avg_seconds": 69.7,
    "bounce_rate": 36.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 40.9
   },
   {
    "path": "/en/",
@@ -342,7 +379,8 @@
    "engagement_rate": 52.2,
    "avg_seconds": 23.3,
    "bounce_rate": 47.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 27.3
   },
   {
    "path": "/liebherr/",
@@ -351,7 +389,8 @@
    "engagement_rate": 90.7,
    "avg_seconds": 27.1,
    "bounce_rate": 9.3,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 82.3
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למייבשי-כביסה-מיל/",
@@ -360,7 +399,8 @@
    "engagement_rate": 83.9,
    "avg_seconds": 67.8,
    "bounce_rate": 16.1,
-   "onward_to_conversion": 0
+   "conversion_events": 45,
+   "feeds_site": 70.4
   },
   {
    "path": "/product/חומר-ניקוי-סבון-כביסה-מקורי-ultraphase1-למכונת-כ/",
@@ -369,7 +409,8 @@
    "engagement_rate": 77.6,
    "avg_seconds": 52.2,
    "bounce_rate": 22.4,
-   "onward_to_conversion": 0
+   "conversion_events": 91,
+   "feeds_site": 60.2
   },
   {
    "path": "/הדרכה-והוראות-התקנה/",
@@ -378,7 +419,8 @@
    "engagement_rate": 78.0,
    "avg_seconds": 32.5,
    "bounce_rate": 22.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 60.9
   },
   {
    "path": "/מכונת-קפה-ברוויל-מדריך-ניקוי-ותחזוקה-מ/",
@@ -387,7 +429,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 57.8,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.9
   },
   {
    "path": "/product-category/philips/אביזרים-וחלקי-חילוף-למכונות-גילוח-ותס/",
@@ -396,7 +439,8 @@
    "engagement_rate": 84.9,
    "avg_seconds": 51.7,
    "bounce_rate": 15.1,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 72.1
   },
   {
    "path": "/sauter-services-ppc-day/",
@@ -405,7 +449,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 43.8,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.8
   },
   {
    "path": "/thanks/",
@@ -414,7 +459,8 @@
    "engagement_rate": 87.4,
    "avg_seconds": 22.4,
    "bounce_rate": 12.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.4
   },
   {
    "path": "/online-services/",
@@ -423,7 +469,8 @@
    "engagement_rate": 78.2,
    "avg_seconds": 25.7,
    "bounce_rate": 21.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 61.2
   },
   {
    "path": "/branch/שירות-רם-ביאליק/",
@@ -432,7 +479,8 @@
    "engagement_rate": 74.8,
    "avg_seconds": 18.2,
    "bounce_rate": 25.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 55.9
   },
   {
    "path": "/רישום-מוצר-חדש/",
@@ -441,7 +489,8 @@
    "engagement_rate": 84.5,
    "avg_seconds": 65.4,
    "bounce_rate": 15.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 71.4
   },
   {
    "path": "/שאלות-ותשובות-נפוצות-למכונות-קפה-ברוו/",
@@ -450,7 +499,8 @@
    "engagement_rate": 67.7,
    "avg_seconds": 52.1,
    "bounce_rate": 32.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 45.8
   },
   {
    "path": "/product/עגלה-עם-גלגלים-למכונת-כביסה-ומייבש-ל/",
@@ -459,7 +509,8 @@
    "engagement_rate": 61.4,
    "avg_seconds": 42.4,
    "bounce_rate": 38.6,
-   "onward_to_conversion": 0
+   "conversion_events": 15,
+   "feeds_site": 37.7
   },
   {
    "path": "/שירות-לקוחות-סאוטר-טלפון-הזמנת-טכנאי-ו/",
@@ -468,7 +519,8 @@
    "engagement_rate": 76.5,
    "avg_seconds": 32.3,
    "bounce_rate": 23.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 58.6
   },
   {
    "path": "/מסנן-פחם-לקולט-אדים-מדריך-החלפה-ותחז/",
@@ -477,7 +529,8 @@
    "engagement_rate": 68.8,
    "avg_seconds": 73.7,
    "bounce_rate": 31.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 47.3
   },
   {
    "path": "/product-category/breville/",
@@ -486,7 +539,8 @@
    "engagement_rate": 88.0,
    "avg_seconds": 72.5,
    "bounce_rate": 12.0,
-   "onward_to_conversion": 0
+   "conversion_events": 11,
+   "feeds_site": 77.4
   },
   {
    "path": "/branch/החשמליה/",
@@ -495,7 +549,8 @@
    "engagement_rate": 77.2,
    "avg_seconds": 15.5,
    "bounce_rate": 22.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 59.6
   },
   {
    "path": "/קודי-תקלות-במכונת-כביסה-מילה-מדריך-מ/",
@@ -504,7 +559,8 @@
    "engagement_rate": 62.1,
    "avg_seconds": 64.3,
    "bounce_rate": 37.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 38.6
   },
   {
    "path": "/product-category/whirlpool/אביזרים-חלפים-וחלקי-חילוף-למדיחי-כלים/",
@@ -513,7 +569,8 @@
    "engagement_rate": 86.9,
    "avg_seconds": 49.2,
    "bounce_rate": 13.1,
-   "onward_to_conversion": 0
+   "conversion_events": 12,
+   "feeds_site": 75.5
   },
   {
    "path": "/תנור-סאוטר-תקלות-נפוצות-תחזוקה-ומתי-ל/",
@@ -522,7 +579,8 @@
    "engagement_rate": 71.2,
    "avg_seconds": 59.0,
    "bounce_rate": 28.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 50.7
   },
   {
    "path": "/product-category/breville/אביזרים-וחלקי-חילוף-למכונות-קפה-ברווי/bes875/",
@@ -531,7 +589,8 @@
    "engagement_rate": 91.8,
    "avg_seconds": 56.9,
    "bounce_rate": 8.2,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 84.3
   },
   {
    "path": "/המדריך-המקיף-לתיקונים-וחלקי-חילוף-לכי/",
@@ -540,7 +599,8 @@
    "engagement_rate": 78.1,
    "avg_seconds": 41.5,
    "bounce_rate": 21.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 61.0
   },
   {
    "path": "/branch/אלרםלהפקדת-אורל-בי-בראון-ומוצרים-קטני/",
@@ -549,7 +609,8 @@
    "engagement_rate": 82.4,
    "avg_seconds": 15.8,
    "bounce_rate": 17.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 67.9
   },
   {
    "path": "/product-category/miele/",
@@ -558,7 +619,8 @@
    "engagement_rate": 87.9,
    "avg_seconds": 73.2,
    "bounce_rate": 12.1,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 77.3
   },
   {
    "path": "/branch/שירות-רם-עפולה/",
@@ -567,7 +629,8 @@
    "engagement_rate": 66.0,
    "avg_seconds": 11.6,
    "bounce_rate": 34.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 43.6
   },
   {
    "path": "/product/קפסולות-נוזל-ומרכך-והסרת-כתמים-למכונת/",
@@ -576,7 +639,8 @@
    "engagement_rate": 69.3,
    "avg_seconds": 45.2,
    "bounce_rate": 30.7,
-   "onward_to_conversion": 0
+   "conversion_events": 36,
+   "feeds_site": 48.0
   },
   {
    "path": "/philips/",
@@ -585,7 +649,8 @@
    "engagement_rate": 93.8,
    "avg_seconds": 23.9,
    "bounce_rate": 6.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 88.0
   },
   {
    "path": "/sage/",
@@ -594,7 +659,8 @@
    "engagement_rate": 91.4,
    "avg_seconds": 17.9,
    "bounce_rate": 8.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 83.5
   },
   {
    "path": "/product-category/breville/אביזרים-וחלקי-חילוף-למסחטת-מיץ-ברוויל/",
@@ -603,7 +669,8 @@
    "engagement_rate": 83.5,
    "avg_seconds": 66.1,
    "bounce_rate": 16.5,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 69.7
   },
   {
    "path": "/product-category/whirlpool/אביזרים-חלפים-וחלקי-חילוף-למכונות-כבי/",
@@ -612,7 +679,8 @@
    "engagement_rate": 81.7,
    "avg_seconds": 33.9,
    "bounce_rate": 18.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 66.8
   },
   {
    "path": "/product-category/miele/ניקיון-ותחזוקה-למוצרי-חשמל-מילה-miele/",
@@ -621,7 +689,8 @@
    "engagement_rate": 88.0,
    "avg_seconds": 61.8,
    "bounce_rate": 12.0,
-   "onward_to_conversion": 0
+   "conversion_events": 14,
+   "feeds_site": 77.4
   },
   {
    "path": "/ru/",
@@ -630,7 +699,8 @@
    "engagement_rate": 72.6,
    "avg_seconds": 37.8,
    "bounce_rate": 27.4,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 52.7
   },
   {
    "path": "/מכונת-גילוח-פיליפס-לא-עובדת-מדריך-מקצו/",
@@ -639,7 +709,8 @@
    "engagement_rate": 80.2,
    "avg_seconds": 67.9,
    "bounce_rate": 19.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.3
   },
   {
    "path": "/מייבש-כביסה-אלקטרה-לא-מחמם-תקלות-נפוצו/",
@@ -648,7 +719,8 @@
    "engagement_rate": 63.0,
    "avg_seconds": 51.6,
    "bounce_rate": 37.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.7
   },
   {
    "path": "/איך-לנקות-מכונת-כביסה-מדריך-מקצועי-לת/",
@@ -657,7 +729,8 @@
    "engagement_rate": 70.3,
    "avg_seconds": 61.5,
    "bounce_rate": 29.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 49.4
   },
   {
    "path": "/product/דיסק-אבקת-ניקוי-מקצועית-למדיח-כלים-מיל/",
@@ -666,7 +739,8 @@
    "engagement_rate": 72.8,
    "avg_seconds": 36.6,
    "bounce_rate": 27.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 53.0
   },
   {
    "path": "/product/פילטר-תחתון-מקורי-למייבש-משאבת-חום-מיל/",
@@ -675,7 +749,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 41.4,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 29,
+   "feeds_site": 44.5
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-לכיריים-מילה/",
@@ -684,7 +759,8 @@
    "engagement_rate": 83.0,
    "avg_seconds": 29.9,
    "bounce_rate": 17.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 68.9
   },
   {
    "path": "/product/חומר-ניקוי-סבון-נוזל-כביסה-מקורי-ultraphase2-למכ/",
@@ -693,7 +769,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 39.3,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 54,
+   "feeds_site": 79.0
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למכונות-קפה-מילה/",
@@ -702,7 +779,8 @@
    "engagement_rate": 88.0,
    "avg_seconds": 46.1,
    "bounce_rate": 12.0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 77.4
   },
   {
    "path": "/product/מארז-מסנן-מים-מקורי-למכונת-קפה-ברוויל-brevill/",
@@ -711,7 +789,8 @@
    "engagement_rate": 83.0,
    "avg_seconds": 27.6,
    "bounce_rate": 17.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 68.9
   },
   {
    "path": "/product-category/whirlpool/אביזרים-וחלקי-חילוף-למקררי-ווירלפול/",
@@ -720,7 +799,8 @@
    "engagement_rate": 90.6,
    "avg_seconds": 63.2,
    "bounce_rate": 9.4,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 82.1
   },
   {
    "path": "/שאלות-נפוצות-אתר-פלרום-שירות-טכנאים/",
@@ -729,7 +809,8 @@
    "engagement_rate": 85.5,
    "avg_seconds": 58.1,
    "bounce_rate": 14.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.1
   },
   {
    "path": "/product/ערכת-חיבור-עמודה-עם-מגירה-למכונת-כביסה/",
@@ -738,7 +819,8 @@
    "engagement_rate": 51.2,
    "avg_seconds": 87.1,
    "bounce_rate": 48.8,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 26.2
   },
   {
    "path": "/product/זכוכית-פנימית-אמצעית-מקורית-לדלת-תנור/",
@@ -747,7 +829,8 @@
    "engagement_rate": 77.9,
    "avg_seconds": 28.9,
    "bounce_rate": 22.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 60.7
   },
   {
    "path": "/product/חומר-ניקוי-מקורי-twindos-gp-tdc-למכונת-כביסה-מילה-miele/",
@@ -756,7 +839,8 @@
    "engagement_rate": 70.3,
    "avg_seconds": 58.5,
    "bounce_rate": 29.7,
-   "onward_to_conversion": 0
+   "conversion_events": 22,
+   "feeds_site": 49.4
   },
   {
    "path": "/תחזוקה-וחלקי-חילוף-למדיחי-כלים/",
@@ -765,7 +849,8 @@
    "engagement_rate": 79.0,
    "avg_seconds": 26.1,
    "bounce_rate": 21.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 62.4
   },
   {
    "path": "/privacy-policy-2/",
@@ -774,7 +859,8 @@
    "engagement_rate": 85.5,
    "avg_seconds": 18.0,
    "bounce_rate": 14.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.1
   },
   {
    "path": "/branch/כל-טיבימוצרים-קטנים-בלבד/",
@@ -783,7 +869,8 @@
    "engagement_rate": 89.2,
    "avg_seconds": 17.4,
    "bounce_rate": 10.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 79.6
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למקררי-מילה/",
@@ -792,7 +879,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 48.1,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-לשואבי-אבק-מילה/",
@@ -801,7 +889,8 @@
    "engagement_rate": 87.0,
    "avg_seconds": 48.5,
    "bounce_rate": 13.0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 75.7
   },
   {
    "path": "/product/תבנית-אפייה-עמוקה-מקורית-לתנור-סאוטר-sauter-9/",
@@ -810,7 +899,8 @@
    "engagement_rate": 81.0,
    "avg_seconds": 52.4,
    "bounce_rate": 19.0,
-   "onward_to_conversion": 0
+   "conversion_events": 26,
+   "feeds_site": 65.6
   },
   {
    "path": "/product/פילטר-מסנן-פחם-פעיל-למקררי-ליבהר-liebherr-מאר/",
@@ -819,7 +909,8 @@
    "engagement_rate": 65.5,
    "avg_seconds": 72.6,
    "bounce_rate": 34.5,
-   "onward_to_conversion": 0
+   "conversion_events": 14,
+   "feeds_site": 42.9
   },
   {
    "path": "/מדריך-תיקונים-וחלקי-חילוף/",
@@ -828,7 +919,8 @@
    "engagement_rate": 83.5,
    "avg_seconds": 21.7,
    "bounce_rate": 16.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.7
   },
   {
    "path": "/product/ערכת-ניקוי-מקורית-למכונות-קפה-ברוויל-bes870-b/",
@@ -837,7 +929,8 @@
    "engagement_rate": 80.3,
    "avg_seconds": 23.0,
    "bounce_rate": 19.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.5
   },
   {
    "path": "/אודות/",
@@ -846,7 +939,8 @@
    "engagement_rate": 80.5,
    "avg_seconds": 61.7,
    "bounce_rate": 19.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.8
   },
   {
    "path": "/מקרר-ליבהר-לא-מקרר-מדריך-מקיף-לקודי-שגי/",
@@ -855,7 +949,8 @@
    "engagement_rate": 59.3,
    "avg_seconds": 84.8,
    "bounce_rate": 40.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 35.1
   },
   {
    "path": "/product-category/sauter/",
@@ -864,7 +959,8 @@
    "engagement_rate": 84.1,
    "avg_seconds": 64.8,
    "bounce_rate": 15.9,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 70.8
   },
   {
    "path": "/product/טבליות-ריח-מבושם-בניחוח-aqua-למייבש-כביסה/",
@@ -873,7 +969,8 @@
    "engagement_rate": 84.4,
    "avg_seconds": 36.5,
    "bounce_rate": 15.6,
-   "onward_to_conversion": 0
+   "conversion_events": 10,
+   "feeds_site": 71.2
   },
   {
    "path": "/product/טבליות-ריח-מבושם-בניחוח-dryfresh-למייבש-כביסה/",
@@ -882,7 +979,8 @@
    "engagement_rate": 75.4,
    "avg_seconds": 42.9,
    "bounce_rate": 24.6,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 56.8
   },
   {
    "path": "/branch/מכנומיקסמוצרים-קטנים-בלבד/",
@@ -891,7 +989,8 @@
    "engagement_rate": 51.5,
    "avg_seconds": 18.6,
    "bounce_rate": 48.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 26.5
   },
   {
    "path": "/product-category/sage/אביזרים-וחלקי-חילוף-למכונת-קפה-סייג/",
@@ -900,7 +999,8 @@
    "engagement_rate": 90.7,
    "avg_seconds": 41.7,
    "bounce_rate": 9.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 82.3
   },
   {
    "path": "/product/טבליות-ריח-מבושם-בניחוח-rose-למייבש-כביסה/",
@@ -909,7 +1009,8 @@
    "engagement_rate": 67.9,
    "avg_seconds": 48.0,
    "bounce_rate": 32.1,
-   "onward_to_conversion": 0
+   "conversion_events": 15,
+   "feeds_site": 46.1
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לתנור-סאוטר-sauter-9053944/",
@@ -918,7 +1019,8 @@
    "engagement_rate": 84.3,
    "avg_seconds": 30.6,
    "bounce_rate": 15.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 71.1
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-10099560/",
@@ -927,7 +1029,8 @@
    "engagement_rate": 58.5,
    "avg_seconds": 55.0,
    "bounce_rate": 41.5,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 34.2
   },
   {
    "path": "/product/מגירת-מקפיא-מקורית-למקפיא-ליבהר-liebherr-9791486/",
@@ -936,7 +1039,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 115.2,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.6
   },
   {
    "path": "/product/מגש-זכוכית-פיירקס-מקורי-לתנור-מיקרוגל/",
@@ -945,7 +1049,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 71.8,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 9,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/תבנית-אפייה-אמייל-מקורית-לתנור-סאוטר-sauter-9/",
@@ -954,7 +1059,8 @@
    "engagement_rate": 78.3,
    "avg_seconds": 55.7,
    "bounce_rate": 21.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 61.3
   },
   {
    "path": "/כיריים-גז-סאוטר-לא-נדלקות-4-תקלות-ופתרו/",
@@ -963,7 +1069,8 @@
    "engagement_rate": 53.8,
    "avg_seconds": 46.9,
    "bounce_rate": 46.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 29.0
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-11239160/",
@@ -972,7 +1079,8 @@
    "engagement_rate": 76.1,
    "avg_seconds": 130.6,
    "bounce_rate": 23.9,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 57.9
   },
   {
    "path": "/תקלות-במייבש-כביסה-ווירפול-קודי-שגיאה/",
@@ -981,7 +1089,8 @@
    "engagement_rate": 69.0,
    "avg_seconds": 67.5,
    "bounce_rate": 31.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 47.6
   },
   {
    "path": "/product/דיסקית-ניקוי-54-ממ-מקורי-למכונת-קפה-ברוו/",
@@ -990,7 +1099,8 @@
    "engagement_rate": 81.8,
    "avg_seconds": 20.4,
    "bounce_rate": 18.2,
-   "onward_to_conversion": 0
+   "conversion_events": 13,
+   "feeds_site": 66.9
   },
   {
    "path": "/product/אטם-דלת-מקורי-לתנור-סאוטר-sauter-8511650/",
@@ -999,7 +1109,8 @@
    "engagement_rate": 82.6,
    "avg_seconds": 97.8,
    "bounce_rate": 17.4,
-   "onward_to_conversion": 0
+   "conversion_events": 11,
+   "feeds_site": 68.2
   },
   {
    "path": "/product/אטם-ראש-הקבוצה-group-head-seal-מקורי-למכונות-אספרס/",
@@ -1008,7 +1119,8 @@
    "engagement_rate": 87.8,
    "avg_seconds": 41.3,
    "bounce_rate": 12.2,
-   "onward_to_conversion": 0
+   "conversion_events": 25,
+   "feeds_site": 77.1
   },
   {
    "path": "/product/תבנית-אפייה-מקורית-לתנור-אפייה-מילה-miele-hbb71/",
@@ -1017,7 +1129,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 54.4,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/גוף-חימום-טורבו-מקורי-לתנור-אפייה-סאוט-2/",
@@ -1026,7 +1139,8 @@
    "engagement_rate": 77.3,
    "avg_seconds": 73.6,
    "bounce_rate": 22.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 59.7
   },
   {
    "path": "/product/חצובה-מקורית-לכיריים-גז-סאוטר-sauter-as0033874/",
@@ -1035,7 +1149,8 @@
    "engagement_rate": 86.8,
    "avg_seconds": 43.8,
    "bounce_rate": 13.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 75.3
   },
   {
    "path": "/product/טבליות-ריח-מבושם-בניחוח-cocoon-למייבש-כביסה/",
@@ -1044,7 +1159,8 @@
    "engagement_rate": 84.8,
    "avg_seconds": 48.3,
    "bounce_rate": 15.2,
-   "onward_to_conversion": 0
+   "conversion_events": 12,
+   "feeds_site": 71.9
   },
   {
    "path": "/personal-portal/",
@@ -1053,7 +1169,8 @@
    "engagement_rate": 49.0,
    "avg_seconds": 8.6,
    "bounce_rate": 51.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 24.0
   },
   {
    "path": "/product/מדף-מעקה-בקבוקים-מקורי-לדלת-מקרר-מילה-miele-0/",
@@ -1062,7 +1179,8 @@
    "engagement_rate": 75.5,
    "avg_seconds": 29.8,
    "bounce_rate": 24.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 57.0
   },
   {
    "path": "/product/אטם-לדלת-מקורי-לתנור-סאוטר-sauter-71x0073/",
@@ -1071,7 +1189,8 @@
    "engagement_rate": 81.6,
    "avg_seconds": 36.9,
    "bounce_rate": 18.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 66.6
   },
   {
    "path": "/branch/המקלט/",
@@ -1080,7 +1199,8 @@
    "engagement_rate": 83.0,
    "avg_seconds": 10.6,
    "bounce_rate": 17.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 68.9
   },
   {
    "path": "/תשובות-לשאלות-נפוצות-כדי-לסייע-לכם-בבי/",
@@ -1089,7 +1209,8 @@
    "engagement_rate": 86.0,
    "avg_seconds": 36.3,
    "bounce_rate": 14.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 74.0
   },
   {
    "path": "/product/כפתור-טמפרטורה-סיבובי-שקוע-מקורי-לתנו/",
@@ -1098,7 +1219,8 @@
    "engagement_rate": 76.0,
    "avg_seconds": 50.5,
    "bounce_rate": 24.0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 57.8
   },
   {
    "path": "/product-category/liebherr/אביזרים-וחלקי-חילוף-למקררי-ליבהר/page/2/",
@@ -1107,7 +1229,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 62.3,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מיכל-מים-מקורי-למכונת-קפה-ברוויל-sp0101550/",
@@ -1116,7 +1239,8 @@
    "engagement_rate": 82.4,
    "avg_seconds": 23.7,
    "bounce_rate": 17.6,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 67.9
   },
   {
    "path": "/product/נורה-תנור-מקורית-עמידת-חום-25w-300c-לתנורי-ס/",
@@ -1125,7 +1249,8 @@
    "engagement_rate": 52.2,
    "avg_seconds": 59.1,
    "bounce_rate": 47.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 27.2
   },
   {
    "path": "/product/טבליות-לניקוי-אבנית-ותחזוקה-מקוריות-ל/",
@@ -1134,7 +1259,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 38.7,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 11,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מסיר-אבנית-מחטא-ומנקה-מקצועי-למדיחי-כל/",
@@ -1143,7 +1269,8 @@
    "engagement_rate": 84.6,
    "avg_seconds": 59.9,
    "bounce_rate": 15.4,
-   "onward_to_conversion": 0
+   "conversion_events": 27,
+   "feeds_site": 71.6
   },
   {
    "path": "/liebherr-parts/",
@@ -1152,7 +1279,8 @@
    "engagement_rate": 58.0,
    "avg_seconds": 55.1,
    "bounce_rate": 42.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 33.6
   },
   {
    "path": "/product/ציר-דלת-תנור-מקורי-סאוטר-sauter-8057765/",
@@ -1161,7 +1289,8 @@
    "engagement_rate": 77.5,
    "avg_seconds": 45.9,
    "bounce_rate": 22.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 60.1
   },
   {
    "path": "/תנור-מילה-מדריך-תחזוקה-ניקוי-ופתרון/",
@@ -1170,7 +1299,8 @@
    "engagement_rate": 70.8,
    "avg_seconds": 62.2,
    "bounce_rate": 29.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 50.1
   },
   {
    "path": "/branch/נקודת-הטל/",
@@ -1179,7 +1309,8 @@
    "engagement_rate": 67.4,
    "avg_seconds": 17.3,
    "bounce_rate": 32.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 45.4
   },
   {
    "path": "/product/סרט-אטימה-לכיריים-מילה-miele-8291841/",
@@ -1188,7 +1319,8 @@
    "engagement_rate": 57.8,
    "avg_seconds": 28.4,
    "bounce_rate": 42.2,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 33.4
   },
   {
    "path": "/product/טרמוסטט-מקורי-לתנור-סאוטר-sauter-ויסות-טמפר/",
@@ -1197,7 +1329,8 @@
    "engagement_rate": 71.1,
    "avg_seconds": 42.9,
    "bounce_rate": 28.9,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 50.5
   },
   {
    "path": "/product/טמפר-קפה-מקורי-54-ממ-למכונות-אספרסו-ברוו/",
@@ -1206,7 +1339,8 @@
    "engagement_rate": 34.2,
    "avg_seconds": 8.1,
    "bounce_rate": 65.8,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 11.7
   },
   {
    "path": "/product/סיפון-לתא-wsp-במגירת-חומרי-הכביסה-למכונת/",
@@ -1215,7 +1349,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 52.5,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 12,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/שסתום-אל-חזור-מקורי-למדיח-מילה-miele-5750095/",
@@ -1224,7 +1359,8 @@
    "engagement_rate": 55.0,
    "avg_seconds": 30.3,
    "bounce_rate": 45.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 30.3
   },
   {
    "path": "/product/שקיות-אבק-hyclean-pure-co-מקוריות-לשואב-אבק-miele-12557080/",
@@ -1233,7 +1369,8 @@
    "engagement_rate": 31.7,
    "avg_seconds": 23.6,
    "bounce_rate": 68.3,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 10.1
   },
   {
    "path": "/product/סלסלה-תחתונה-קומפלט-מקורית-למדיח-כלים-2/",
@@ -1242,7 +1379,8 @@
    "engagement_rate": 79.3,
    "avg_seconds": 40.2,
    "bounce_rate": 20.7,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 62.9
   },
   {
    "path": "/product/ערכת-הרכבה-מקורית-למדיח-כלים-אינטגרלי/",
@@ -1251,7 +1389,8 @@
    "engagement_rate": 51.4,
    "avg_seconds": 20.9,
    "bounce_rate": 48.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 26.4
   },
   {
    "path": "/cancelling-transaction/",
@@ -1260,7 +1399,8 @@
    "engagement_rate": 86.0,
    "avg_seconds": 97.4,
    "bounce_rate": 14.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 74.0
   },
   {
    "path": "/product/כיסוי-קדמי-מקורי-למגירת-מקפיא-ליבהר-liebherr-74288/",
@@ -1269,7 +1409,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 54.1,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/מגש-קוביות-קרח-מקורי-להכנת-קרח-במקפיא-מ/",
@@ -1278,7 +1419,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 36.4,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/shipping-information/",
@@ -1287,7 +1429,8 @@
    "engagement_rate": 85.4,
    "avg_seconds": 16.4,
    "bounce_rate": 14.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 72.9
   },
   {
    "path": "/product/נורת-הלוגן-המקורית-g9-25w-לתאורת-תנור-מילה-miele-7/",
@@ -1296,7 +1439,8 @@
    "engagement_rate": 64.9,
    "avg_seconds": 33.0,
    "bounce_rate": 35.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 42.1
   },
   {
    "path": "/product/ראש-מבער-מקורי-לכיריים-גז-סאוטר-sauter-8071834/",
@@ -1305,7 +1449,8 @@
    "engagement_rate": 92.6,
    "avg_seconds": 54.7,
    "bounce_rate": 7.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 85.7
   },
   {
    "path": "/product/גוף-חימום-מאוורר-מקורי-2000w-לתנור-אפייה-סא/",
@@ -1314,7 +1459,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 203.1,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 11,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/מונע-אבנית-מגנטי-אקווסטופ-למדיחי-כלים/",
@@ -1323,7 +1469,8 @@
    "engagement_rate": 47.5,
    "avg_seconds": 30.0,
    "bounce_rate": 52.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 22.6
   },
   {
    "path": "/product/מחזיק-צלחות-לסלסלה-תחתונה-למדיח-כלים-מ-3/",
@@ -1332,7 +1479,8 @@
    "engagement_rate": 81.8,
    "avg_seconds": 37.7,
    "bounce_rate": 18.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 66.9
   },
   {
    "path": "/product/רכיב-עצירת-מסילה-מקורי-לסלסלה-עליונה-ב/",
@@ -1341,7 +1489,8 @@
    "engagement_rate": 54.5,
    "avg_seconds": 60.3,
    "bounce_rate": 45.5,
-   "onward_to_conversion": 0
+   "conversion_events": 8,
+   "feeds_site": 29.7
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-לקולטי-אדים-מילה/",
@@ -1350,7 +1499,8 @@
    "engagement_rate": 90.9,
    "avg_seconds": 20.2,
    "bounce_rate": 9.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 82.6
   },
   {
    "path": "/product/מכלול-שסתום-בוחר-מקורי-למכונת-אספרסו-ב/",
@@ -1359,7 +1509,8 @@
    "engagement_rate": 72.4,
    "avg_seconds": 49.2,
    "bounce_rate": 27.6,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 52.4
   },
   {
    "path": "/product/סלסלת-סכום-מקורית-למדיח-כלים-ווירלפול/",
@@ -1368,7 +1519,8 @@
    "engagement_rate": 53.1,
    "avg_seconds": 60.4,
    "bounce_rate": 46.9,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 28.2
   },
   {
    "path": "/product/גומי-אטם-מקורי-לדלת-מקפיא-ליבהר-liebherr-להדב/",
@@ -1377,7 +1529,8 @@
    "engagement_rate": 56.8,
    "avg_seconds": 36.4,
    "bounce_rate": 43.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.2
   },
   {
    "path": "/en/About/",
@@ -1386,7 +1539,8 @@
    "engagement_rate": 52.8,
    "avg_seconds": 12.2,
    "bounce_rate": 47.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 27.9
   },
   {
    "path": "/product/חיישן-סנסור-טמפרטורה-מקורי-לתנור-סאוט/",
@@ -1395,7 +1549,8 @@
    "engagement_rate": 70.8,
    "avg_seconds": 87.7,
    "bounce_rate": 29.2,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 50.1
   },
   {
    "path": "/product/כפתור-הצתה-לבן-מקורי-לכיריים-גז-סאוטר-sauter/",
@@ -1404,7 +1559,8 @@
    "engagement_rate": 77.4,
    "avg_seconds": 36.4,
    "bounce_rate": 22.6,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 59.9
   },
   {
    "path": "/product/מדף-מעקה-בקבוקים-מקורי-לדלת-מקרר-ליבהר-l/",
@@ -1413,7 +1569,8 @@
    "engagement_rate": 70.0,
    "avg_seconds": 54.8,
    "bounce_rate": 30.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 49.0
   },
   {
    "path": "/מכונת-תספורת-פיליפס-לא-מספרת-כמו-פעם-מד/",
@@ -1422,7 +1579,8 @@
    "engagement_rate": 59.4,
    "avg_seconds": 43.7,
    "bounce_rate": 40.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 35.3
   },
   {
    "path": "/blog/",
@@ -1431,7 +1589,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 15.4,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/גלגל-מקורי-למדיח-כלים-מילה-miele-2372352/",
@@ -1440,7 +1599,8 @@
    "engagement_rate": 77.3,
    "avg_seconds": 62.6,
    "bounce_rate": 22.7,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 59.7
   },
   {
    "path": "/product/כף-טורבינה-מקורית-240-ממ-לתוף-מכונת-כביסה-w/",
@@ -1449,7 +1609,8 @@
    "engagement_rate": 90.9,
    "avg_seconds": 143.4,
    "bounce_rate": 9.1,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 82.6
   },
   {
    "path": "/product/מסילות-טלסקופית-מקוריות-לתנור-אפייה-מ/",
@@ -1458,7 +1619,8 @@
    "engagement_rate": 67.7,
    "avg_seconds": 32.6,
    "bounce_rate": 32.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 45.9
   },
   {
    "path": "/product/מסנן-פילטר-מים-מקורי-למכונות-אספרסו-breville-bes0/",
@@ -1467,7 +1629,8 @@
    "engagement_rate": 76.5,
    "avg_seconds": 21.9,
    "bounce_rate": 23.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 58.5
   },
   {
    "path": "/product/מסנן-פילטר-קצף-מקורי-למייבש-כביסה-מילה-m/",
@@ -1476,7 +1639,8 @@
    "engagement_rate": 86.2,
    "avg_seconds": 36.4,
    "bounce_rate": 13.8,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 74.3
   },
   {
    "path": "/product/פילטר-54-ממ-לשתי-כוסות-מקורי-למכונת-אספר/",
@@ -1485,7 +1649,8 @@
    "engagement_rate": 76.2,
    "avg_seconds": 48.4,
    "bounce_rate": 23.8,
-   "onward_to_conversion": 0
+   "conversion_events": 15,
+   "feeds_site": 58.1
   },
   {
    "path": "/המדריך-למכונות-קפה-ברוויל-איך-לשמור-על/",
@@ -1494,7 +1659,8 @@
    "engagement_rate": 64.5,
    "avg_seconds": 63.8,
    "bounce_rate": 35.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 41.6
   },
   {
    "path": "/en/Contact-/",
@@ -1503,7 +1669,8 @@
    "engagement_rate": 71.9,
    "avg_seconds": 24.1,
    "bounce_rate": 28.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.7
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למכונות-כביסה-מיל/w1xxx/",
@@ -1512,7 +1679,8 @@
    "engagement_rate": 65.6,
    "avg_seconds": 101.6,
    "bounce_rate": 34.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 43.0
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-לתנורים-מילה/h7xxx/",
@@ -1521,7 +1689,8 @@
    "engagement_rate": 81.2,
    "avg_seconds": 25.1,
    "bounce_rate": 18.8,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 66.0
   },
   {
    "path": "/product/בסיס-אחסון-עם-מגירה-למכונת-כביסה-ומייב/",
@@ -1530,7 +1699,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 42.9,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/מכלול-שסתום-סולנואיד-מקורי-למכונות-קפ/",
@@ -1539,7 +1709,8 @@
    "engagement_rate": 84.6,
    "avg_seconds": 56.6,
    "bounce_rate": 15.4,
-   "onward_to_conversion": 0
+   "conversion_events": 8,
+   "feeds_site": 71.6
   },
   {
    "path": "/product/חיישן-טמפרטורה-מקורי-miele-למייבש-מכונת-כב/",
@@ -1548,7 +1719,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 52.6,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/ידית-פורטפילטר-54-ממ-sp0027237-מקורית-למכונות-אס/",
@@ -1557,7 +1729,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 33.3,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/כרטיס-לוח-בקרת-הספק-בישול-מקורי-לתנור-sauter/",
@@ -1566,7 +1739,8 @@
    "engagement_rate": 72.0,
    "avg_seconds": 77.1,
    "bounce_rate": 28.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.8
   },
   {
    "path": "/product/מדף-זכוכית-מחוסמת-מקורי-למקפיא-ליבהר-liebherr/",
@@ -1575,7 +1749,8 @@
    "engagement_rate": 56.5,
    "avg_seconds": 62.4,
    "bounce_rate": 43.5,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 31.9
   },
   {
    "path": "/תנור-אלקטרה-לא-מחמם-5-תקלות-נפוצות-ופתר/",
@@ -1584,7 +1759,8 @@
    "engagement_rate": 76.7,
    "avg_seconds": 95.0,
    "bounce_rate": 23.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 58.8
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למדיחי-כלים-מילה/g4xxx/",
@@ -1593,7 +1769,8 @@
    "engagement_rate": 90.0,
    "avg_seconds": 75.0,
    "bounce_rate": 10.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 81.0
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לתנור-אפייה-בנוי-סאו/",
@@ -1602,7 +1779,8 @@
    "engagement_rate": 92.0,
    "avg_seconds": 51.6,
    "bounce_rate": 8.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 84.6
   },
   {
    "path": "/product/סלסלה-תחתונה-מקורית-guk-7010-kd-למדיח-כלים-מילה-mi/",
@@ -1611,7 +1789,18 @@
    "engagement_rate": 95.5,
    "avg_seconds": 54.6,
    "bounce_rate": 4.5,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 91.2
+  },
+  {
+   "path": "/product/ציר-דלת-מקורי-לתנור-אפייה-סאוטר-sauter-8064949/",
+   "views": 32,
+   "users": 18,
+   "engagement_rate": 80.8,
+   "avg_seconds": 51.6,
+   "bounce_rate": 19.2,
+   "conversion_events": 4,
+   "feeds_site": 65.3
   },
   {
    "path": "/product/קפסולות-נוזל-ריכוך-והסרת-כתמים-למכונת/",
@@ -1620,7 +1809,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 10.8,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 25.0
   },
   {
    "path": "/product-category/whirlpool/",
@@ -1629,7 +1819,8 @@
    "engagement_rate": 76.0,
    "avg_seconds": 42.6,
    "bounce_rate": 24.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 57.8
   },
   {
    "path": "/product/חיישן-סנסור-בטיחות-תרמוקופל-מקורי-לכי/",
@@ -1638,7 +1829,8 @@
    "engagement_rate": 65.2,
    "avg_seconds": 56.8,
    "bounce_rate": 34.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 42.5
   },
   {
    "path": "/product/טבליות-ריח-מבושם-בניחוח-orient-למייבש-כביסה/",
@@ -1647,7 +1839,8 @@
    "engagement_rate": 95.0,
    "avg_seconds": 64.9,
    "bounce_rate": 5.0,
-   "onward_to_conversion": 0
+   "conversion_events": 10,
+   "feeds_site": 90.2
   },
   {
    "path": "/product/מיכל-מילוי-מקורי-1-twindos-למכונת-כביסה-miele-מילה-1022/",
@@ -1656,7 +1849,8 @@
    "engagement_rate": 90.3,
    "avg_seconds": 36.1,
    "bounce_rate": 9.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 81.6
   },
   {
    "path": "/product/ערכת-צינור-קיטור-פנימי-מקורית-למכונת-א/",
@@ -1665,16 +1859,8 @@
    "engagement_rate": 64.3,
    "avg_seconds": 25.5,
    "bounce_rate": 35.7,
-   "onward_to_conversion": 0
-  },
-  {
-   "path": "/product/ציר-דלת-מקורי-לתנור-אפייה-סאוטר-sauter-8064949/",
-   "views": 31,
-   "users": 18,
-   "engagement_rate": 80.0,
-   "avg_seconds": 51.4,
-   "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 41.3
   },
   {
    "path": "/product/ראש-מטען-usb-מקורי-למכונות-גילוח-philips-300008717761/",
@@ -1683,7 +1869,8 @@
    "engagement_rate": 34.8,
    "avg_seconds": 239.7,
    "bounce_rate": 65.2,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 12.1
   },
   {
    "path": "/miele-parts/",
@@ -1692,7 +1879,8 @@
    "engagement_rate": 79.3,
    "avg_seconds": 34.3,
    "bounce_rate": 20.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 62.9
   },
   {
    "path": "/product/גומי-אטם-דלת-מקורי-למקרר-ליבהר-liebherr-7111180/",
@@ -1701,7 +1889,8 @@
    "engagement_rate": 52.0,
    "avg_seconds": 9.9,
    "bounce_rate": 48.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 27.0
   },
   {
    "path": "/product/סלסלת-סכום-מקורית-למדיח-כלים-מילה-miele-gbu5000/",
@@ -1710,7 +1899,8 @@
    "engagement_rate": 68.0,
    "avg_seconds": 32.9,
    "bounce_rate": 32.0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 46.2
   },
   {
    "path": "/product/ציר-דלת-מקורי-לתנור-אפייה-סאוטר-sauter-8058396/",
@@ -1719,7 +1909,8 @@
    "engagement_rate": 61.5,
    "avg_seconds": 60.4,
    "bounce_rate": 38.5,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 37.8
   },
   {
    "path": "/all-products/",
@@ -1728,7 +1919,8 @@
    "engagement_rate": 96.0,
    "avg_seconds": 14.2,
    "bounce_rate": 4.0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 92.2
   },
   {
    "path": "/product-category/whirlpool/אביזרים-וחלקי-חילוף-למייבשי-כביסה-ווי/",
@@ -1737,7 +1929,8 @@
    "engagement_rate": 77.8,
    "avg_seconds": 31.7,
    "bounce_rate": 22.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 60.5
   },
   {
    "path": "/product/אטם-דלת-מקורי-למכונת-כביסה-miele-11086752/",
@@ -1746,7 +1939,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 101.7,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/בורר-מצבים-מקורי-לתנור-אפייה-סאוטר-sauter-8062894/",
@@ -1755,7 +1949,8 @@
    "engagement_rate": 68.0,
    "avg_seconds": 72.3,
    "bounce_rate": 32.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 46.2
   },
   {
    "path": "/product/דסקית-לבד-למטחנה-תחתונה-מקורית-למכונת/",
@@ -1764,7 +1959,8 @@
    "engagement_rate": 73.3,
    "avg_seconds": 67.1,
    "bounce_rate": 26.7,
-   "onward_to_conversion": 0
+   "conversion_events": 16,
+   "feeds_site": 53.8
   },
   {
    "path": "/product/מכסה-מיכל-מלח-מקורי-למדיח-כלים-מילה-miele-5927572/",
@@ -1773,7 +1969,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 79.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 16,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/שקע-הגנה-ייחודי-עם-כבל-והיחידי-שבאמת-מג/",
@@ -1782,7 +1979,8 @@
    "engagement_rate": 68.0,
    "avg_seconds": 13.8,
    "bounce_rate": 32.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 46.2
   },
   {
    "path": "/shop/",
@@ -1791,7 +1989,8 @@
    "engagement_rate": 88.5,
    "avg_seconds": 49.8,
    "bounce_rate": 11.5,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 78.3
   },
   {
    "path": "/מייבש-כביסה-מילה-לא-מחמם-5-תקלות-נפוצות/",
@@ -1800,7 +1999,8 @@
    "engagement_rate": 58.1,
    "avg_seconds": 71.9,
    "bounce_rate": 41.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 33.7
   },
   {
    "path": "/product-category/breville/אביזרים-וחלקי-חילוף-למסחטת-מיץ-ברוויל/bje830/",
@@ -1809,7 +2009,8 @@
    "engagement_rate": 81.8,
    "avg_seconds": 104.0,
    "bounce_rate": 18.2,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 66.9
   },
   {
    "path": "/product/כיפה-מקורית-לראש-מבער-לכיריים-סאוטר-sauter-8045004/",
@@ -1818,7 +2019,8 @@
    "engagement_rate": 84.0,
    "avg_seconds": 46.7,
    "bounce_rate": 16.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 70.6
   },
   {
    "path": "/product/סלסלה-תחתונה-מקורית-למדיח-כלים-ווירלפ/",
@@ -1827,7 +2029,8 @@
    "engagement_rate": 77.8,
    "avg_seconds": 87.4,
    "bounce_rate": 22.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 60.5
   },
   {
    "path": "/product/סלסלה-תחתונה-קומפלט-מקורית-למדיח-כלים/",
@@ -1836,7 +2039,8 @@
    "engagement_rate": 84.2,
    "avg_seconds": 76.1,
    "bounce_rate": 15.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 70.9
   },
   {
    "path": "/en/תנור-סאוטר-תקלות-נפוצות-תחזוקה-ומתי-ל/",
@@ -1845,7 +2049,8 @@
    "engagement_rate": 60.9,
    "avg_seconds": 31.2,
    "bounce_rate": 39.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 37.1
   },
   {
    "path": "/product/כיפה-מקורית-לראש-מבער-בכיריים-גז-סאוטר-s/",
@@ -1854,7 +2059,8 @@
    "engagement_rate": 79.2,
    "avg_seconds": 25.8,
    "bounce_rate": 20.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 62.7
   },
   {
    "path": "/product/מגש-קוביות-קרח-מקורי-למקרר-ומקפיא-ליבה/",
@@ -1863,7 +2069,8 @@
    "engagement_rate": 69.6,
    "avg_seconds": 163.2,
    "bounce_rate": 30.4,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 48.4
   },
   {
    "path": "/product/צינורית-קיטור-מלאה-מקורית-למכונת-אספר/",
@@ -1872,7 +2079,18 @@
    "engagement_rate": 100,
    "avg_seconds": 45.4,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 100
+  },
+  {
+   "path": "/product/ציר-דלת-תנור-מקורי-עם-קפיץ-לתנורים-בנוי/",
+   "views": 27,
+   "users": 19,
+   "engagement_rate": 95.2,
+   "avg_seconds": 42.4,
+   "bounce_rate": 4.8,
+   "conversion_events": 3,
+   "feeds_site": 90.7
   },
   {
    "path": "/product/טבליות-ריח-מבושם-בניחוח-nature-למייבש-כביסה/",
@@ -1881,7 +2099,8 @@
    "engagement_rate": 100,
    "avg_seconds": 70.4,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 8,
+   "feeds_site": 100
   },
   {
    "path": "/product/מטחנה-עליונה-מקורית-למכונת-קפה-ברוויל-sp/",
@@ -1890,7 +2109,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 31.1,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/מיכל-מילוי-2-מקורי-twindos-למכונת-כביסה-miele-מילה-1022/",
@@ -1899,7 +2119,8 @@
    "engagement_rate": 81.8,
    "avg_seconds": 43.1,
    "bounce_rate": 18.2,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 66.9
   },
   {
    "path": "/product/מסנן-סל-מקורי-לסוחט-מיצים-ברביל-breville-sp0023036/",
@@ -1908,7 +2129,8 @@
    "engagement_rate": 100,
    "avg_seconds": 57.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 14,
+   "feeds_site": 100
   },
   {
    "path": "/product/סל-מסנן-nutridisk-מקורי-למסחטת-מיץ-ברוויל-breville-sp0023036/",
@@ -1917,7 +2139,8 @@
    "engagement_rate": 92.9,
    "avg_seconds": 43.5,
    "bounce_rate": 7.1,
-   "onward_to_conversion": 0
+   "conversion_events": 10,
+   "feeds_site": 86.3
   },
   {
    "path": "/product/פאנל-מגירת-מקפיא-מקורי-לסגירה-ובידוד-ת/",
@@ -1926,7 +2149,8 @@
    "engagement_rate": 84.2,
    "avg_seconds": 58.7,
    "bounce_rate": 15.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 70.9
   },
   {
    "path": "/product/ציר-דלת-מקורי-למקרר-ומקפיא-למקרר-ומקפי/",
@@ -1935,16 +2159,8 @@
    "engagement_rate": 68.0,
    "avg_seconds": 54.2,
    "bounce_rate": 32.0,
-   "onward_to_conversion": 0
-  },
-  {
-   "path": "/product/ציר-דלת-תנור-מקורי-עם-קפיץ-לתנורים-בנוי/",
-   "views": 26,
-   "users": 18,
-   "engagement_rate": 95.0,
-   "avg_seconds": 44.0,
-   "bounce_rate": 5.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 46.2
   },
   {
    "path": "/product/ראש-מבער-בינוני-מקורי-לכיריים-גז-סאוטר-s/",
@@ -1953,7 +2169,8 @@
    "engagement_rate": 94.1,
    "avg_seconds": 135.9,
    "bounce_rate": 5.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 88.6
   },
   {
    "path": "/product/פנל-עליון-חיצוני-מקורי-למכונת-כביסה-פת/",
@@ -1962,7 +2179,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 59.0,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 44.5
   },
   {
    "path": "/ru/мед/",
@@ -1971,7 +2189,8 @@
    "engagement_rate": 100,
    "avg_seconds": 23.1,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/en/honey/",
@@ -1980,7 +2199,8 @@
    "engagement_rate": 100,
    "avg_seconds": 43.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/breville/אביזרים-וחלקי-חילוף-למעבדי-מזון-ברווי/",
@@ -1989,7 +2209,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 17.4,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.5
   },
   {
    "path": "/product-category/whirlpool/אביזרים-וחלקי-חילוף-לתנורים-ווירלפול/",
@@ -1998,7 +2219,8 @@
    "engagement_rate": 76.2,
    "avg_seconds": 41.9,
    "bounce_rate": 23.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 58.1
   },
   {
    "path": "/product/גוף-חימום-תחתון-מקורי-לתנור-אפייה-סאוט/",
@@ -2007,7 +2229,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 33.5,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.1
   },
   {
    "path": "/product/כד-מיץ-2-ליטר-מקורי-למסחטת-מיץ-ברוויל-breville/",
@@ -2016,7 +2239,8 @@
    "engagement_rate": 81.2,
    "avg_seconds": 34.3,
    "bounce_rate": 18.8,
-   "onward_to_conversion": 0
+   "conversion_events": 11,
+   "feeds_site": 66.0
   },
   {
    "path": "/product/ערכת-שסתום-3-דרכים-מקורית-לניתוב-מים-במד/",
@@ -2025,7 +2249,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 203.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/פיית-הקצפה-עם-אטם-מקורית-למכונת-קפה-ברו/",
@@ -2034,7 +2259,8 @@
    "engagement_rate": 76.5,
    "avg_seconds": 29.9,
    "bounce_rate": 23.5,
-   "onward_to_conversion": 0
+   "conversion_events": 9,
+   "feeds_site": 58.5
   },
   {
    "path": "/product/שסתום-מקורי-למכונת-אספרסו-ברוויל-breville-sp0025521/",
@@ -2043,7 +2269,8 @@
    "engagement_rate": 85.0,
    "avg_seconds": 73.9,
    "bounce_rate": 15.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 72.2
   },
   {
    "path": "/טיפים-מקרר/",
@@ -2052,7 +2279,8 @@
    "engagement_rate": 68.0,
    "avg_seconds": 22.4,
    "bounce_rate": 32.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 46.2
   },
   {
    "path": "/product-category/sauter/אביזרים-וחלקי-חילוף-לתנורים-סאוטר/s900/",
@@ -2061,7 +2289,8 @@
    "engagement_rate": 65.0,
    "avg_seconds": 19.3,
    "bounce_rate": 35.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 42.2
   },
   {
    "path": "/product/אטם-כניסת-מיכל-מים-מקורי-למכונת-אספרסו/",
@@ -2070,7 +2299,8 @@
    "engagement_rate": 81.0,
    "avg_seconds": 19.4,
    "bounce_rate": 19.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 65.6
   },
   {
    "path": "/product/גוף-חימום-מקורי-2-1kw-למכונת-כביסה-מילה-miele-6260486-2/",
@@ -2079,7 +2309,8 @@
    "engagement_rate": 81.2,
    "avg_seconds": 51.9,
    "bounce_rate": 18.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 66.0
   },
   {
    "path": "/product/מיכל-מים-מקורי-למכונת-קפה-ברוויל-sp0025502/",
@@ -2088,7 +2319,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 24.2,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/ראש-מבער-גז-מהיר-מקורי-לכיריים-סאוטר-sauter-as0035/",
@@ -2097,7 +2329,8 @@
    "engagement_rate": 94.1,
    "avg_seconds": 58.5,
    "bounce_rate": 5.9,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 88.6
   },
   {
    "path": "/product/תבנית-אפייה-מקורית-לתנור-אפייה-מילה-miele-5650160/",
@@ -2106,7 +2339,8 @@
    "engagement_rate": 76.5,
    "avg_seconds": 38.9,
    "bounce_rate": 23.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 58.5
   },
   {
    "path": "/ru/филиал/Все-типыТолько-мелкие-товары/",
@@ -2115,7 +2349,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 43.2,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.6
   },
   {
    "path": "/tip-laundry/",
@@ -2124,7 +2359,8 @@
    "engagement_rate": 58.3,
    "avg_seconds": 26.8,
    "bounce_rate": 41.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 34.0
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למייבשי-כביסה-מיל/t1/",
@@ -2133,7 +2369,8 @@
    "engagement_rate": 92.9,
    "avg_seconds": 28.9,
    "bounce_rate": 7.1,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 86.3
   },
   {
    "path": "/product/גוף-חימום-מקורי-2-1kw-למכונת-כביסה-מילה-miele-6260486/",
@@ -2142,7 +2379,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 45.6,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/חצובה-2-מבערים-מקורית-לכיריים-גז-סאוטר-sauter/",
@@ -2151,7 +2389,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 19.8,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/ידית-דלת-מקורית-למקרר-לווירלפול-whirlpool-c00506980/",
@@ -2160,7 +2399,8 @@
    "engagement_rate": 100,
    "avg_seconds": 212.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 10,
+   "feeds_site": 100
   },
   {
    "path": "/product/מגירת-מקפיא-מקורית-למקפיא-ליבהר-liebherr-9792084/",
@@ -2169,7 +2409,8 @@
    "engagement_rate": 58.8,
    "avg_seconds": 10.1,
    "bounce_rate": 41.2,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 34.6
   },
   {
    "path": "/product/מדף-דלת-בקבוקים-מקורי-למקרר-ליבהר-liebherr-9031154/",
@@ -2178,7 +2419,8 @@
    "engagement_rate": 100,
    "avg_seconds": 148.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 100
   },
   {
    "path": "/product/מיכל-פולים-מקורי-למכונות-קפה-ברוויל-bes870-bes875/",
@@ -2187,7 +2429,8 @@
    "engagement_rate": 78.6,
    "avg_seconds": 128.7,
    "bounce_rate": 21.4,
-   "onward_to_conversion": 0
+   "conversion_events": 9,
+   "feeds_site": 61.8
   },
   {
    "path": "/product/מכלול-גוף-חימום-thermocoil-מקורי-למכונת-אספרסו-b/",
@@ -2196,7 +2439,8 @@
    "engagement_rate": 68.4,
    "avg_seconds": 61.0,
    "bounce_rate": 31.6,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 46.8
   },
   {
    "path": "/product/סלסלה-תחתונה-מקורית-למדיח-כלים-מילה-miele-10646951/",
@@ -2205,7 +2449,8 @@
    "engagement_rate": 100,
    "avg_seconds": 62.1,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/פילטר-מסנן-מיקרוני-מקורי-למדיח-כלים-מי/",
@@ -2214,7 +2459,8 @@
    "engagement_rate": 64.7,
    "avg_seconds": 116.1,
    "bounce_rate": 35.3,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 41.9
   },
   {
    "path": "/product/ראש-מבער-קטן-מקורי-לכיריים-גז-סאוטר-sauter-8071833/",
@@ -2223,7 +2469,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 65.1,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 64.0
   },
   {
    "path": "/jobs-and-careers/",
@@ -2232,7 +2479,8 @@
    "engagement_rate": 91.3,
    "avg_seconds": 20.7,
    "bounce_rate": 8.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 83.4
   },
   {
    "path": "/product/אטם-דלת-מקורי-למקרר-ליבהר-liebherr-7109852/",
@@ -2241,7 +2489,8 @@
    "engagement_rate": 94.1,
    "avg_seconds": 105.2,
    "bounce_rate": 5.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 88.6
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לתנור-סאוטר-sauter-9076882/",
@@ -2250,7 +2499,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 34.3,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/מחזיק-זכוכית-דלת-תנור-מקורי-עליון-ימני/",
@@ -2259,7 +2509,8 @@
    "engagement_rate": 86.7,
    "avg_seconds": 27.8,
    "bounce_rate": 13.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 75.1
   },
   {
    "path": "/product/מחסנית-ניקוי-אבנית-ותחזוקה-מקורית-למכ/",
@@ -2268,7 +2519,8 @@
    "engagement_rate": 93.8,
    "avg_seconds": 39.6,
    "bounce_rate": 6.2,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 87.9
   },
   {
    "path": "/product/נורת-הלוגן-מקורית-25w-לתנור-ותנור-אידוי-מ/",
@@ -2277,7 +2529,8 @@
    "engagement_rate": 70.0,
    "avg_seconds": 46.7,
    "bounce_rate": 30.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 49.0
   },
   {
    "path": "/product/צינור-לקשית-חלב-מקורי-למכונת-קפה-אספרס/",
@@ -2286,7 +2539,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 11.8,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 36.0
   },
   {
    "path": "/הצהרת-נגישות/",
@@ -2295,7 +2549,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 14.6,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/product-category/breville/אביזרים-וחלקי-חילוף-למכונות-קפה-ברווי/bes878/",
@@ -2304,7 +2559,8 @@
    "engagement_rate": 92.9,
    "avg_seconds": 40.8,
    "bounce_rate": 7.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 86.3
   },
   {
    "path": "/product/יחידת-חליטה-מקורית-למכונת-קפה-אספרסו-א/",
@@ -2313,7 +2569,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 38.8,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/יצרן-קוביות-קרח-מקורי-למקרר-ליבהר-liebherr-9903058/",
@@ -2322,7 +2579,8 @@
    "engagement_rate": 61.1,
    "avg_seconds": 15.3,
    "bounce_rate": 38.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 37.3
   },
   {
    "path": "/product/כלי-ניקוי-למוט-קיטור-ומסנני-קפה-מקורי-ל/",
@@ -2331,7 +2589,8 @@
    "engagement_rate": 52.4,
    "avg_seconds": 14.8,
    "bounce_rate": 47.6,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 27.4
   },
   {
    "path": "/product/כפתור-מתג-הפעלה-מקורי-לתנור-משולב-כירי-2/",
@@ -2340,7 +2599,8 @@
    "engagement_rate": 68.8,
    "avg_seconds": 21.6,
    "bounce_rate": 31.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 47.3
   },
   {
    "path": "/product/מגש-טפטוף-בגימור-שחור-מקורי-למכונת-קפה/",
@@ -2349,7 +2609,8 @@
    "engagement_rate": 77.8,
    "avg_seconds": 74.0,
    "bounce_rate": 22.2,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 60.5
   },
   {
    "path": "/product/מיכל-מיץ-מקורי-למסחטת-מיצים-ברוויל-breville-sp0005820/",
@@ -2358,7 +2619,8 @@
    "engagement_rate": 100,
    "avg_seconds": 97.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 15,
+   "feeds_site": 100
   },
   {
    "path": "/product/נורת-מקורית-לתנור-אפייה-מילה-miele-5236562/",
@@ -2367,7 +2629,8 @@
    "engagement_rate": 84.2,
    "avg_seconds": 84.3,
    "bounce_rate": 15.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 70.9
   },
   {
    "path": "/product/פילטר-ניקוז-מים-למכונת-כביסה-מילה-miele-04731981/",
@@ -2376,7 +2639,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 100.1,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/רשת-מקלחת-חיצונית-54-ממ-מקורית-למכונות-א/",
@@ -2385,7 +2649,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 42.3,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/שסתום-סולנואיד-מקורי-למכונת-קפה-ברווי/",
@@ -2394,7 +2659,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 25.4,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/שרוול-גומי-אטם-דלת-מקורי-למכונת-כביסה-ו/",
@@ -2403,7 +2669,8 @@
    "engagement_rate": 64.3,
    "avg_seconds": 58.6,
    "bounce_rate": 35.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 41.3
   },
   {
    "path": "/ru/Наши-контакты/",
@@ -2412,7 +2679,8 @@
    "engagement_rate": 95.0,
    "avg_seconds": 43.8,
    "bounce_rate": 5.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 90.2
   },
   {
    "path": "/מדיח-כלים-טושיבה-5-תקלות-נפוצות-ומדריך/",
@@ -2421,7 +2689,8 @@
    "engagement_rate": 76.5,
    "avg_seconds": 79.0,
    "bounce_rate": 23.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 58.5
   },
   {
    "path": "/product-category/liebherr/אביזרים-וחלקי-חילוף-למקררי-ליבהר/page/3/",
@@ -2430,7 +2699,8 @@
    "engagement_rate": 100,
    "avg_seconds": 117.4,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/גוף-חימום-עליון-מקורי-לתנור-אפיה-מילה-miele-7/",
@@ -2439,7 +2709,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 51.7,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מנוע-מאוורר-קירור-מקורי-לתנור-בנוי-סאו/",
@@ -2448,7 +2719,8 @@
    "engagement_rate": 58.3,
    "avg_seconds": 60.6,
    "bounce_rate": 41.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 34.0
   },
   {
    "path": "/product/מסילה-מקורית-לתנור-אפייה-סאוטר-sauter-8074568/",
@@ -2457,7 +2729,8 @@
    "engagement_rate": 100,
    "avg_seconds": 82.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/נורת-תאורה-מקורית-למקפיא-ומקרר-ליבהר-liebherr/",
@@ -2466,7 +2739,8 @@
    "engagement_rate": 73.3,
    "avg_seconds": 74.8,
    "bounce_rate": 26.7,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 53.8
   },
   {
    "path": "/product/סט-ברגים-מקורית-להתקנת-דלת-אינטגרלית-מ/",
@@ -2475,7 +2749,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 40.8,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/פילטר-קפה-מקורי-54-ממ-דופן-כפול-למכונות-א/",
@@ -2484,7 +2759,8 @@
    "engagement_rate": 85.0,
    "avg_seconds": 27.6,
    "bounce_rate": 15.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 72.2
   },
   {
    "path": "/product/תבנית-אפייה-מקורית-לתנור-אפייה-מילה-miele-hbb71-ai/",
@@ -2493,7 +2769,8 @@
    "engagement_rate": 45.5,
    "avg_seconds": 14.8,
    "bounce_rate": 54.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 20.7
   },
   {
    "path": "/ru/branch/פלרום-סניף-באר-שבע/",
@@ -2502,7 +2779,8 @@
    "engagement_rate": 70.0,
    "avg_seconds": 25.2,
    "bounce_rate": 30.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 49.0
   },
   {
    "path": "/en/Philips-shaver-not-working--manual-from-Makto/",
@@ -2511,7 +2789,8 @@
    "engagement_rate": 52.9,
    "avg_seconds": 40.1,
    "bounce_rate": 47.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 28.0
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למקפיאים-מילה/",
@@ -2520,7 +2799,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 27.8,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/גומי-אטם-דלת-מקורי-למכונת-כביסה-מיליה-miele-1/",
@@ -2529,7 +2809,8 @@
    "engagement_rate": 81.8,
    "avg_seconds": 114.2,
    "bounce_rate": 18.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 66.9
   },
   {
    "path": "/product/ידית-דלת-מקורית-למקרר-מילה-miele-10851200/",
@@ -2538,7 +2819,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 20.5,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מכסה-מיכל-מלח-מקורי-למדיח-כלים-מילה-miele-10532922/",
@@ -2547,7 +2829,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 50.9,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/מסילות-טלסקופיות-ימין-ושמאל-מקוריות-ל/",
@@ -2556,7 +2839,8 @@
    "engagement_rate": 81.2,
    "avg_seconds": 33.1,
    "bounce_rate": 18.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 66.0
   },
   {
    "path": "/product/משפך-מלח-מקורי-למדיח-מילה-miele-6098972/",
@@ -2565,7 +2849,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 22.6,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 32.6
   },
   {
    "path": "/product/פילטר-מסנן-מים-מקורי-למקרר-ליבהר-7440002/",
@@ -2574,7 +2859,8 @@
    "engagement_rate": 73.3,
    "avg_seconds": 32.6,
    "bounce_rate": 26.7,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 53.8
   },
   {
    "path": "/product/שקיות-אבק-מקוריות-3d-gn-לשואבי-אבק-מילה-miele-hyclean-991773/",
@@ -2583,7 +2869,8 @@
    "engagement_rate": 84.6,
    "avg_seconds": 71.9,
    "bounce_rate": 15.4,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 71.6
   },
   {
    "path": "/טיפים-תנור/",
@@ -2592,7 +2879,8 @@
    "engagement_rate": 88.2,
    "avg_seconds": 22.7,
    "bounce_rate": 11.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 77.8
   },
   {
    "path": "/en/whirlpool/",
@@ -2601,7 +2889,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 19.4,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.5
   },
   {
    "path": "/product-category/liebherr/אביזרים-וחלקי-חילוף-למקררי-ליבהר/cbnb/",
@@ -2610,7 +2899,8 @@
    "engagement_rate": 5.9,
    "avg_seconds": 0.0,
    "bounce_rate": 94.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 0.3
   },
   {
    "path": "/product/זכוכית-פנימית-מקורית-לדלת-תנור-אפייה-מ/",
@@ -2619,7 +2909,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 46.1,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/ידית-דלת-תנור-מקורית-לתנור-סאוטר-sauter-8073519/",
@@ -2628,7 +2919,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 107.7,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לתנור-סאוטר-sauter-9080708/",
@@ -2637,7 +2929,8 @@
    "engagement_rate": 84.6,
    "avg_seconds": 31.5,
    "bounce_rate": 15.4,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 71.6
   },
   {
    "path": "/product/מגירת-מקפיא-שלמה-מקורית-למקרר-ומקפיא-ל/",
@@ -2646,7 +2939,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 93.8,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/מחזיק-מסנן-מים-אובלי-מקורי-למכונות-אספ/",
@@ -2655,7 +2949,8 @@
    "engagement_rate": 92.3,
    "avg_seconds": 58.8,
    "bounce_rate": 7.7,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 85.2
   },
   {
    "path": "/product/מטען-מתאם-רשת-מקורי-15v-לגילוח-פיליפס-philips-300006155931/",
@@ -2664,7 +2959,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 29.4,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.1
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-10099540/",
@@ -2673,7 +2969,8 @@
    "engagement_rate": 88.2,
    "avg_seconds": 56.1,
    "bounce_rate": 11.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 77.8
   },
   {
    "path": "/product/סלסלת-סכום-עליונה-מקורית-למדיח-כלים-מי/",
@@ -2682,7 +2979,8 @@
    "engagement_rate": 53.3,
    "avg_seconds": 14.3,
    "bounce_rate": 46.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 28.4
   },
   {
    "path": "/ru/локатор-услуг/",
@@ -2691,7 +2989,8 @@
    "engagement_rate": 73.3,
    "avg_seconds": 21.5,
    "bounce_rate": 26.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 53.8
   },
   {
    "path": "/transaction-cancellation-policy/",
@@ -2700,7 +2999,8 @@
    "engagement_rate": 93.8,
    "avg_seconds": 51.3,
    "bounce_rate": 6.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 87.9
   },
   {
    "path": "/מכונת-קפה-מילה-תחזוקה-ניקוי-ותקלות-נפו/",
@@ -2709,7 +3009,8 @@
    "engagement_rate": 35.3,
    "avg_seconds": 16.1,
    "bounce_rate": 64.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 12.5
   },
   {
    "path": "/en/cart/",
@@ -2718,7 +3019,8 @@
    "engagement_rate": 100,
    "avg_seconds": 93.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/en/sauter/",
@@ -2727,7 +3029,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 36.3,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/fr/",
@@ -2736,7 +3039,8 @@
    "engagement_rate": 64.3,
    "avg_seconds": 46.6,
    "bounce_rate": 35.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 41.3
   },
   {
    "path": "/liebherr-service-ppc-day/",
@@ -2745,7 +3049,8 @@
    "engagement_rate": 61.5,
    "avg_seconds": 36.8,
    "bounce_rate": 38.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 37.8
   },
   {
    "path": "/product-category/liebherr/",
@@ -2754,7 +3059,8 @@
    "engagement_rate": 91.7,
    "avg_seconds": 110.9,
    "bounce_rate": 8.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 84.1
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למדיחי-כלים-מילה/g6xxx/",
@@ -2763,7 +3069,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 40.6,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/חיישן-סנסור-לחות-מקורי-למייבש-כביסה-מי/",
@@ -2772,7 +3079,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 71.5,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/מגירת-מקפיא-מקורית-למקפיא-ליבהר-liebherr-9791438/",
@@ -2781,7 +3089,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 140.0,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/מדף-דלת-תא-בקבוקים-מקורי-למקרר-ליבהר-liebherr-7438/",
@@ -2790,7 +3099,8 @@
    "engagement_rate": 78.6,
    "avg_seconds": 32.4,
    "bounce_rate": 21.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 61.8
   },
   {
    "path": "/product/סט-פילטרים-מסנן-פחם-מקורי-לקולט-אדים-מי/",
@@ -2799,7 +3109,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 20.3,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 32.6
   },
   {
    "path": "/product/ציר-דלת-מקורי-לתנור-ותנור-בנוי-משולב-כי/",
@@ -2808,7 +3119,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 50.7,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/תבנית-עמוקה-מקורית-לתנור-אפייה-סאוטר-sauter-9/",
@@ -2817,7 +3129,8 @@
    "engagement_rate": 91.7,
    "avg_seconds": 33.2,
    "bounce_rate": 8.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 84.1
   },
   {
    "path": "/טיפים-מייבש-כביסה/",
@@ -2826,7 +3139,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 27.3,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/en/branch/Pelrom_Jerusalem/",
@@ -2835,7 +3149,8 @@
    "engagement_rate": 45.5,
    "avg_seconds": 27.9,
    "bounce_rate": 54.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 20.7
   },
   {
    "path": "/en/product-category/honey/Accessories-and-spare-parts-for-washing-machines-Mill/",
@@ -2844,7 +3159,8 @@
    "engagement_rate": 100,
    "avg_seconds": 63.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/en/service-locator/",
@@ -2853,7 +3169,8 @@
    "engagement_rate": 69.2,
    "avg_seconds": 26.3,
    "bounce_rate": 30.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 47.9
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למכונות-כביסה-מיל/twindos/",
@@ -2862,7 +3179,8 @@
    "engagement_rate": 81.2,
    "avg_seconds": 35.4,
    "bounce_rate": 18.8,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 66.0
   },
   {
    "path": "/product/בורר-מצבים-מקורי-לתנור-אפייה-סאוטר-sauter-32016043/",
@@ -2871,7 +3189,8 @@
    "engagement_rate": 33.3,
    "avg_seconds": 15.8,
    "bounce_rate": 66.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 11.1
   },
   {
    "path": "/product/גומי-אטם-מגנטי-מקורי-לדלת-מקרר-מילה-miele-7327592/",
@@ -2880,7 +3199,8 @@
    "engagement_rate": 73.3,
    "avg_seconds": 20.1,
    "bounce_rate": 26.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 53.8
   },
   {
    "path": "/product/גוף-חימום-מקורי-2100w-למכונת-כביסה-מילה-miele-11905530/",
@@ -2889,7 +3209,8 @@
    "engagement_rate": 77.8,
    "avg_seconds": 203.0,
    "bounce_rate": 22.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 60.5
   },
   {
    "path": "/product/מיכל-מים-מקורי-למכונת-אספרסו-סייג-sage-sp0100209/",
@@ -2898,7 +3219,8 @@
    "engagement_rate": 100,
    "avg_seconds": 30.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 100
   },
   {
    "path": "/product/מסילה-טלסקופית-מקורית-למגירת-מקרר-ומק/",
@@ -2907,7 +3229,8 @@
    "engagement_rate": 45.5,
    "avg_seconds": 27.2,
    "bounce_rate": 54.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 20.7
   },
   {
    "path": "/product/מתג-נעילת-דלת-מקורי-לתנור-פירוליטי-סאו/",
@@ -2916,7 +3239,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 38.6,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.9
   },
   {
    "path": "/product/סכין-מקורי-למכונת-תספורת-פיליפס-philips-422203632751/",
@@ -2925,7 +3249,8 @@
    "engagement_rate": 91.7,
    "avg_seconds": 51.9,
    "bounce_rate": 8.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 84.1
   },
   {
    "path": "/product/סלסלה-תחתונה-קומפלט-מקורית-למדיח-כלים-3/",
@@ -2934,7 +3259,8 @@
    "engagement_rate": 69.2,
    "avg_seconds": 24.6,
    "bounce_rate": 30.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 47.9
   },
   {
    "path": "/product/ראש-מבער-גז-טורבו-ווק-מקורי-לכיריים-גז-2/",
@@ -2943,7 +3269,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 7.6,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/תבנית-אפייה-מקורית-לתנור-אפייה-מילה-miele-hubb71/",
@@ -2952,7 +3279,8 @@
    "engagement_rate": 90.0,
    "avg_seconds": 77.7,
    "bounce_rate": 10.0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 81.0
   },
   {
    "path": "/product/תושבת-זכוכית-אמצעית-מקורית-לדלת-תנור-ס/",
@@ -2961,7 +3289,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 14.7,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 79.0
   },
   {
    "path": "/טיפים-כיריים-גז/",
@@ -2970,7 +3299,8 @@
    "engagement_rate": 69.2,
    "avg_seconds": 20.8,
    "bounce_rate": 30.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 47.9
   },
   {
    "path": "/טיפים-מדיח-כלים/",
@@ -2979,7 +3309,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 55.6,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/מדיח-כלים-סאוטר-קודי-שגיאה-d01-d02-d03-ופתרונות/",
@@ -2988,7 +3319,8 @@
    "engagement_rate": 42.9,
    "avg_seconds": 26.4,
    "bounce_rate": 57.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 18.4
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-לתנורים-מילה/h4xxx/",
@@ -2997,7 +3329,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 31.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/ידית-מקורית-לדלת-תנור-אפייה-ווירלפול-whirlpoo/",
@@ -3006,7 +3339,8 @@
    "engagement_rate": 54.5,
    "avg_seconds": 22.8,
    "bounce_rate": 45.5,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 29.7
   },
   {
    "path": "/product/ידית-פורטפילטר-58-ממ-מקורית-למכונת-אספר/",
@@ -3015,7 +3349,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 20.4,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/כד-מיץ-מקורי-למסחטת-מיצים-ברוויל-breville-sp0000277/",
@@ -3024,7 +3359,8 @@
    "engagement_rate": 100,
    "avg_seconds": 65.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/כפתור-הצתה-שחור-מקורי-לכיריים-גז-סאוטר-s/",
@@ -3033,7 +3369,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 55.9,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/לוח-ממסר-חימום-מקורי-למדיח-מילה-miele-9053390/",
@@ -3042,7 +3379,8 @@
    "engagement_rate": 100,
    "avg_seconds": 211.1,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-בקבוקים-מקורי-לדלת-מקרר-מקפיא-ליבה/",
@@ -3051,7 +3389,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 30.1,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/מדף-זכוכית-שלם-מקורי-למקרר-ליבהר-liebherr-7272472/",
@@ -3060,7 +3399,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 36.8,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/מכלול-מטחנת-פולים-מקורי-למכונת-אספרסו/",
@@ -3069,7 +3409,8 @@
    "engagement_rate": 100,
    "avg_seconds": 37.9,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מסילת-סל-ימנית-מקורית-לסלסלה-עליונה-למ/",
@@ -3078,7 +3419,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 219.0,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/מסרק-מקורי-למכונת-תספורת-פיליפס-philips-422203630701/",
@@ -3087,7 +3429,8 @@
    "engagement_rate": 81.8,
    "avg_seconds": 56.3,
    "bounce_rate": 18.2,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 66.9
   },
   {
    "path": "/product/סלסלה-תחתונה-מקורית-למדיח-כלים-מילה-miele-10646971/",
@@ -3096,7 +3439,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 87.3,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/תומך-מחזיק-מדף-ימין-מקורי-למקרר-מקפיא-ל/",
@@ -3105,7 +3449,8 @@
    "engagement_rate": 77.8,
    "avg_seconds": 42.9,
    "bounce_rate": 22.2,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 60.5
   },
   {
    "path": "/המדריך-המקיף-לחלקי-חילוף-ושירותי-תיקו/",
@@ -3114,7 +3459,8 @@
    "engagement_rate": 100,
    "avg_seconds": 43.1,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/en/Sauter-Oven-Common-Maintenance-Faults-and-When-to/",
@@ -3123,7 +3469,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 53.5,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/en/product-category/sauter/Sauter-stove-accessories-and-spare-parts/",
@@ -3132,7 +3479,8 @@
    "engagement_rate": 100,
    "avg_seconds": 41.1,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/whirlpool/אביזרים-וחלקי-חילוף-לכיריים-ווירלפול/",
@@ -3141,7 +3489,8 @@
    "engagement_rate": 90.9,
    "avg_seconds": 31.1,
    "bounce_rate": 9.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 82.6
   },
   {
    "path": "/product/גומי-אטם-דלת-מקורי-למכונת-כביסה-מילה-miele-6579420/",
@@ -3150,7 +3499,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 67.0,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/גומי-אטם-דלת-מקורי-למקרר-ומקפיא-ליבהר-liebher/",
@@ -3159,7 +3509,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 65.7,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/גוף-חימום-טורבו-מקורי-לתנור-אפייה-סאוט/",
@@ -3168,7 +3519,8 @@
    "engagement_rate": 92.3,
    "avg_seconds": 26.3,
    "bounce_rate": 7.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 85.2
   },
   {
    "path": "/product/זכוכית-פנימית-מקורית-לדלת-תנור-אפייה-מ-5/",
@@ -3177,7 +3529,8 @@
    "engagement_rate": 21.4,
    "avg_seconds": 7.9,
    "bounce_rate": 78.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 4.6
   },
   {
    "path": "/product/חזית-מגירה-מקורית-למקרר-ומקפיא-ליבהר-liebherr/",
@@ -3186,7 +3539,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 71.3,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/יחידת-גילוח-תחתונה-מקורית-פיליפס-philips-422203624371/",
@@ -3195,7 +3549,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 50.2,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 52.9
   },
   {
    "path": "/product/מגירת-מקורית-שלמה-למקפיא-ליבהר-liebherr-9791631/",
@@ -3204,7 +3559,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 69.7,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.9
   },
   {
    "path": "/product/מסילה-מקורית-לתנור-אפייה-סאוטר-sauter-8074569/",
@@ -3213,7 +3569,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 64.0,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.9
   },
   {
    "path": "/product/סט-ראשי-גילוח-מקורי-למכונת-גילוח-philips-422203626411/",
@@ -3222,7 +3579,8 @@
    "engagement_rate": 100,
    "avg_seconds": 62.1,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-10491460/",
@@ -3231,7 +3589,8 @@
    "engagement_rate": 100,
    "avg_seconds": 33.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/ערכת-autocleaner-מקורית-לניקוי-אוטומטי-מכונת-קפ/",
@@ -3240,7 +3599,8 @@
    "engagement_rate": 100,
    "avg_seconds": 28.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 100
   },
   {
    "path": "/product/פילטר-מים-פחם-פעיל-מקורי-למקרר-ליבהר-liebherr-9096/",
@@ -3249,7 +3609,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 213.4,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 7,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/פילטר-קפה-מקורי-54-ממ-לכוס-אחת-למכונות-אס/",
@@ -3258,7 +3619,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 32.1,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/ראש-עיצוב-מקורי-למכונת-גילוח-פיליפס-philips-300005/",
@@ -3267,7 +3629,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 55.9,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/תא-חומרי-ניקוי-מקורי-למכונת-כביסה-מילה-2/",
@@ -3276,7 +3639,8 @@
    "engagement_rate": 90.0,
    "avg_seconds": 131.9,
    "bounce_rate": 10.0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 81.0
   },
   {
    "path": "/sitemap/",
@@ -3285,7 +3649,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 70.8,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/en/product/Original-door-hinge-for-oven-and-built-in-oven-because/",
@@ -3294,7 +3659,8 @@
    "engagement_rate": 100,
    "avg_seconds": 70.1,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/en/product/Original-ice-cube-tray-for-refrigerator-and-core-freezer/",
@@ -3303,7 +3669,8 @@
    "engagement_rate": 36.4,
    "avg_seconds": 8.2,
    "bounce_rate": 63.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 13.2
   },
   {
    "path": "/en/product/Original-main-control-board-card-pcb-for-Asper-machine/",
@@ -3312,7 +3679,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 109.8,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 44.5
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למדיחי-כלים-מילה/g1xxx/",
@@ -3321,7 +3689,8 @@
    "engagement_rate": 100,
    "avg_seconds": 77.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/philips/",
@@ -3330,7 +3699,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 23.4,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/חיישן-סנסור-בטיחות-תרמוקופל-מקורי-300-ממ/",
@@ -3339,7 +3709,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 68.0,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/כד-חלב-מקורי-למכונת-קפה-ברוויל-sp0001875/",
@@ -3348,7 +3719,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 9.7,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לתנור-סאוטר-sauter-8061459/",
@@ -3357,7 +3729,8 @@
    "engagement_rate": 100,
    "avg_seconds": 23.9,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מחזיק-בקבוקים-מקורי-למקרר-מילה-miele-9482202/",
@@ -3366,7 +3739,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 30.6,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/מחזיק-סלסלה-שמאלי-מקורי-למדיח-כלים-מיל/",
@@ -3375,7 +3749,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 316.6,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/מכלול-מטחנת-precision-מקורי-למכונת-קפה-ברוויל-brev/",
@@ -3384,7 +3759,8 @@
    "engagement_rate": 90.0,
    "avg_seconds": 15.2,
    "bounce_rate": 10.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 81.0
   },
   {
    "path": "/product/מכסה-עליון-מקורי-למסחטות-מיץ-ברוויל-מס/",
@@ -3393,7 +3769,8 @@
    "engagement_rate": 100,
    "avg_seconds": 83.4,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 10,
+   "feeds_site": 100
   },
   {
    "path": "/product/מסילה-צד-ימין-מקורית-לתנור-בנוי-מילה-miele-5455820/",
@@ -3402,7 +3779,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 77.4,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/מסנן-סל-מקורי-לסוחט-מיצים-ברביל-breville-sp0000266/",
@@ -3411,7 +3789,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 39.9,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.9
   },
   {
    "path": "/product/מסרק-מתכוונן-מקורי-למכונת-תספורת-philips-hc56-bt75-422203633/",
@@ -3420,7 +3799,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 62.1,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/סט-צירים-מקורי-ימין-ושמאל-לדלת-תנור-מיל/",
@@ -3429,7 +3809,8 @@
    "engagement_rate": 25.0,
    "avg_seconds": 19.0,
    "bounce_rate": 75.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 6.2
   },
   {
    "path": "/product/סלסלת-סכום-מקורית-למדיח-כלים-מילה-miele-6024710/",
@@ -3438,7 +3819,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 35.2,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/פילטר-מסנן-פחם-פעיל-freshair-מקורי-למקרר-ליבה/",
@@ -3447,7 +3829,8 @@
    "engagement_rate": 70.0,
    "avg_seconds": 67.9,
    "bounce_rate": 30.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 49.0
   },
   {
    "path": "/product/צינור-ניקוז-מקורי-למדיח-כלים-מילה-miele-6401480/",
@@ -3456,7 +3839,8 @@
    "engagement_rate": 46.2,
    "avg_seconds": 147.9,
    "bounce_rate": 53.8,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 21.3
   },
   {
    "path": "/product/קופסת-אחסון-לאביזרים-מקורית-למכונת-קפ/",
@@ -3465,7 +3849,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 25.8,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.1
   },
   {
    "path": "/product/רצועת-מסגרת-דלת-תנור-מקורית-סאוטר-sauter-8057265/",
@@ -3474,7 +3859,8 @@
    "engagement_rate": 90.0,
    "avg_seconds": 113.2,
    "bounce_rate": 10.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 81.0
   },
   {
    "path": "/product/שרוול-גומי-אטם-דלת-מקורי-למכונת-כביסה-מ/",
@@ -3483,7 +3869,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 44.7,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/תושבת-גלגלים-l-מקורית-לסלסלת-סכום-במדי/",
@@ -3492,7 +3879,8 @@
    "engagement_rate": 77.8,
    "avg_seconds": 43.7,
    "bounce_rate": 22.2,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 60.5
   },
   {
    "path": "/מדריך-אחסון-מוצרי-חלב-לשבועות-במקרר-לי/",
@@ -3501,7 +3889,8 @@
    "engagement_rate": 54.5,
    "avg_seconds": 47.4,
    "bounce_rate": 45.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 29.7
   },
   {
    "path": "/ar/خدمة-عملاء-إلكترا:-كيفية-الاتصال-بفني-و/",
@@ -3510,7 +3899,8 @@
    "engagement_rate": 45.5,
    "avg_seconds": 7.2,
    "bounce_rate": 54.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 20.7
   },
   {
    "path": "/en/Sauter-Customer-Service-Telephone-Technician-Appointment-and/",
@@ -3519,7 +3909,8 @@
    "engagement_rate": 40.0,
    "avg_seconds": 12.9,
    "bounce_rate": 60.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 16.0
   },
   {
    "path": "/en/breville/",
@@ -3528,7 +3919,8 @@
    "engagement_rate": 90.9,
    "avg_seconds": 28.3,
    "bounce_rate": 9.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 82.6
   },
   {
    "path": "/en/product-category/honey/Accessories-and-spare-parts-for-Miele-dishwashers/g2xxx/",
@@ -3537,7 +3929,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 31.1,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.9
   },
   {
    "path": "/en/product/Scent-tablets-with-an-oriental-scent-for-a-clothes-dryer/",
@@ -3546,7 +3939,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 67.2,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 79.0
   },
   {
    "path": "/es/",
@@ -3555,7 +3949,8 @@
    "engagement_rate": 100,
    "avg_seconds": 26.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/fr/Les-produits/Pompe-de-vidange-d'origine-pour-sèche-linge-Whirlpool-Indesit-C00620161/",
@@ -3564,7 +3959,8 @@
    "engagement_rate": 0,
    "avg_seconds": 0.0,
    "bounce_rate": 100,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 0
   },
   {
    "path": "/product-category/philips/אביזרים-וחלקי-חילוף-לשואבי-אבק-פיליפס/",
@@ -3573,7 +3969,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 13.0,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/בולם-חיכוך-זוג-מקורי-למכונת-כביסה-מילה/",
@@ -3582,7 +3979,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 32.9,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/ידית-דלת-מקורית-לתנור-סאוטר-sauter-8073520/",
@@ -3591,7 +3989,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 102.4,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/ידית-מקורית-למקרר-ליבהר-liebherr-9096530/",
@@ -3600,7 +3999,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 32.8,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/יצרן-קוביות-קרח-מקורי-icemaker-למקרר-ליבהר-liebherr-9901971/",
@@ -3609,7 +4009,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 147.5,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/כרטיס-פיקוד-מקורי-ליחידת-חשמל-בקרה-למד/",
@@ -3618,7 +4019,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 9.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/מגירת-מקרר-מקורית-ללא-הדפסה-ליבהר-liebherr-9792108/",
@@ -3627,7 +4029,8 @@
    "engagement_rate": 90.0,
    "avg_seconds": 72.9,
    "bounce_rate": 10.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 81.0
   },
   {
    "path": "/product/מדף-זכוכית-מקורי-למקפיא-ליבהר-liebherr-7271358/",
@@ -3636,7 +4039,8 @@
    "engagement_rate": 100,
    "avg_seconds": 111.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-מעקה-מקורי-לדלת-מקרר-מילה-miele-11781690/",
@@ -3645,7 +4049,8 @@
    "engagement_rate": 54.5,
    "avg_seconds": 17.8,
    "bounce_rate": 45.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 29.7
   },
   {
    "path": "/product/מיכל-פולים-מקורי-למכונת-אספרסו-ברוויל-br/",
@@ -3654,7 +4059,8 @@
    "engagement_rate": 100,
    "avg_seconds": 14.1,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/מסרק-מקורי-למכונת-תספורת-פיליפס-philips-422203630691/",
@@ -3663,7 +4069,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 24.5,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/נוזל-ניקוי-hydrocleaner-מקורי-לתנור-אדים-משולב-miele/",
@@ -3672,7 +4079,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 27.1,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/ערכת-בולמי-זעזועים-מקורית-3-יחידות-למכ/",
@@ -3681,7 +4089,8 @@
    "engagement_rate": 81.8,
    "avg_seconds": 124.9,
    "bounce_rate": 18.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 66.9
   },
   {
    "path": "/product/צינור-גוף-חימום-מקורי-למקפיא-ליבהר-liebherr-6940394/",
@@ -3690,7 +4099,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 89.6,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/ראש-מבער-טורבו-מקורי-סאוטר-sauter-8051407/",
@@ -3699,7 +4109,8 @@
    "engagement_rate": 100,
    "avg_seconds": 49.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/שרוול-גומי-אטם-דלת-מקורי-למכונת-כביסה-3/",
@@ -3708,7 +4119,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 198.0,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/תא-חומרי-ניקוי-מקורי-עם-סיפון-למכונת-כב/",
@@ -3717,7 +4129,8 @@
    "engagement_rate": 72.7,
    "avg_seconds": 12.0,
    "bounce_rate": 27.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 52.9
   },
   {
    "path": "/product/תומך-מחזיק-מדף-שמאל-מקורי-למקרר-מקפיא-ל/",
@@ -3726,7 +4139,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 54.5,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 44.5
   },
   {
    "path": "/ru/категории-продуктов/Sauter/Аксессуары-и-запасные-части-для-печей-Sauter/",
@@ -3735,7 +4149,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 61.2,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/הסכם-שירות-תיקונים-ואחזקה-למוצרי-חשמל/",
@@ -3744,7 +4159,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 38.6,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/en/Answers-to-frequently-asked-questions-to-help-you/",
@@ -3753,7 +4169,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 8.9,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.1
   },
   {
    "path": "/en/philips/",
@@ -3762,7 +4179,8 @@
    "engagement_rate": 55.6,
    "avg_seconds": 113.6,
    "bounce_rate": 44.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 30.9
   },
   {
    "path": "/en/product-category/breville/Accessories-and-spare-parts-for-Barvey-coffee-machines/bes875/",
@@ -3771,7 +4189,8 @@
    "engagement_rate": 70.0,
    "avg_seconds": 46.8,
    "bounce_rate": 30.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 49.0
   },
   {
    "path": "/en/product/Original-full-steam-hose-for-the-Esper-machine/",
@@ -3780,7 +4199,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 21.8,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/en/product/חיישן-סנסור-טמפרטורה-מקורי-לתנור-סאוט-2/",
@@ -3789,7 +4209,8 @@
    "engagement_rate": 100,
    "avg_seconds": 454.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 10,
+   "feeds_site": 100
   },
   {
    "path": "/product/אבקת-ניקוי-ותחזוקת-מיכל-חלב-למכונות-קפ/",
@@ -3798,7 +4219,8 @@
    "engagement_rate": 100,
    "avg_seconds": 24.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/אטם-מכסה-תא-נוזל-השטיפה-מקורי-44-ממ-למדיח/",
@@ -3807,7 +4229,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 37.4,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/גוף-מגירת-variosafe-k2-מקורי-למקפיאי-ליבהר-liebherr-9041576/",
@@ -3816,7 +4239,8 @@
    "engagement_rate": 100,
    "avg_seconds": 88.4,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/זכוכית-חיצונית-מקורית-לדלת-תנור-אפייה-60/",
@@ -3825,7 +4249,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 25.5,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/טרמוסטט-בטיחות-מקורי-למייבש-כביסה-מיל/",
@@ -3834,7 +4259,8 @@
    "engagement_rate": 77.8,
    "avg_seconds": 44.2,
    "bounce_rate": 22.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 60.5
   },
   {
    "path": "/product/ידית-דלת-מקורית-למקרר-ומקפיא-ליבהר-liebherr-9097210/",
@@ -3843,7 +4269,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 34.9,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/ידית-פילטר-מקורית-למכונות-אספרסו-ברוו/",
@@ -3852,7 +4279,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 40.8,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/ידית-צינורית-efs-מקורית-עם-מברשת-נשלפת-לש/",
@@ -3861,7 +4289,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 152.3,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/כפתור-הצתה-מקורי-לכיריים-גז-מילה-miele-8236511/",
@@ -3870,7 +4299,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 40.0,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/כרטיס-לוח-בקרה-ראשי-מקורי-pcb-למכונת-אספר/",
@@ -3879,7 +4309,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 60.6,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/מגירה-מקורית-למקפיא-ליבהר-מקט-9791426/",
@@ -3888,7 +4319,8 @@
    "engagement_rate": 70.0,
    "avg_seconds": 26.9,
    "bounce_rate": 30.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 49.0
   },
   {
    "path": "/product/מגירה-מקורית-למקרר-ומקפיא-ליבהר-liebherr-9795682/",
@@ -3897,7 +4329,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 40.1,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/מגירת-ירקות-מקורית-למקרר-ליבהר-liebherr-9290036/",
@@ -3906,7 +4339,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 65.8,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/מגש-טפטוף-מקורי-ברוויל-sp0025558-חלקי-חילוף-למ/",
@@ -3915,7 +4349,8 @@
    "engagement_rate": 37.5,
    "avg_seconds": 10.2,
    "bounce_rate": 62.5,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 14.1
   },
   {
    "path": "/product/מד-לחץ-מקורי-למכונת-קפה-סייג-sage-sp0100697/",
@@ -3924,7 +4359,8 @@
    "engagement_rate": 44.4,
    "avg_seconds": 24.8,
    "bounce_rate": 55.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 19.7
   },
   {
    "path": "/product/מדף-בקבוקים-מקורי-לדלת-מקרר-ליבהר-liebherr-7438891/",
@@ -3933,7 +4369,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 252.0,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/מדף-זכוכית-מקורי-למקרר-ליבהר-liebherr-7272113/",
@@ -3942,7 +4379,8 @@
    "engagement_rate": 100,
    "avg_seconds": 143.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-זכוכית-מקורי-לתא-מקרר-ליבהר-liebherr-7272149/",
@@ -3951,7 +4389,8 @@
    "engagement_rate": 100,
    "avg_seconds": 35.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-רשת-מקורי-עם-ציפוי-perfectclean-לתנור-אפייה-מ-2/",
@@ -3960,7 +4399,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 38.0,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/מחזיק-צלחות-לסלסלה-תחתונה-למדיח-כלים-מ-2/",
@@ -3969,7 +4409,8 @@
    "engagement_rate": 44.4,
    "avg_seconds": 38.6,
    "bounce_rate": 55.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 19.7
   },
   {
    "path": "/product/מיכל-קליפות-מקורי-לסוחט-מיצים-ברביל-breville-sp002/",
@@ -3978,7 +4419,8 @@
    "engagement_rate": 100,
    "avg_seconds": 80.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 100
   },
   {
    "path": "/product/ממטרה-עליונה-מקוריות-למדיח-כלים-מילה-miele-10/",
@@ -3987,7 +4429,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 25.0,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/מנוע-מאוורר-קירור-מקורי-mt58-230v-לתנור-סאוטר-saut/",
@@ -3996,7 +4439,8 @@
    "engagement_rate": 88.9,
    "avg_seconds": 44.2,
    "bounce_rate": 11.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 79.0
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-11239170/",
@@ -4005,7 +4449,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 32.8,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-6663430/",
@@ -4014,7 +4459,8 @@
    "engagement_rate": 90.0,
    "avg_seconds": 36.8,
    "bounce_rate": 10.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 81.0
   },
   {
    "path": "/product/פאנל-קדמי-מקורי-למגירת-אבקת-כביסה-למכו-2/",
@@ -4023,7 +4469,8 @@
    "engagement_rate": 55.6,
    "avg_seconds": 56.2,
    "bounce_rate": 44.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 30.9
   },
   {
    "path": "/product/צינור-סיפון-מקורי-תא-מרכך-למכונת-כביסה/",
@@ -4032,7 +4479,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 107.4,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.6
   },
   {
    "path": "/product/תופסן-מעצור-סלסלה-מקורי-לסלסלת-הסכיני/",
@@ -4041,7 +4489,8 @@
    "engagement_rate": 100,
    "avg_seconds": 114.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 100
   },
   {
    "path": "/product/תופסן-מקורי-למסילה-טלסקופית-תנור-סאוט/",
@@ -4050,7 +4499,8 @@
    "engagement_rate": 63.6,
    "avg_seconds": 23.8,
    "bounce_rate": 36.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 40.5
   },
   {
    "path": "/ru/Sauter/",
@@ -4059,7 +4509,8 @@
    "engagement_rate": 100,
    "avg_seconds": 64.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/tip-gas/",
@@ -4068,7 +4519,8 @@
    "engagement_rate": 44.4,
    "avg_seconds": 15.2,
    "bounce_rate": 55.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 19.7
   },
   {
    "path": "/קודי-תקלות-במדיח-מילה-f12-f70/",
@@ -4077,7 +4529,8 @@
    "engagement_rate": 45.5,
    "avg_seconds": 64.9,
    "bounce_rate": 54.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 20.7
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למכונות-כביסה-מיל/wdaxxx/",
@@ -4086,7 +4539,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 54.5,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.1
   },
   {
    "path": "/product/גוף-חימום-עליון-מקורי-לתנור-סאוטר-sauter-8071983/",
@@ -4095,7 +4549,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 36.4,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/חיישן-סנסור-טמפרטורה-מקורי-לתנור-סאוט-2/",
@@ -4104,7 +4559,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 78.3,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/כפתור-הפעלה-לבן-מקורי-לתנורים-וכיריים/",
@@ -4113,7 +4569,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 12.8,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לתנור-אפייה-סאוטר-sauter-8061459/",
@@ -4122,7 +4579,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 55.4,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/כרטיס-יחידת-בקרה-אלקטרונית-מקורי-למכו/",
@@ -4131,7 +4589,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 165.2,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/מחזיק-כוסות-יין-מקורי-לסלסלה-עליונה-למ-2/",
@@ -4140,7 +4599,8 @@
    "engagement_rate": 44.4,
    "avg_seconds": 7.2,
    "bounce_rate": 55.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 19.7
   },
   {
    "path": "/product/מחזיק-תפס-מקורי-למדף-דלת-מקרר-ימין-ליב/",
@@ -4149,7 +4609,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 70.0,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/מיכל-אחסון-מקורי-עם-מכסה-לדלת-מקרר-liebherr-9031110/",
@@ -4158,7 +4619,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 51.3,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/מנגנון-נעילה-חשמלי-מקורי-לדלת-מדיח-כלי/",
@@ -4167,7 +4629,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 58.8,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/מסנן-פילטר-ראשי-מקורי-לסינון-מוך-במייב/",
@@ -4176,7 +4639,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 79.8,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-10491444/",
@@ -4185,7 +4649,8 @@
    "engagement_rate": 100,
    "avg_seconds": 42.3,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/סלסלה-תחתונה-מקורית-למדיח-כלים-מילה-miele-10646981/",
@@ -4194,7 +4659,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 79.5,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/סנסור-טמפרטורה-מקורי-למקפיא-ומקרר-liebherr-9590206/",
@@ -4203,7 +4669,8 @@
    "engagement_rate": 42.9,
    "avg_seconds": 55.7,
    "bounce_rate": 57.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 18.4
   },
   {
    "path": "/product/פאנל-מקורי-למגירת-אבקת-כביסה-למכונת-כב/",
@@ -4212,7 +4679,8 @@
    "engagement_rate": 100,
    "avg_seconds": 36.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/פילטר-מסנן-פחם-מקורי-לקולט-אדים-מילה-miele-מ/",
@@ -4221,7 +4689,8 @@
    "engagement_rate": 100,
    "avg_seconds": 63.9,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/צינור-ניקוז-מקורי-למדיח-כלים-ווירלפול-wh/",
@@ -4230,7 +4699,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 9.4,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/שסתום-מים-מקורי-למכונת-כביסה-מילה-miele-4971731/",
@@ -4239,7 +4709,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 6.2,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/תא-חומרי-ניקוי-מקורי-למכונת-כביסה-מילה-m/",
@@ -4248,7 +4719,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 19.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/ru/категории-продуктов/мед/Аксессуары-и-запчасти-для-стиральных-машин-Мельница/",
@@ -4257,7 +4729,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 67.0,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/חצובות-לכיריים-גז-סאוטר/",
@@ -4266,7 +4739,8 @@
    "engagement_rate": 70.0,
    "avg_seconds": 41.2,
    "bounce_rate": 30.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 49.0
   },
   {
    "path": "/en/branch/Pelrom-branch-Beer-Sheva/",
@@ -4275,7 +4749,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 13.8,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/en/liebherr/",
@@ -4284,7 +4759,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 58.0,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 39.1
   },
   {
    "path": "/en/product-category/sage/Accessories-and-spare-parts-for-Sage-coffee-machine/",
@@ -4293,7 +4769,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 28.8,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.6
   },
   {
    "path": "/en/product/Original-door-seal-for-Sauter-oven-Sauter-71x0073/",
@@ -4302,7 +4779,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 13.9,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.1
   },
   {
    "path": "/en/product/Original-electric-door-lock-mechanism-for-machine-2/",
@@ -4311,7 +4789,8 @@
    "engagement_rate": 28.6,
    "avg_seconds": 60.7,
    "bounce_rate": 71.4,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 8.2
   },
   {
    "path": "/miele-services-ppc-night/",
@@ -4320,7 +4799,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 24.2,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product-category/liebherr/אביזרים-וחלקי-חילוף-למקררי-ליבהר/cn/",
@@ -4329,7 +4809,8 @@
    "engagement_rate": 100,
    "avg_seconds": 62.4,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/liebherr/אביזרים-וחלקי-חילוף-למקררי-ליבהר/gn3023/",
@@ -4338,7 +4819,8 @@
    "engagement_rate": 100,
    "avg_seconds": 40.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/אטם-דלת-מרובע-מקורי-למכונת-כביסה-פתח-על/",
@@ -4347,7 +4829,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 33.4,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/אטם-מיכל-נוזל-שטיפה-מקורי-למדיח-כלים-מי/",
@@ -4356,7 +4839,8 @@
    "engagement_rate": 100,
    "avg_seconds": 70.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/גוף-חימום-עליון-גריל-מקורי-2900w-לתנור-סאוט/",
@@ -4365,7 +4849,8 @@
    "engagement_rate": 37.5,
    "avg_seconds": 78.4,
    "bounce_rate": 62.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 14.1
   },
   {
    "path": "/product/גוף-חימום-תחתון-מקורי-לתנור-סאוטר-sauter-8031255/",
@@ -4374,7 +4859,8 @@
    "engagement_rate": 37.5,
    "avg_seconds": 12.8,
    "bounce_rate": 62.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 14.1
   },
   {
    "path": "/product/גוף-מגירת-עליונה-מקורי-למקפיא-ליבהר-liebherr-74248/",
@@ -4383,7 +4869,8 @@
    "engagement_rate": 100,
    "avg_seconds": 16.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/גלגל-מקורי-לסלסלה-תחתונה-מדיח-כלים-ווי/",
@@ -4392,7 +4879,8 @@
    "engagement_rate": 100,
    "avg_seconds": 76.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 100
   },
   {
    "path": "/product/זכוכית-דלת-פנימית-מקורית-cleanglass-לתנור-מילה-mie/",
@@ -4401,7 +4889,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 54.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/טרימר-דיוק-מקורי-למכונת-גילוח-פיליפס-philips/",
@@ -4410,7 +4899,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 54.6,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/ידית-פורטפילטר-54-ממ-מקורית-למכונת-אספר/",
@@ -4419,7 +4909,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 15.7,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.6
   },
   {
    "path": "/product/כיסוי-ידית-דלת-מקורי-אפור-כסוף-למקרר-לי/",
@@ -4428,7 +4919,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 20.6,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/כף-קפה-מקורית-למכונות-קפה-ברוויל-bes870-bes875-sp0001525/",
@@ -4437,7 +4929,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 10.1,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/כפתור-בורר-תוכניות-מקורי-למדיח-כלים/",
@@ -4446,7 +4939,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 25.6,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לכיריים-גז-סאוטר-sauter-77x9346/",
@@ -4455,7 +4949,8 @@
    "engagement_rate": 100,
    "avg_seconds": 48.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/כרטיס-אלקטרוני-ראשי-240v-למכונת-קפה-sage-barista-pro-sp0028451/",
@@ -4464,7 +4959,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 29.3,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/כרטיס-לוח-בקרה-אלקטרוני-מקורי-למקרר-לי/",
@@ -4473,7 +4969,8 @@
    "engagement_rate": 100,
    "avg_seconds": 61.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/לוח-זכוכית-בטיחות-מקורי-לתא-מקרר-מקפיא-l/",
@@ -4482,7 +4979,8 @@
    "engagement_rate": 100,
    "avg_seconds": 55.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מאוורר-קירור-מקורי-למקרר-יין-ליבהר-liebherr-9097241/",
@@ -4491,7 +4989,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 19.1,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/מגירת-ירקות-קצרה-מקורית-למקרר-ליבהר-liebherr-92903/",
@@ -4500,7 +4999,8 @@
    "engagement_rate": 100,
    "avg_seconds": 430.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-זכוכית-מקורי-למקרר-ליבהר-liebherr-7272829/",
@@ -4509,7 +5009,8 @@
    "engagement_rate": 100,
    "avg_seconds": 51.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מכסה-מקורי-למסחטת-מיצים-ברביל-breville-sp0008687/",
@@ -4518,7 +5019,8 @@
    "engagement_rate": 100,
    "avg_seconds": 36.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/מכסה-עליון-מקורי-למסחטת-מיצים-ברוויל-breville/",
@@ -4527,7 +5029,8 @@
    "engagement_rate": 100,
    "avg_seconds": 399.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 7,
+   "feeds_site": 100
   },
   {
    "path": "/product/משאבת-הדחה-מקורית-למדיח-כלים-מילה-miele-12133910/",
@@ -4536,7 +5039,8 @@
    "engagement_rate": 100,
    "avg_seconds": 61.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/נועל-דלת-מקורי-למכונת-כביסה-ווירלפול-whirlpoo/",
@@ -4545,7 +5049,8 @@
    "engagement_rate": 100,
    "avg_seconds": 216.3,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/סיר-קדירה-גומא-בהשראה-אינדוקציה-מילה-miele-hu/",
@@ -4554,7 +5059,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 110.8,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-ווירלפ/",
@@ -4563,7 +5069,8 @@
    "engagement_rate": 100,
    "avg_seconds": 52.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/פאנל-קדמי-מקורי-למגירת-מקפיא-ליבהר-liebherr-7432158/",
@@ -4572,7 +5079,8 @@
    "engagement_rate": 100,
    "avg_seconds": 22.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/פילטר-מסנן-מקורי-למדיח-כלים-ווירלפול-whirlpoo/",
@@ -4581,7 +5089,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 48.0,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/צינור-גומי-ניקוז-מתקפל-מקורי-למכונת-כב/",
@@ -4590,7 +5099,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 27.1,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/צינורית-קיטור-מלאה-מקורית-למכונת-אספר-2/",
@@ -4599,7 +5109,8 @@
    "engagement_rate": 100,
    "avg_seconds": 24.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/קונוס-סחיטה-מקורי-לסוחט-הדרים-ברוויל-brevil-2/",
@@ -4608,7 +5119,8 @@
    "engagement_rate": 100,
    "avg_seconds": 61.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 5,
+   "feeds_site": 100
   },
   {
    "path": "/product/קונוס-סחיטה-מקורי-לסוחט-הדרים-ברוויל-breville/",
@@ -4617,7 +5129,8 @@
    "engagement_rate": 100,
    "avg_seconds": 28.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 100
   },
   {
    "path": "/product/ראש-גילוח-מקורי-למכונת-גילוח-פיליפס-philips-422203/",
@@ -4626,7 +5139,8 @@
    "engagement_rate": 100,
    "avg_seconds": 19.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/רגל-קדמית-מתכווננת-לגובה-למקרר-מקפיא-ל/",
@@ -4635,7 +5149,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 22.6,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/רגלית-מקורית-למכונת-כביסה-מילהmiele-00233801/",
@@ -4644,7 +5159,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 13.6,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.6
   },
   {
    "path": "/product/שרוול-גומי-אטם-דלת-מקורי-למכונת-כביסה-whirlpo/",
@@ -4653,7 +5169,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 38.7,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/תושבת-חיבור-חשמלי-מקורית-קלאמפ-לתנור-ו/",
@@ -4662,7 +5179,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 87.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 64.0
   },
   {
    "path": "/ru/ПРОДУКТЫ/Комплект-для-подключения-колонны-со-встроенным-ящиком-для-стиральной-машины./",
@@ -4671,7 +5189,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 59.5,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/en/product/Original-bottom-filter-for-a-mill-heat-pump-dryer/",
@@ -4680,7 +5199,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 66.0,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 44.5
   },
   {
    "path": "/en/product/Original-door-seal-for-Sauter-oven-Sauter-8511650/",
@@ -4689,7 +5209,8 @@
    "engagement_rate": 100,
    "avg_seconds": 22.3,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/fr/miel/",
@@ -4698,7 +5219,8 @@
    "engagement_rate": 100,
    "avg_seconds": 214.4,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-לתנורים-מילה/h3xx/",
@@ -4707,7 +5229,8 @@
    "engagement_rate": 100,
    "avg_seconds": 30.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/sage/אביזרים-וחלקי-חילוף-לטוסטר-לחיצה-סייג/",
@@ -4716,7 +5239,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 4.1,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.1
   },
   {
    "path": "/product-category/sage/אביזרים-וחלקי-חילוף-למעבדי-מזון-סייג/",
@@ -4725,7 +5249,8 @@
    "engagement_rate": 100,
    "avg_seconds": 11.3,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/אטם-דלת-מקורי-למקרר-ליבהר-liebherr-7111130/",
@@ -4734,7 +5259,8 @@
    "engagement_rate": 100,
    "avg_seconds": 77.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/בורר-תכניות-מקורי-לתנור-אפייה-סאוטר-sauter-11/",
@@ -4743,7 +5269,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 49.7,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/זכוכית-פנימית-מקורית-לדלת-תנור-אפייה-מ-3/",
@@ -4752,7 +5279,8 @@
    "engagement_rate": 57.1,
    "avg_seconds": 19.8,
    "bounce_rate": 42.9,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 32.6
   },
   {
    "path": "/product/חיישן-סנסור-טמפרטורה-מקורי-למקפיא-ליב/",
@@ -4761,7 +5289,8 @@
    "engagement_rate": 33.3,
    "avg_seconds": 11.8,
    "bounce_rate": 66.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 11.1
   },
   {
    "path": "/product/כיפה-מקורית-לכיריים-גז-מילה-mieli-8239520/",
@@ -4770,7 +5299,8 @@
    "engagement_rate": 62.5,
    "avg_seconds": 23.3,
    "bounce_rate": 37.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 39.1
   },
   {
    "path": "/product/מאוורר-nofrost-מקורי-לקירור-מקרר-מקפיא-ליבהר/",
@@ -4779,7 +5309,8 @@
    "engagement_rate": 100,
    "avg_seconds": 19.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מברשת-ניקוי-מקורית-לצנרת-החלב-במכונות-2/",
@@ -4788,7 +5319,8 @@
    "engagement_rate": 14.3,
    "avg_seconds": 43.0,
    "bounce_rate": 85.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 2.0
   },
   {
    "path": "/product/מגירה-מקורית-ללא-הדפסה-למקפיא-ליבהר-liebherr-97913/",
@@ -4797,7 +5329,8 @@
    "engagement_rate": 100,
    "avg_seconds": 12.4,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מגירה-מקורית-למקפיא-ליבהר-liebherr-9791302/",
@@ -4806,7 +5339,8 @@
    "engagement_rate": 100,
    "avg_seconds": 40.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מגירת-אחסון-מקורית-למקרר-ומקפיא-ליבהר-li/",
@@ -4815,7 +5349,8 @@
    "engagement_rate": 77.8,
    "avg_seconds": 35.1,
    "bounce_rate": 22.2,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 60.5
   },
   {
    "path": "/product/מגירת-מקפיא-מקורית-שלמה-למקרר-מקפיא-לי/",
@@ -4824,7 +5359,8 @@
    "engagement_rate": 100,
    "avg_seconds": 37.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-זכוכית-מלא-מקורי-למקרר-ליבהר-liebherr-glassline-7272336/",
@@ -4833,7 +5369,8 @@
    "engagement_rate": 100,
    "avg_seconds": 229.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 6,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-זכוכית-מקורי-לדלת-מקרר-ומקפיא-ליבה/",
@@ -4842,7 +5379,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 85.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מחזיק-כוסות-יין-מקורי-לסלסלה-עליונה-למ/",
@@ -4851,7 +5389,8 @@
    "engagement_rate": 100,
    "avg_seconds": 18.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מכסה-תא-חמאה-מקורי-למקרר-מילה-miele-7357300/",
@@ -4860,7 +5399,8 @@
    "engagement_rate": 100,
    "avg_seconds": 25.3,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מנגנון-נעילה-חשמלי-מקורי-לדלת-מדיח-כלי-2/",
@@ -4869,7 +5409,8 @@
    "engagement_rate": 100,
    "avg_seconds": 70.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/מנוע-מקורי-ליצרן-קרח-למקרר-מקפיא-liebherr-6108789/",
@@ -4878,7 +5419,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 32.2,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/מנוע-מקורי-לשואב-אבק-מילה-miele-10658601/",
@@ -4887,7 +5429,8 @@
    "engagement_rate": 100,
    "avg_seconds": 52.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מסנן-סל-מקורי-לסוחט-מיצים-ברוויל-breville-sp0002320/",
@@ -4896,7 +5439,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 11.8,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/מסנן-פילטר-מוך-מקורי-למייבש-כביסה-וויר/",
@@ -4905,7 +5449,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 58.8,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/מסנן-פילטר-מוך-נוסף-מקורי-למייבש-כביסה/",
@@ -4914,7 +5459,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 15.8,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/מסרק-זקן-מתכוונן-מקורי-1-23-ממ-לגוזז-שיער-ו/",
@@ -4923,7 +5469,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 45.0,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/נורת-led-מקורית-לקולט-אדים-מילה-miele-12030550/",
@@ -4932,7 +5479,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 9.7,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/סלסלת-סכום-עליונה-מקורית-למדיח-כלים-מי-2/",
@@ -4941,7 +5489,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 24.8,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/פנל-חזית-מגירת-מקפיא-מקורי-למקפיא-ליבה/",
@@ -4950,7 +5499,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 99.7,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/צינור-כניסת-מים-מקורי-גמיש-גדול-למכונת/",
@@ -4959,7 +5509,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 49.4,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/צינור-שאיבה-מקורי-לשואב-אבק-מילה-miele-7330631/",
@@ -4968,7 +5519,8 @@
    "engagement_rate": 87.5,
    "avg_seconds": 32.8,
    "bounce_rate": 12.5,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 76.6
   },
   {
    "path": "/product/קונדנסור-מחליף-חום-מקורי-למייבש-כביסה/",
@@ -4977,7 +5529,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 8.0,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/שסתום-מים-מקורי-למכונת-כביסה-מילה-miele-10139520/",
@@ -4986,7 +5539,8 @@
    "engagement_rate": 100,
    "avg_seconds": 301.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/תבנית-אפייה-ו-airfry-עגולה-מחוררת-מקורית-למי/",
@@ -4995,7 +5549,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 20.9,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/תומך-דלת-מקורי-למקרר-ווירלפול-whirlpool-488000506171/",
@@ -5004,7 +5559,8 @@
    "engagement_rate": 100,
    "avg_seconds": 1475.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 100
   },
   {
    "path": "/ru/product/כרטיס-יחידת-בקרה-אלקטרונית-מקורית-למד/",
@@ -5013,7 +5569,8 @@
    "engagement_rate": 100,
    "avg_seconds": 213.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/ru/Инструкции-по-обучению-и-установке/",
@@ -5022,7 +5579,8 @@
    "engagement_rate": 42.9,
    "avg_seconds": 19.8,
    "bounce_rate": 57.1,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 18.4
   },
   {
    "path": "/ru/Машинка-для-стрижки-волос-Philips-стрижет-хуже--чем-раньше./",
@@ -5031,7 +5589,8 @@
    "engagement_rate": 100,
    "avg_seconds": 34.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/ru/категории-продуктов/Филипс/Аксессуары-и-запасные-части-для-бритв-и-триммеров/",
@@ -5040,7 +5599,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 54.2,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/מקרר-מילה-לא-מקרר-קודי-שגיאה-f-ומה-עושים/",
@@ -5049,7 +5609,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 15.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/branch/",
@@ -5058,7 +5619,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 65.7,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/en/Electra-dryer-not-heating-common-faults/",
@@ -5067,7 +5629,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 22.2,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/en/product-category/breville/Accessories-and-spare-parts-for-Barvey-coffee-machines/",
@@ -5076,7 +5639,8 @@
    "engagement_rate": 100,
    "avg_seconds": 86.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/en/product-category/honey/Accessories-and-spare-parts-for-clothes-dryers-Mill/",
@@ -5085,7 +5649,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 52.3,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/en/product-category/philips/Accessories-and-spare-parts-for-shavers-and-trimmers/",
@@ -5094,7 +5659,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 36.2,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 44.5
   },
   {
    "path": "/en/product/Main-electronic-card-240v-for-sage-barista-pro-coffee-machine-sp0028451/",
@@ -5103,7 +5669,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 53.5,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/en/product/Original-ice-cube-maker-for-Liebherr-refrigerator-9903058/",
@@ -5112,7 +5679,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 26.6,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 64.0
   },
   {
    "path": "/en/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-11239160/",
@@ -5121,7 +5689,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 46.5,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/en/product/תומך-שמאלי-מקורי-למדף-דלת-במקרר-ליבהר-liebh-3/",
@@ -5130,7 +5699,8 @@
    "engagement_rate": 100,
    "avg_seconds": 257.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/es/Philips/",
@@ -5139,7 +5709,8 @@
    "engagement_rate": 100,
    "avg_seconds": 99.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/es/localizador-de-servicios/",
@@ -5148,7 +5719,8 @@
    "engagement_rate": 100,
    "avg_seconds": 116.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/plrom/",
@@ -5157,7 +5729,8 @@
    "engagement_rate": 100,
    "avg_seconds": 113.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למדיחי-כלים-מילה/g5xxx/",
@@ -5166,7 +5739,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 81.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למייבשי-כביסה-מיל/t4xxx/",
@@ -5175,7 +5749,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 53.2,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product-category/sage/אביזרים-וחלקי-חילוף-למיקרוגל-סייג/",
@@ -5184,7 +5759,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 30.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/אטם-דלת-גומי-מקורי-למקפיא-liebherr-7109309/",
@@ -5193,7 +5769,8 @@
    "engagement_rate": 100,
    "avg_seconds": 38.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/בורר-תוכניות-מקורי-לתנור-אפייה-סאוטר-sauter-8/",
@@ -5202,7 +5779,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 8.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/גוף-חימום-מאוורר-מקורי-לתנור-אפייה-מיל/",
@@ -5211,7 +5789,8 @@
    "engagement_rate": 100,
    "avg_seconds": 83.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/גוף-חימום-עליון-מקורי-לתנור-סאוטר-sauter-8071434/",
@@ -5220,7 +5799,8 @@
    "engagement_rate": 85.7,
    "avg_seconds": 20.7,
    "bounce_rate": 14.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 73.5
   },
   {
    "path": "/product/גוף-מגירת-מקפיא-גדולה-מקורי-ליבהר-liebherr-7402565/",
@@ -5229,7 +5809,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 37.6,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/זרוע-ממטרה-מקורית-למדיח-כלים-מילה-miele-5797282/",
@@ -5238,7 +5819,8 @@
    "engagement_rate": 100,
    "avg_seconds": 56.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/ידית-דלת-מקורית-למקרר-ומקפיא-ליבהר-liebherr-7432600/",
@@ -5247,7 +5829,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 35.2,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/ידית-דלת-מקורית-מנירוסטה-למקפיא-ליבהר-li/",
@@ -5256,7 +5839,8 @@
    "engagement_rate": 100,
    "avg_seconds": 33.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/ידית-צינור-מקורית-לשואב-אבק-מילה-miele-9442601/",
@@ -5265,7 +5849,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 66.4,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/כד-חלב-מקורי-למכונת-קפה-ברוויל-bes870-sp0011391/",
@@ -5274,7 +5859,8 @@
    "engagement_rate": 100,
    "avg_seconds": 10.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/כוס-טחינה-מקורית-למטחנת-פולי-קפה-ותבלי/",
@@ -5283,7 +5869,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 31.3,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 4,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/כיסוי-ידית-דלת-מקורי-למקרר-ליבהר-liebherr-9096003/",
@@ -5292,7 +5879,8 @@
    "engagement_rate": 100,
    "avg_seconds": 41.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/כלי-הידוק-מקורי-54-ממ-ליישור-עוגיית-קפה-ל/",
@@ -5301,7 +5889,8 @@
    "engagement_rate": 100,
    "avg_seconds": 39.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/כפתור-טיימר-מקורי-לבן-למכונת-כביסה-מיל/",
@@ -5310,7 +5899,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 12.2,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/כרטיס-לוח-בקרה-מקורי-לכיריים-אינדוקצי-2/",
@@ -5319,7 +5909,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 48.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/מגירת-ירקות-מקורית-למקרר-ליבהר-liebherr-9290118/",
@@ -5328,7 +5919,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 8.0,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/מגירת-מקפיא-מקורית-למקפיא-ליבהר-liebherr-9791849/",
@@ -5337,7 +5929,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 51.5,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מגש-טפטוף-מנירוסטה-מוברשת-מקורי-למכונ/",
@@ -5346,7 +5939,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 12.0,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/מד-זרימה-מקורי-למכונת-אספרסו-ברוויל-breville-sage/",
@@ -5355,7 +5949,8 @@
    "engagement_rate": 100,
    "avg_seconds": 71.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-בקבוקים-תחתון-מקורי-לדלת-מקרר-מילה-m/",
@@ -5364,7 +5959,8 @@
    "engagement_rate": 71.4,
    "avg_seconds": 26.6,
    "bounce_rate": 28.6,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 51.0
   },
   {
    "path": "/product/מדף-זכוכית-בטיחות-מחוסמת-מקורי-למקפיא/",
@@ -5373,7 +5969,8 @@
    "engagement_rate": 100,
    "avg_seconds": 50.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-זכוכית-מחוסמת-מקורי-למקרר-מילה-miele-11692670/",
@@ -5382,7 +5979,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 28.0,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/מיכל-חלב-מקורי-למכונת-קפה-אספרסו-אוטומ/",
@@ -5391,7 +5989,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 72.8,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מיכל-מיץ-מקורי-למסחטת-מיצים-ברוויל-breville-sp0008644/",
@@ -5400,7 +5999,8 @@
    "engagement_rate": 100,
    "avg_seconds": 20.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מכסה-משאבת-ניקוז-מקורי-למדיח-כלים-מילה-m/",
@@ -5409,7 +6009,8 @@
    "engagement_rate": 100,
    "avg_seconds": 12.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/ממטרה-עליונה-מקוריות-למדיח-כלים-מילה-miele-07/",
@@ -5418,7 +6019,8 @@
    "engagement_rate": 100,
    "avg_seconds": 293.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/ממטרה-עליונה-מקוריות-למדיח-כלים-מילה-miele-2/",
@@ -5427,7 +6029,8 @@
    "engagement_rate": 83.3,
    "avg_seconds": 6.8,
    "bounce_rate": 16.7,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 69.4
   },
   {
    "path": "/product/מסילה-טלסקופית-שמאלית-מקורית-לתנור-מי/",
@@ -5436,7 +6039,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 6.8,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/מסילה-ימנית-שמאלית-מקורית-לתנור-סאוטר-sa/",
@@ -5445,7 +6049,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 54.8,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/מסילות-טלסקופיות-flexiclip-מקוריות-לתנור-מילה/",
@@ -5454,7 +6059,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 25.0,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/מסילות-טלסקופיות-מקוריות-לתנור-מילה-miele-952/",
@@ -5463,7 +6069,8 @@
    "engagement_rate": 100,
    "avg_seconds": 126.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מסרק-מקורי-למכונת-תספורת-פיליפס-philips-422203630751/",
@@ -5472,7 +6079,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 22.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מצוף-הגנה-מפני-הצפה-מקורי-למדיח-כלים-מי/",
@@ -5481,7 +6089,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 13.0,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/סט-צירים-מקורי-ימין-ושמאל-לדלת-תנור-מי-2/",
@@ -5490,7 +6099,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 13.3,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-10094921/",
@@ -5499,7 +6109,8 @@
    "engagement_rate": 100,
    "avg_seconds": 52.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-10094940/",
@@ -5508,7 +6119,8 @@
    "engagement_rate": 100,
    "avg_seconds": 11.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-5154165/",
@@ -5517,7 +6129,8 @@
    "engagement_rate": 100,
    "avg_seconds": 4.8,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/ערכת-תחזוקת-ציר-תוף-מקורית-למייבש-כביס/",
@@ -5526,7 +6139,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 59.3,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/פאנל-חזית-שקוף-מקורי-למגירת-מקפיא-ליבה/",
@@ -5535,7 +6149,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 12.0,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/פאנל-קדמי-מקורי-למגירת-מקפיא-ליבהר-liebherr-9791158/",
@@ -5544,7 +6159,8 @@
    "engagement_rate": 100,
    "avg_seconds": 114.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/פילטר-מסנן-אבק-מקורי-לשואב-אלחוטי-מילה-m/",
@@ -5553,7 +6169,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 69.7,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/קערת-עיבוד-מקורית-למעבד-מזון-ברוויל-breville-kitch/",
@@ -5562,7 +6179,8 @@
    "engagement_rate": 100,
    "avg_seconds": 50.3,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/ru/ПРОДУКТЫ/Оригинальный-клиновой-ремень-для-передачи-мощности-в-сушилке-для-белья-от/",
@@ -5571,7 +6189,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 69.6,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/en/branch/Pelrom-Haifa-branch/",
@@ -5580,7 +6199,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 15.3,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/en/miele-parts/",
@@ -5589,7 +6209,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 15.2,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/en/online-services/",
@@ -5598,7 +6219,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 18.4,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/en/product-category/liebherr/Accessories-and-spare-parts-for-Liebherr-refrigerators/",
@@ -5607,7 +6229,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 58.7,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/en/product/Original-2000w-fan-heating-element-for-Sa-oven/",
@@ -5616,7 +6239,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 139.0,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/en/product/Original-Philips-lower-shaving-unit-422203624371/",
@@ -5625,7 +6249,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 17.5,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 3,
+   "feeds_site": 56.2
   },
   {
    "path": "/en/product/Original-burner-cap-for-Sauter-S-gas-stove/",
@@ -5634,7 +6259,8 @@
    "engagement_rate": 40.0,
    "avg_seconds": 5.6,
    "bounce_rate": 60.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 16.0
   },
   {
    "path": "/en/product/Original-ice-maker-kit-for-Liebherr-refrigerator-Liebherr-Nofrost-9592761/",
@@ -5643,7 +6269,8 @@
    "engagement_rate": 100,
    "avg_seconds": 104.6,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/en/product/Original-oven-door-handle-for-Sauter-oven-Sauter-8073519/",
@@ -5652,7 +6279,8 @@
    "engagement_rate": 40.0,
    "avg_seconds": 10.6,
    "bounce_rate": 60.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 16.0
   },
   {
    "path": "/en/services/",
@@ -5661,7 +6289,8 @@
    "engagement_rate": 20.0,
    "avg_seconds": 3.4,
    "bounce_rate": 80.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 4.0
   },
   {
    "path": "/fr/Contactez-nous/",
@@ -5670,7 +6299,8 @@
    "engagement_rate": 100,
    "avg_seconds": 64.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/miele/page/2/",
@@ -5679,7 +6309,8 @@
    "engagement_rate": 100,
    "avg_seconds": 63.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למיקרוגל-מילה/",
@@ -5688,7 +6319,8 @@
    "engagement_rate": 100,
    "avg_seconds": 5.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למכונות-כביסה-מיל/w4xxx/",
@@ -5697,7 +6329,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 18.8,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למכונות-קפה-מילה/cm5310/",
@@ -5706,7 +6339,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 43.0,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product-category/miele/אביזרים-וחלקי-חילוף-למכונות-קפה-מילה/cm6100/",
@@ -5715,7 +6349,8 @@
    "engagement_rate": 100,
    "avg_seconds": 77.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/אטם-דלת-מקפיא-מקורי-לוירלפול-whirlpool-w10571967/",
@@ -5724,7 +6359,8 @@
    "engagement_rate": 100,
    "avg_seconds": 542.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/בורר-מצבים-מקורי-לתנור-אפייה-סאוטר-sauter-502093501/",
@@ -5733,7 +6369,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 16.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/זכוכית-חיצונית-מקורית-לדלת-תנור-אפייה/",
@@ -5742,7 +6379,8 @@
    "engagement_rate": 20.0,
    "avg_seconds": 0.0,
    "bounce_rate": 80.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 4.0
   },
   {
    "path": "/product/חיישן-סנסור-טמפרטורה-מקורי-לתנור-מילה-mi/",
@@ -5751,7 +6389,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 23.2,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/ידית-דלת-מקורית-למקרר-ליבהר-liebherr-7424848/",
@@ -5760,7 +6399,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 40.5,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/יחידת-בקרה-אלקטרונית-מקורית-pcb-למכונת-כ/",
@@ -5769,7 +6409,8 @@
    "engagement_rate": 100,
    "avg_seconds": 129.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לכיריים-חשמליים-סאו/",
@@ -5778,7 +6419,8 @@
    "engagement_rate": 100,
    "avg_seconds": 17.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/כפתור-הפעלה-מקורי-לכיריים-סאוטר-sauter-9070461/",
@@ -5787,7 +6429,8 @@
    "engagement_rate": 100,
    "avg_seconds": 53.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מגירה-שקופה-מקורית-למקפיא-ליבהר-liebherr-9791728/",
@@ -5796,7 +6439,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 16.4,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/מדף-זכוכית-מקורי-למקפיא-ליבהר-liebherr-7272596/",
@@ -5805,7 +6449,8 @@
    "engagement_rate": 100,
    "avg_seconds": 51.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 2,
+   "feeds_site": 100
   },
   {
    "path": "/product/מדף-מעקה-בקבוקים-מקורי-לדלת-מקרר-מילה-miele-1/",
@@ -5814,7 +6459,8 @@
    "engagement_rate": 50.0,
    "avg_seconds": 13.3,
    "bounce_rate": 50.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 25.0
   },
   {
    "path": "/product/מדף-רשת-מקורי-כרום-455x353-ממ-לתנור-אפייה-מיל/",
@@ -5823,7 +6469,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 44.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מחזיק-צלחות-לסלסלה-תחתונה-למדיח-כלים-מ/",
@@ -5832,7 +6479,8 @@
    "engagement_rate": 100,
    "avg_seconds": 33.2,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מחזיק-תפס-מקורי-למדף-דלת-מקרר-שמאל-ליב/",
@@ -5841,7 +6489,8 @@
    "engagement_rate": 100,
    "avg_seconds": 90.7,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מיכל-מים-מקורי-ליצרן-קרח-במקפיא-ליבהר-liebher/",
@@ -5850,7 +6499,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 15.6,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/מנגנון-נעילת-דלת-חשמלית-מקורית-למכונת-2/",
@@ -5859,7 +6509,8 @@
    "engagement_rate": 100,
    "avg_seconds": 130.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מנגנון-נעילת-דלת-חשמלית-מקורית-למכונת/",
@@ -5868,7 +6519,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 13.2,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/מנעול-דלת-מקורי-למדיח-כלים-מילה-miele-7696517/",
@@ -5877,7 +6529,8 @@
    "engagement_rate": 100,
    "avg_seconds": 16.3,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מסגרת-ראשי-גילוח-מקורית-למכונת-גילוח-philips/",
@@ -5886,7 +6539,8 @@
    "engagement_rate": 100,
    "avg_seconds": 31.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/מסנן-מים-intensiveclear-ליצרן-קרח-מקורי-למקרר-מילה-miel/",
@@ -5895,7 +6549,8 @@
    "engagement_rate": 20.0,
    "avg_seconds": 5.6,
    "bounce_rate": 80.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 4.0
   },
   {
    "path": "/product/מסנן-סל-מקורי-לסוחט-מיצים-ברביל-breville-sp0005824/",
@@ -5904,7 +6559,8 @@
    "engagement_rate": 100,
    "avg_seconds": 10.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/סלסלה-עליונה-מקורית-למדיח-כלים-מילה-miele-11142950/",
@@ -5913,7 +6569,8 @@
    "engagement_rate": 100,
    "avg_seconds": 27.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/פאנל-אחורי-מקורי-לתנור-מילה-miele-10524740/",
@@ -5922,7 +6579,8 @@
    "engagement_rate": 100,
    "avg_seconds": 20.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/פאנל-קדמי-מקורי-למגירה-במקפיא-מילה-miele-7335490/",
@@ -5931,7 +6589,8 @@
    "engagement_rate": 60.0,
    "avg_seconds": 122.3,
    "bounce_rate": 40.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 36.0
   },
   {
    "path": "/product/פאנל-תצוגה-ובקרה-מקורי-למקפיא-ליבהר-liebherr-61151/",
@@ -5940,7 +6599,8 @@
    "engagement_rate": 20.0,
    "avg_seconds": 0.8,
    "bounce_rate": 80.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 4.0
   },
   {
    "path": "/product/פילטר-מסנן-פחם-מקורי-לקולט-אדים-מילה-miele-3/",
@@ -5949,7 +6609,8 @@
    "engagement_rate": 100,
    "avg_seconds": 14.5,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/פלטה-שטוחה-מקורית-לטוסטר-לחיצה-חשמלי-ס/",
@@ -5958,7 +6619,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 27.0,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/פרסוסטט-pressure-switch-מקורי-למדיח-כלים-מילה-miele-6996821/",
@@ -5967,7 +6629,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 37.2,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/ציר-דלת-ימני-מקורי-למכונת-כביסה-פתח-עלי/",
@@ -5976,7 +6639,8 @@
    "engagement_rate": 40.0,
    "avg_seconds": 9.0,
    "bounce_rate": 60.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 16.0
   },
   {
    "path": "/product/קפיץ-דלת-מקורי-למדיח-כלים-מילה-miele-6034790/",
@@ -5985,7 +6649,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 53.3,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/product/תא-דלת-לאחסון-חמאה-וביצים-מקורי-במקרר-ל/",
@@ -5994,7 +6659,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 84.3,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/product/תבנית-צלייה-גסטרונום-מילה-miele-10314250-sm/",
@@ -6003,7 +6669,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 63.3,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 1,
+   "feeds_site": 44.5
   },
   {
    "path": "/product/תומך-דלת-מקורי-למקפיא-ווירלפול-whirlpool-482000092616/",
@@ -6012,7 +6679,8 @@
    "engagement_rate": 100,
    "avg_seconds": 1057.0,
    "bounce_rate": 0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 100
   },
   {
    "path": "/product/תושבת-מסילה-שמאלית-מקורית-למגירת-מקרר/",
@@ -6021,7 +6689,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 21.3,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   },
   {
    "path": "/ru/Либхерр/",
@@ -6030,7 +6699,8 @@
    "engagement_rate": 75.0,
    "avg_seconds": 5.0,
    "bounce_rate": 25.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 56.2
   },
   {
    "path": "/ru/ПРОДУКТЫ/Оригинальный-сифонный-шланг--отсек-для-кондиционера-для-белья-для-стиральной-машины./",
@@ -6039,7 +6709,8 @@
    "engagement_rate": 80.0,
    "avg_seconds": 37.4,
    "bounce_rate": 20.0,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 64.0
   },
   {
    "path": "/ru/филиал/А.-Ашкелонские-лаборатории/",
@@ -6048,7 +6719,8 @@
    "engagement_rate": 66.7,
    "avg_seconds": 418.5,
    "bounce_rate": 33.3,
-   "onward_to_conversion": 0
+   "conversion_events": 0,
+   "feeds_site": 44.5
   }
  ]
 }
